@@ -1,8 +1,37 @@
+*{
+    box-sizing: border-box;
+}
 
+.main-header{
+        background-color:  #E895FF ;        ;
+        font-family: "antonio";
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1px 20px 1px 1px;
+    }
+
+.logo-header {
+    width: 70%;
+}
+.logo-footer {
+    width: 70%;
+    align-self: auto;
+}
+
+
+.main-header-right{
+    display: flex;
+    font-size: 20px;
+    width: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .main-footer {
     background-color: #FFBE59;
     font-family: "antonio";
+    display:block;
     text-align: center;
     padding: 10px;
     margin: 10px 0px;
