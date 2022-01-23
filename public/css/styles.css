@@ -1,19 +1,19 @@
 
 *{
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 .main-header{
-        background-color:  #E895FF ;        ;
+        background-color:  #E895FF;
         font-family: "antonio";
         display: flex;
         justify-content: space-between;
         width: 100%;
-        padding: 1px 20px 1px 1px;
+        padding: 1px 20px 1px 1px
     }
 
 .logo-header {
-    width: 70%;
+    width: 70%
 }
 
 .main-header-right{
@@ -21,11 +21,11 @@
     font-size: 20px;
     width: 120px;
     justify-content: space-between;
-    align-items: center;
+    align-items: center
 }
 .main-footer {
     background-color: #FFBE59;
-    font-family: "antonio";
+    font-family: "antonio"
 }
 
 .container-footer-contact{
@@ -33,7 +33,7 @@
     height: auto;
     text-align: center;
     justify-content: space-between;
-    padding: 1px 1px 5px 1px;
+    padding: 1px 1px 5px 1px
     
 }
 
@@ -46,24 +46,24 @@
 
 .contact {
     font-family: "antonio";
-    font-size: 15px;
+    font-size: 18px
 
 }
 
 .row { 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly
 }
 .row i{
     font-size: 22px  
 }
 
 .footer-contact{
-    font-size: 16px;
+    font-size: 16px
 }
 
 .container-footer-legal, link{  
-font-size: 14px;  
+font-size: 14px
 }
 
 .container-footer {
@@ -72,7 +72,7 @@ font-size: 14px;
     width: 100%;
     padding: 15px 1px 15px 1px;
     align-items: center;
-    justify-content: center;
+    justify-content: center
 }
 .footer-logo img{
    width: 200px
