@@ -23,6 +23,20 @@
     justify-content: space-between;
     align-items: center
 }
+
+main {
+    background-color: #FFE57C;
+    font-family: "antonio";
+}
+.courses{
+    width: 20px;
+    display: flex;
+}
+
+
+.courses{
+    width: 20%;
+}
 .main-footer {
     background-color: #FFBE59;
     font-family: "antonio"
