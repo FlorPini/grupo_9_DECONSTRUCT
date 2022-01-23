@@ -1,0 +1,1483 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+    <meta name="csrf-token" content="jST8OIO0q1jD1lKuI8jVzG7IPuE6A9TAXw6LEfKa">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <meta name="p:domain_verify" content="cbdf7e87cee5cee1f23f7288518f4079"/>
+        <link rel="canonical" href="https://dekka.com.ar">
+    <title>Tienda online de DEKKA</title>
+    <meta name="description" content="DEKKA | Shampoo Solido
+cosmetica coreana argentina (y vegana) registrada en ANMAT">
+<meta property="og:url" content="https://dekka.com.ar"/>
+<meta property="og:type" content="website"/> 
+<meta property="og:title" content="Tienda online de DEKKA"/>
+<meta property="og:description" content="DEKKA | Shampoo Solido
+cosmetica coreana argentina (y vegana) registrada en ANMAT"/>
+<meta property="og:image" content="https://d22fxaf9t8d39k.cloudfront.net/3fef46f2c7f7c48e96358db54ff46e5fbedaac56eecbe626b45d8c95afde673b2026.png"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.10/dist/css/uikit.min.css" />
+    <script src="https://kit.fontawesome.com/acabdf9a8d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+    <link rel="shortcut icon" href="https://d22fxaf9t8d39k.cloudfront.net/ae8295b7a69adb11bf48e87842d1b38ca24e22a0ebac5884b3d7fe9e1c5ce5f22026.png" />
+    <style type="text/css">
+        .uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, .uk-heading-2xlarge, .uk-heading-large, .uk-heading-medium, .uk-heading-small, .uk-heading-xlarge, .uk-button , h1, h2, h3, h4, h5, h6 {
+            font-family: 'Open Sans', sans-serif;
+        }
+        html, body, p, span, .field__label, .field__input, .field__textarea, .field__select {
+            font-family: 'Open Sans', sans-serif;
+        }
+        .background--primary, .background--primary-hover:hover {
+            background-color: #000000;
+        }
+        .text--primary, .text--primary-hover:hover, body {
+            color: #000000 !important;
+        }
+        .contrast_text--primary, .contrast_text--primary-hover:hover {
+            color: #ffffff;
+        }
+        .checkbox__check:checked::before {
+            border: solid #000000;
+        }
+        .checkbox__check:checked, .checkbox__check:checked:focus {
+            border: 1px solid #000000;
+        }
+        .checkbox__check:checked+.checkout__label-text {
+            color: #000000;
+        }
+        .border--primary {
+            border: solid #000000;
+        }
+        .desktop-list__hover, .uk-section-block__title > span {
+            background-image: linear-gradient(to bottom,transparent 0 65%, #f0f4f1 65% 100%);
+        }
+        .products-feed__categories-list::-webkit-scrollbar-thumb, .uk-navbar-dropdown >.desktop-list__menu::-webkit-scrollbar-thumb {
+            background: #000000;
+        }
+        .border-radius {
+            border-radius: 0px;
+        }
+        .border-radius-2x {
+            border-radius: 0px;
+        }
+        .field__input.border-radius, .field__select.border-radius, .field__textarea.border-radius {
+            border-radius: 0px;
+        }
+        .field__input.border-radius--plain, .field__select.border-radius--plain, .field__textarea.border-radius--plain {
+            border-radius: 0px;
+        }
+        .field__input.border-radius.field__input--right-button {
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://d2op8dwcequzql.cloudfront.net/assets/1.9.1/templates/eris/css/style.css" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158807653-1">
+        </script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', "UA-158807653-1");
+        </script>
+                
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1036235066587476');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1036235066587476&ev=PageView&noscript=1"
+/></noscript>
+
+        </head>
+
+<body>
+
+    
+    <div id="mobile-menu-sidenav" class="mobile-menu-sidenav" uk-offcanvas="overlay: true; flip: true; mode: slide">
+    <div class="mobile-menu-sidenav__offcanvas-bar uk-offcanvas-bar uk-offcanvas-bar--desktop-full uk-offcanvas-bar--mobile-full text--primary">
+        <button class="mobile-menu-sidenav__offcanvas-close uk-offcanvas-close text--primary" type="button" uk-close></button>
+        <div class="mobile-menu-sidenav__menu">
+                <ul class="mobile-menu-sidenav__list uk-nav-default uk-nav-parent-icon" uk-nav>
+                    <li class="mobile-menu-sidenav__list-item">
+                        <a href="https://dekka.com.ar" class="mobile-menu-sidenav__item-link">Inicio</a>
+                    </li>
+                    <li class="mobile-menu-sidenav__list-item uk-parent">
+                        <a href="/productos" class="mobile-menu-sidenav__item-link">Productos</a>
+                                                    <ul class="mobile-menu-sidenav__sublist uk-nav-default uk-nav-sub uk-nav-parent-icon" uk-nav>
+                <li class="mobile-menu-sidenav__list-item">
+            <a href="https://dekka.com.ar/productos" class="mobile-menu-sidenav__item-link">
+                Ver todo en Productos
+            </a>
+        </li>
+                                            <li class="mobile-menu-sidenav__list-item">
+                    <a href="https://dekka.com.ar/cuidado-capilar" class="mobile-menu-sidenav__item-link">
+                        Cuidado Capilar
+                    </a>
+                </li>
+                                                            <li class="mobile-menu-sidenav__list-item">
+                    <a href="https://dekka.com.ar/cuidado-facial" class="mobile-menu-sidenav__item-link">
+                        Cuidado Facial
+                    </a>
+                </li>
+                                                            <li class="mobile-menu-sidenav__list-item">
+                    <a href="https://dekka.com.ar/accesorios" class="mobile-menu-sidenav__item-link">
+                        Accesorios
+                    </a>
+                </li>
+                                                            <li class="mobile-menu-sidenav__list-item">
+                    <a href="https://dekka.com.ar/promociones" class="mobile-menu-sidenav__item-link">
+                        Promociones
+                    </a>
+                </li>
+                                                            <li class="mobile-menu-sidenav__list-item">
+                    <a href="https://dekka.com.ar/repuestos" class="mobile-menu-sidenav__item-link">
+                        Repuestos
+                    </a>
+                </li>
+                        </ul>                                            </li>
+                                            <li class="mobile-menu-sidenav__list-item uk-parent">
+                            <a href="#" class="mobile-menu-sidenav__item-link">Información</a>
+                            <ul class="uk-nav-sub uk-nav-parent-icon">
+                                                                                                            <li class="mobile-menu-sidenav__list-item">
+                                            <a href="https://dekka.com.ar/como-comprar" class="mobile-menu-sidenav__item-link">COMO COMPRAR</a>
+                                        </li>
+                                                                                                                                                <li class="mobile-menu-sidenav__list-item">
+                                            <a href="https://dekka.com.ar/terminos-condiciones" class="mobile-menu-sidenav__item-link">TERMINOS &amp; CONDICIONES</a>
+                                        </li>
+                                                                                                                                                <li class="mobile-menu-sidenav__list-item">
+                                            <a href="https://dekka.com.ar/showroom" class="mobile-menu-sidenav__item-link">SHOWROOM</a>
+                                        </li>
+                                                                                                                                                <li class="mobile-menu-sidenav__list-item">
+                                            <a href="https://dekka.com.ar/envios" class="mobile-menu-sidenav__item-link">ENVIOS</a>
+                                        </li>
+                                                                                                                                                <li class="mobile-menu-sidenav__list-item">
+                                            <a href="https://dekka.com.ar/locales" class="mobile-menu-sidenav__item-link">LOCALES</a>
+                                        </li>
+                                                                                                                                                <li class="mobile-menu-sidenav__list-item">
+                                            <a href="https://dekka.com.ar/mayorista" class="mobile-menu-sidenav__item-link">MAYORISTA</a>
+                                        </li>
+                                                                                                                                                <li class="mobile-menu-sidenav__list-item">
+                                            <a href="https://dekka.com.ar/preguntas-frecuentes" class="mobile-menu-sidenav__item-link">PREGUNTAS FRECUENTES</a>
+                                        </li>
+                                                                                                </ul>
+                        </li>
+                                                                <li class="mobile-menu-sidenav__list-item">
+                            <a href="https://dekka.com.ar/blog" class="mobile-menu-sidenav__item-link">Blog</a>
+                        </li>
+                                                                                <li class="mobile-menu-sidenav__list-item--divider"></li>
+                </ul>
+                <ul class="mobile-menu-sidenav__list-buttons mobile-menu-sidenav__list uk-nav-default uk-nav-parent-icon" uk-nav>
+                                            <li>
+                            <a href="#login-modal" class="mobile-menu-sidenav__item-link" uk-toggle>
+                                <button type="button" id="login-mobile-btn" class="button button--full background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-input border-radius"  data-label="Iniciar sesión" data-spinner-ratio="0.75" >
+     
+        Iniciar sesión
+    </button>                            </a>
+                        </li>
+                        <li>
+                            <a href="#register-modal" class="mobile-menu-sidenav__item-link mobile-menu-sidenav__item-link--button" uk-toggle>Crear cuenta</a>
+                        </li>
+                                    </ul>
+            </div>
+    </div>
+</div>    
+
+    
+            <div class="header-announcement background--primary">
+            <p class="header-announcement__text contrast_text--primary">
+                                    Durante el mes de Enero TODOS los pedidos operaran con 2 dias de demora a la fecha estimada por cada empresa de envios. Muchas gracias por tu paciencia y comprensión
+                            </p>
+        </div>
+        
+
+    
+    <div class="header-menu">
+        <div class="uk-container">
+            
+            <nav class="header-menu__desktop uk-flex uk-flex-middle uk-flex-between uk-visible@m">
+                
+                <div class="header-logo header__left nav-overlay uk-flex uk-flex-middle">
+                                            <a href="https://dekka.com.ar" class="header-logo__link">
+                            <img src="https://d22fxaf9t8d39k.cloudfront.net/3fef46f2c7f7c48e96358db54ff46e5fbedaac56eecbe626b45d8c95afde673b2026.png" class="header-logo__image" alt="Logo" />
+                        </a>
+                                    </div>
+                
+
+                
+                <ul class="header-menu__desktop-list nav-overlay uk-flex uk-flex-middle">
+                    <li class="desktop-list__item text--primary">
+                        <a href="https://dekka.com.ar" class="desktop-list__link desktop-list__hover">
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="desktop-list__item text--primary">
+                        <a href="#" class="desktop-list__link desktop-list__hover">
+                            Productos
+                            <span class="desktop-list__down-icon text--primary" uk-icon="icon: chevron-down"></span>
+                        </a>
+                                                    <div class="uk-navbar-dropdown uk-navbar-dropdown-width-4" uk-dropdown="pos:bottom-left">
+                                <a href="https://dekka.com.ar/productos" class="desktop-list__hover">
+                                    <div class="uk-flex uk-flex-middle">
+                                        <p class="desktop-list__title desktop-list__hover text--primary">Productos</p> <b class="desktop-list__text">(Ver todo)</b>
+                                    </div>
+                                </a>
+                                <hr>
+                                <div class="desktop-list__menu uk-navbar-dropdown-grid uk-child-width-1-4" uk-grid>
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">        
+                <li class="desktop-list__subitem text--primary">
+                    <a href="https://dekka.com.ar/cuidado-capilar" class="desktop-list-link__text desktop-list-link__text--bold text--primary">
+                        Cuidado Capilar
+                    </a>
+                </li>
+            </ul>
+           
+                            <ul class="uk-nav uk-navbar-dropdown-nav">        
+                <li class="desktop-list__subitem text--primary">
+                    <a href="https://dekka.com.ar/cuidado-facial" class="desktop-list-link__text desktop-list-link__text--bold text--primary">
+                        Cuidado Facial
+                    </a>
+                </li>
+            </ul>
+           
+                            <ul class="uk-nav uk-navbar-dropdown-nav">        
+                <li class="desktop-list__subitem text--primary">
+                    <a href="https://dekka.com.ar/accesorios" class="desktop-list-link__text desktop-list-link__text--bold text--primary">
+                        Accesorios
+                    </a>
+                </li>
+            </ul>
+           
+                            <ul class="uk-nav uk-navbar-dropdown-nav">        
+                <li class="desktop-list__subitem text--primary">
+                    <a href="https://dekka.com.ar/promociones" class="desktop-list-link__text desktop-list-link__text--bold text--primary">
+                        Promociones
+                    </a>
+                </li>
+            </ul>
+           
+                            <ul class="uk-nav uk-navbar-dropdown-nav">        
+                <li class="desktop-list__subitem text--primary">
+                    <a href="https://dekka.com.ar/repuestos" class="desktop-list-link__text desktop-list-link__text--bold text--primary">
+                        Repuestos
+                    </a>
+                </li>
+            </ul>
+           
+    
+
+
+
+
+
+
+                                </div>
+                            </div>
+                                            </li>
+                                            <li class="desktop-list__item text--primary">
+                            <a class="desktop-list__link desktop-list__hover" href="#">
+                                Información
+                                <span class="desktop-list__down-icon text--primary" uk-icon="icon: chevron-down"></span>
+                            </a>
+                            <ul class="uk-nav-sub uk-nav-parent-icon" uk-dropdown>
+                                                                                                            <li class="desktop-list__subitem nav-overlay text--primary">
+                                            <a href="https://dekka.com.ar/como-comprar" class="desktop-list-link__text desktop-list-link__text--bold">
+                                                COMO COMPRAR
+                                            </a>
+                                        </li>
+                                                                                                                                                <li class="desktop-list__subitem nav-overlay text--primary">
+                                            <a href="https://dekka.com.ar/terminos-condiciones" class="desktop-list-link__text desktop-list-link__text--bold">
+                                                TERMINOS &amp; CONDICIONES
+                                            </a>
+                                        </li>
+                                                                                                                                                <li class="desktop-list__subitem nav-overlay text--primary">
+                                            <a href="https://dekka.com.ar/showroom" class="desktop-list-link__text desktop-list-link__text--bold">
+                                                SHOWROOM
+                                            </a>
+                                        </li>
+                                                                                                                                                <li class="desktop-list__subitem nav-overlay text--primary">
+                                            <a href="https://dekka.com.ar/envios" class="desktop-list-link__text desktop-list-link__text--bold">
+                                                ENVIOS
+                                            </a>
+                                        </li>
+                                                                                                                                                <li class="desktop-list__subitem nav-overlay text--primary">
+                                            <a href="https://dekka.com.ar/locales" class="desktop-list-link__text desktop-list-link__text--bold">
+                                                LOCALES
+                                            </a>
+                                        </li>
+                                                                                                                                                <li class="desktop-list__subitem nav-overlay text--primary">
+                                            <a href="https://dekka.com.ar/mayorista" class="desktop-list-link__text desktop-list-link__text--bold">
+                                                MAYORISTA
+                                            </a>
+                                        </li>
+                                                                                                                                                <li class="desktop-list__subitem nav-overlay text--primary">
+                                            <a href="https://dekka.com.ar/preguntas-frecuentes" class="desktop-list-link__text desktop-list-link__text--bold">
+                                                PREGUNTAS FRECUENTES
+                                            </a>
+                                        </li>
+                                                                                                </ul>
+                        </li>
+                                                                <li class="desktop-list__item nav-overlay text--primary">
+                            <a href="https://dekka.com.ar/blog" class="desktop-list__link desktop-list__hover">
+                                Blog
+                            </a>
+                        </li>
+                                                            
+                    <li class="desktop-list__item text--primary">
+                        <a class="uk-navbar-toggle desktop-list__link" href="#"
+                            uk-toggle="target: .nav-overlay;">
+                            <svg style="margin-top:-4px" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><circle fill="none" stroke="#000" stroke-width="1.1" cx="9" cy="9" r="7"></circle><path fill="none" stroke="#000" stroke-width="1.1" d="M14,14 L18,18 L14,14 Z"></path></svg>
+                        </a>
+                    </li>
+                    <li class="desktop-list__item text--primary">
+                        <a class="desktop-list__link" href="#">
+                            <svg style="margin-top:-4px" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><circle fill="none" stroke="#000" stroke-width="1.1" cx="9.9" cy="6.4" r="4.4"></circle><path fill="none" stroke="#000" stroke-width="1.1" d="M1.5,19 C2.3,14.5 5.8,11.2 10,11.2 C14.2,11.2 17.7,14.6 18.5,19.2"></path></svg>
+                        </a>
+                        <ul class="uk-nav-sub uk-nav-parent-icon" uk-dropdown>
+                                                                                            <li class="desktop-list__subitem text--primary">
+                                    <a href="#register-modal" class="desktop-list-link__text desktop-list-link__text--bold" uk-toggle>
+                                        Crear cuenta
+                                    </a>
+                                </li>
+                                <li class="desktop-list__subitem text--primary">
+                                    <a href="#login-modal" class="desktop-list-link__text desktop-list-link__text--bold" uk-toggle>
+                                        Iniciar sesión
+                                    </a>
+                                </li>
+                                                    </ul>
+                    </li>
+                    
+                    <li class="desktop-list__item desktop-list__item--cart desktop-list__item--cart contrast_text--primary">
+                        <a href="#" uk-toggle="target: #cart-sidenav" class="desktop-list__link">
+                            <svg style="margin-top:-3px" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke="#000" d="M7.5,7.5V4A2.48,2.48,0,0,1,10,1.5,2.54,2.54,0,0,1,12.5,4V7.5"></path><polygon fill="none" stroke="#000" points="16.5 7.5 3.5 7.5 2.5 18.5 17.5 18.5 16.5 7.5"></polygon></svg>
+                            <span class="cart-qty background--primary contrast_text--primary">0</span>
+                        </a>
+                    </li>
+                </ul>
+                
+
+                
+                <div class="nav-overlay uk-navbar-left uk-flex-1" hidden>
+                    <div class="uk-navbar-item uk-width-expand">
+                        <form method="GET" action="/search" class="uk-search uk-search-navbar uk-width-1-1">
+                            <input class="header-search__input uk-search-input " type="text" name="q" min-length="2" autocomplete="off" placeholder="Buscar..." required autofocus>
+                        </form>
+                    </div>
+                    <a class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay;" href="#"></a>
+                </div>
+                
+            </nav>
+            
+
+            
+            <nav class="header-menu__mobile uk-flex uk-flex-middle uk-flex-between uk-hidden@m">
+                
+                <div class="header-logo nav-overlay uk-flex uk-flex-middle">
+                                            <a href="https://dekka.com.ar" class="header-logo__link">
+                            <img src="https://d22fxaf9t8d39k.cloudfront.net/3fef46f2c7f7c48e96358db54ff46e5fbedaac56eecbe626b45d8c95afde673b2026.png" class="header-logo__image" alt="Logo" />
+                        </a>
+                                    </div>
+                
+                <div class="mobile__actions">
+                    <ul class="mobile__actions-list nav-overlay uk-flex uk-flex-row uk-flex-middle">
+                        
+                        <li class="actions-list__item text--primary">
+                            <a uk-toggle="target: .nav-overlay;" href="#">
+                                <svg style="margin-top:-4px" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><circle fill="none" stroke="#000" stroke-width="1.1" cx="9" cy="9" r="7"></circle><path fill="none" stroke="#000" stroke-width="1.1" d="M14,14 L18,18 L14,14 Z"></path></svg>
+                            </a>
+                        </li>
+                        
+                        <li class="actions-list__item text--primary">
+                            <a href="#" uk-toggle="target: #cart-sidenav" class="actions-list__item actions-list__item--cart text--primary">
+                                <svg style="margin-top:-3px" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke="#000" d="M7.5,7.5V4A2.48,2.48,0,0,1,10,1.5,2.54,2.54,0,0,1,12.5,4V7.5"></path><polygon fill="none" stroke="#000" points="16.5 7.5 3.5 7.5 2.5 18.5 17.5 18.5 16.5 7.5"></polygon></svg>
+                                <span class="cart-qty background--primary contrast_text--primary">0</span>        
+                            </a>
+                        </li>
+                        <li class="actions-list__item text--primary">
+                            <a href="#" class="mobile__hamburger-btn text--primary" uk-toggle="target: #mobile-menu-sidenav">
+                                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="4" width="16" height="1"></rect><rect x="2" y="9" width="16" height="1"></rect><rect x="2" y="14" width="16" height="1"></rect></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="nav-overlay uk-navbar-left uk-flex-1" hidden>
+                    <div class="uk-navbar-item uk-width-expand">
+                        <form method="GET" action="/search" class="uk-search uk-search-navbar uk-width-1-1">
+                            <input class="header-search__input uk-search-input " type="text" name="q" min-length="2" autocomplete="off" placeholder="Buscar..." required autofocus>
+                        </form>
+                    </div>
+                    <a class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay;" href="#"></a>
+                </div>
+                
+            </nav>
+            
+        </div>
+    </div>
+    
+
+    
+        <section class="block-carrousel block-carrousel--2914 uk-section-block--nospace">
+    <div class="block-carrousel__container uk-container--full">
+        <div uk-slider="autoplay: true; autoplay-interval: 5000; pause-on-hover: true;" class="block-carrousel__slider">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                <ul class="uk-slider-items uk-child-width-1-1">
+                                            <li>
+                                                            <img src="https://d22fxaf9t8d39k.cloudfront.net/05a486fc0b1f72b3c7a3affff46d1ae9.png" class="block-carrousel__image" alt="Banner">
+                                                    </li>
+                                            <li>
+                                                            <img src="https://d22fxaf9t8d39k.cloudfront.net/b404e1bb1ce8b8e3c253cba3e32b89eff7243b46be02ee6ebb9ad8498cd1c8742026.png" class="block-carrousel__image" alt="Banner">
+                                                    </li>
+                                            <li>
+                                                            <img src="https://d22fxaf9t8d39k.cloudfront.net/ef7f798844fc32f9aaa82ed7f4d0d5625c2ca8984f3fbef9cc1fd6412ca73a7a2026.png" class="block-carrousel__image" alt="Banner">
+                                                    </li>
+                                            <li>
+                                                            <img src="https://d22fxaf9t8d39k.cloudfront.net/dbdf518dc8ac976d37ecbb538191b2f6af498b32beef2d4fe17b041afd1a7da72026.png" class="block-carrousel__image" alt="Banner">
+                                                    </li>
+                                            <li>
+                                                            <img src="https://d22fxaf9t8d39k.cloudfront.net/045117d9966e54148c87f237646957142c4fe4d4402115e1e5dc502d068c77862026.png" class="block-carrousel__image" alt="Banner">
+                                                    </li>
+                                    </ul>
+            </div>
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center block-carrousel__dots"></ul>
+        </div>
+    </div>
+</section>
+                        <section class="block-products-feed block-products-feed--2915 uk-section-block" style="background-color: #ffffff;">
+    <div class="block-products-feed__container uk-container">
+                    <div class="block-products-feed__heading uk-section-block__heading">
+                                    <h2 class="block-products-feed__title uk-section-block__title text--primary uk-text-center">
+                        <span>
+                            Todos los productos
+                        </span>
+                    </h2> 
+                                            </div>
+                <div class="block-products-feed__products uk-grid" uk-grid="masonry: false">
+                            <div class="block-products-feed__product uk-width-1-4@l uk-width-1-3@m uk-width-1-2">
+                    <div class="block-products-feed__product-wrapper">
+    <div class="block-products-feed__product-media">
+        <a href="https://dekka.com.ar/cuidado-facial/esencia-facial" class="block-products-feed__product-link">
+                                    <img class="block-products-feed__product-image" src="https://d22fxaf9t8d39k.cloudfront.net/ee4c235a54a410795e8d6e176638d278803e3864e64ab70a7d1e112a9a29098e2026.jpeg" alt="Producto - ESENCIA FACIAL" />
+        </a>
+    </div>
+    <div class="uk-flex uk-flex-center uk-flex-column uk-margin-small-top">
+        <div class="block-products-feed__product-info uk-text-center">
+            <h3 class="block-products-feed__product-name text--primary">
+                <a href="https://dekka.com.ar/cuidado-facial/esencia-facial">
+                    ESENCIA FACIAL
+                </a>
+            </h3>
+                            <p class="block-products-feed__product-price text--primary uk-flex uk-flex-center">
+                    $3.300,00
+                                    </p>
+                                                            <p class="block-products-feed__product-additional text--primary uk-flex uk-flex-nowrap">
+                        6 cuotas sin interés de $550,00
+                    </p>
+                             
+                    </div>
+                    <div class="block-products-feed__product-buttons contrast_text--primary">
+                <a href="#" class="block-products-feed__product-buttons-buy btn-buy background--primary contrast_text--primary" data-id="3690684">
+                    Comprar
+                </a>
+            </div>
+            </div>
+</div>                </div>
+                            <div class="block-products-feed__product uk-width-1-4@l uk-width-1-3@m uk-width-1-2">
+                    <div class="block-products-feed__product-wrapper">
+    <div class="block-products-feed__product-media">
+        <a href="https://dekka.com.ar/promociones/combo-completo-3-shampoo-1-acondicionador-2-bolsitas" class="block-products-feed__product-link">
+                            <span class="block-products-feed__product-offer background--primary contrast_text--primary">
+                    19% OFF
+                </span>
+                                    <img class="block-products-feed__product-image" src="https://d22fxaf9t8d39k.cloudfront.net/11be3d7f23d9009b88dffb8413690e0175ef1218db4075e330ab36fc253556032026.png" alt="Producto - COMBO COMPLETO 3 shampoo + 1 acondicionador + 2 bolsitas" />
+        </a>
+    </div>
+    <div class="uk-flex uk-flex-center uk-flex-column uk-margin-small-top">
+        <div class="block-products-feed__product-info uk-text-center">
+            <h3 class="block-products-feed__product-name text--primary">
+                <a href="https://dekka.com.ar/promociones/combo-completo-3-shampoo-1-acondicionador-2-bolsitas">
+                    COMBO COMPLETO 3 shampoo + 1 acondicionador + 2 bolsitas
+                </a>
+            </h3>
+                            <p class="block-products-feed__product-price text--primary uk-flex uk-flex-center">
+                    $3.500,00
+                                            <del>$4.350,00</del>
+                                    </p>
+                                                            <p class="block-products-feed__product-additional text--primary uk-flex uk-flex-nowrap">
+                        6 cuotas sin interés de $583,33
+                    </p>
+                             
+                    </div>
+                    <div class="block-products-feed__product-buttons contrast_text--primary">
+                <a href="#" class="block-products-feed__product-buttons-buy btn-buy background--primary contrast_text--primary" data-id="3054110">
+                    Comprar
+                </a>
+            </div>
+            </div>
+</div>                </div>
+                            <div class="block-products-feed__product uk-width-1-4@l uk-width-1-3@m uk-width-1-2">
+                    <div class="block-products-feed__product-wrapper">
+    <div class="block-products-feed__product-media">
+        <a href="https://dekka.com.ar/promociones/combo-aceites" class="block-products-feed__product-link">
+                            <span class="block-products-feed__product-offer background--primary contrast_text--primary">
+                    17% OFF
+                </span>
+                                    <img class="block-products-feed__product-image" src="https://d22fxaf9t8d39k.cloudfront.net/11384e116ff35b957ce49a17fa69ab23ad00ddf73ec4a852bd6b8bc6ed2617142026.jpeg" alt="Producto - COMBO ACEITES" />
+        </a>
+    </div>
+    <div class="uk-flex uk-flex-center uk-flex-column uk-margin-small-top">
+        <div class="block-products-feed__product-info uk-text-center">
+            <h3 class="block-products-feed__product-name text--primary">
+                <a href="https://dekka.com.ar/promociones/combo-aceites">
+                    COMBO ACEITES
+                </a>
+            </h3>
+                            <p class="block-products-feed__product-price text--primary uk-flex uk-flex-center">
+                    $3.700,00
+                                            <del>$4.500,00</del>
+                                    </p>
+                                                            <p class="block-products-feed__product-additional text--primary uk-flex uk-flex-nowrap">
+                        6 cuotas sin interés de $616,67
+                    </p>
+                             
+                    </div>
+                    <div class="block-products-feed__product-buttons contrast_text--primary">
+                <a href="#" class="block-products-feed__product-buttons-buy btn-buy background--primary contrast_text--primary" data-id="2806358">
+                    Comprar
+                </a>
+            </div>
+            </div>
+</div>                </div>
+                            <div class="block-products-feed__product uk-width-1-4@l uk-width-1-3@m uk-width-1-2">
+                    <div class="block-products-feed__product-wrapper">
+    <div class="block-products-feed__product-media">
+        <a href="https://dekka.com.ar/cuidado-facial/aceite-facial-dekka" class="block-products-feed__product-link">
+                                    <img class="block-products-feed__product-image" src="https://d22fxaf9t8d39k.cloudfront.net/4cb4b04f158dc1aac6618cb304d844e2520d2c324172f6762682198c73cb79c62026.jpeg" alt="Producto - ACEITE FACIAL DEKKA" />
+        </a>
+    </div>
+    <div class="uk-flex uk-flex-center uk-flex-column uk-margin-small-top">
+        <div class="block-products-feed__product-info uk-text-center">
+            <h3 class="block-products-feed__product-name text--primary">
+                <a href="https://dekka.com.ar/cuidado-facial/aceite-facial-dekka">
+                    ACEITE FACIAL DEKKA
+                </a>
+            </h3>
+                            <p class="block-products-feed__product-price text--primary uk-flex uk-flex-center">
+                    $2.500,00
+                                    </p>
+                                                            <p class="block-products-feed__product-additional text--primary uk-flex uk-flex-nowrap">
+                        6 cuotas sin interés de $416,67
+                    </p>
+                             
+                    </div>
+                    <div class="block-products-feed__product-buttons contrast_text--primary">
+                <a href="#" class="block-products-feed__product-buttons-buy btn-buy background--primary contrast_text--primary" data-id="2324674">
+                    Comprar
+                </a>
+            </div>
+            </div>
+</div>                </div>
+                            <div class="block-products-feed__product uk-width-1-4@l uk-width-1-3@m uk-width-1-2">
+                    <div class="block-products-feed__product-wrapper">
+    <div class="block-products-feed__product-media">
+        <a href="https://dekka.com.ar/cuidado-facial/aceite-limpiador" class="block-products-feed__product-link">
+                                    <img class="block-products-feed__product-image" src="https://d22fxaf9t8d39k.cloudfront.net/4544ddefd781bc414a1b3e9de4564bf92dad2d55db0cd0bd093e590ca155015d2026.jpeg" alt="Producto - Aceite limpiador" />
+        </a>
+    </div>
+    <div class="uk-flex uk-flex-center uk-flex-column uk-margin-small-top">
+        <div class="block-products-feed__product-info uk-text-center">
+            <h3 class="block-products-feed__product-name text--primary">
+                <a href="https://dekka.com.ar/cuidado-facial/aceite-limpiador">
+                    Aceite limpiador
+                </a>
+            </h3>
+                            <p class="block-products-feed__product-price text--primary uk-flex uk-flex-center">
+                    $2.100,00
+                                    </p>
+                                                            <p class="block-products-feed__product-additional text--primary uk-flex uk-flex-nowrap">
+                        6 cuotas sin interés de $350,00
+                    </p>
+                             
+                    </div>
+                    <div class="block-products-feed__product-buttons contrast_text--primary">
+                <a href="#" class="block-products-feed__product-buttons-buy btn-buy background--primary contrast_text--primary" data-id="62543">
+                    Comprar
+                </a>
+            </div>
+            </div>
+</div>                </div>
+                            <div class="block-products-feed__product uk-width-1-4@l uk-width-1-3@m uk-width-1-2">
+                    <div class="block-products-feed__product-wrapper">
+    <div class="block-products-feed__product-media">
+        <a href="https://dekka.com.ar/promociones/combo-aceite-dekkapad-lila" class="block-products-feed__product-link">
+                            <span class="block-products-feed__product-offer background--primary contrast_text--primary">
+                    11% OFF
+                </span>
+                                    <img class="block-products-feed__product-image" src="https://d22fxaf9t8d39k.cloudfront.net/5812fd961fe28d3221583aff7716253870b9ffd2ba3ce290f57baa2c114f90e02026.png" alt="Producto - Combo Aceite + Dekkapad LILA" />
+        </a>
+    </div>
+    <div class="uk-flex uk-flex-center uk-flex-column uk-margin-small-top">
+        <div class="block-products-feed__product-info uk-text-center">
+            <h3 class="block-products-feed__product-name text--primary">
+                <a href="https://dekka.com.ar/promociones/combo-aceite-dekkapad-lila">
+                    Combo Aceite + Dekkapad LILA
+                </a>
+            </h3>
+                            <p class="block-products-feed__product-price text--primary uk-flex uk-flex-center">
+                    $2.300,00
+                                            <del>$2.600,00</del>
+                                    </p>
+                                                            <p class="block-products-feed__product-additional text--primary uk-flex uk-flex-nowrap">
+                        6 cuotas sin interés de $383,33
+                    </p>
+                             
+                    </div>
+                    <div class="block-products-feed__product-buttons contrast_text--primary">
+                <a href="#" class="block-products-feed__product-buttons-buy btn-buy background--primary contrast_text--primary" data-id="1759425">
+                    Comprar
+                </a>
+            </div>
+            </div>
+</div>                </div>
+                            <div class="block-products-feed__product uk-width-1-4@l uk-width-1-3@m uk-width-1-2">
+                    <div class="block-products-feed__product-wrapper">
+    <div class="block-products-feed__product-media">
+        <a href="https://dekka.com.ar/cuidado-capilar/serum-capilar" class="block-products-feed__product-link">
+                                    <img class="block-products-feed__product-image" src="https://d22fxaf9t8d39k.cloudfront.net/7b49e884674f907eb54dfda462c8021d6a85a56da48892bab8c93a188f3b18a52026.jpeg" alt="Producto - Serum Capilar" />
+        </a>
+    </div>
+    <div class="uk-flex uk-flex-center uk-flex-column uk-margin-small-top">
+        <div class="block-products-feed__product-info uk-text-center">
+            <h3 class="block-products-feed__product-name text--primary">
+                <a href="https://dekka.com.ar/cuidado-capilar/serum-capilar">
+                    Serum Capilar
+                </a>
+            </h3>
+                            <p class="block-products-feed__product-price text--primary uk-flex uk-flex-center">
+                    $1.800,00
+                                    </p>
+                                                            <p class="block-products-feed__product-additional text--primary uk-flex uk-flex-nowrap">
+                        6 cuotas sin interés de $300,00
+                    </p>
+                             
+                    </div>
+                    <div class="block-products-feed__product-buttons contrast_text--primary">
+                <a href="#" class="block-products-feed__product-buttons-buy btn-buy background--primary contrast_text--primary" data-id="55341">
+                    Comprar
+                </a>
+            </div>
+            </div>
+</div>                </div>
+                            <div class="block-products-feed__product uk-width-1-4@l uk-width-1-3@m uk-width-1-2">
+                    <div class="block-products-feed__product-wrapper">
+    <div class="block-products-feed__product-media">
+        <a href="https://dekka.com.ar/promociones/kit-dekka-low-poo" class="block-products-feed__product-link">
+                            <span class="block-products-feed__product-offer background--primary contrast_text--primary">
+                    13% OFF
+                </span>
+                                    <img class="block-products-feed__product-image" src="https://d22fxaf9t8d39k.cloudfront.net/60721e46901a5238233dcbd717418c3d0fc8c9eb130e292968275233caad99da2026.jpeg" alt="Producto - Kit DEKKA LOW POO" />
+        </a>
+    </div>
+    <div class="uk-flex uk-flex-center uk-flex-column uk-margin-small-top">
+        <div class="block-products-feed__product-info uk-text-center">
+            <h3 class="block-products-feed__product-name text--primary">
+                <a href="https://dekka.com.ar/promociones/kit-dekka-low-poo">
+                    Kit DEKKA LOW POO
+                </a>
+            </h3>
+                            <p class="block-products-feed__product-price text--primary uk-flex uk-flex-center">
+                    $3.500,00
+                                            <del>$4.050,00</del>
+                                    </p>
+                                                            <p class="block-products-feed__product-additional text--primary uk-flex uk-flex-nowrap">
+                        6 cuotas sin interés de $583,33
+                    </p>
+                             
+                    </div>
+                    <div class="block-products-feed__product-buttons contrast_text--primary">
+                <a href="#" class="block-products-feed__product-buttons-buy btn-buy background--primary contrast_text--primary" data-id="1628471">
+                    Comprar
+                </a>
+            </div>
+            </div>
+</div>                </div>
+                            <div class="block-products-feed__product uk-width-1-4@l uk-width-1-3@m uk-width-1-2">
+                    <div class="block-products-feed__product-wrapper">
+    <div class="block-products-feed__product-media">
+        <a href="https://dekka.com.ar/promociones/pack-4-shampoo-solidos-con-tensioactivos-2-bolsitas" class="block-products-feed__product-link">
+                            <span class="block-products-feed__product-offer background--primary contrast_text--primary">
+                    23% OFF
+                </span>
+                                    <img class="block-products-feed__product-image" src="https://d22fxaf9t8d39k.cloudfront.net/f2f7247a6a0b406d79f15c3440adf0f86966e850de5e4e022f87cc34c11c36472026.jpeg" alt="Producto - Pack 4 shampoo solidos con tensioactivos + 2 bolsitas" />
+        </a>
+    </div>
+    <div class="uk-flex uk-flex-center uk-flex-column uk-margin-small-top">
+        <div class="block-products-feed__product-info uk-text-center">
+            <h3 class="block-products-feed__product-name text--primary">
+                <a href="https://dekka.com.ar/promociones/pack-4-shampoo-solidos-con-tensioactivos-2-bolsitas">
+                    Pack 4 shampoo solidos con tensioactivos + 2 bolsitas
+                </a>
+            </h3>
+                            <p class="block-products-feed__product-price text--primary uk-flex uk-flex-center">
+                    $3.300,00
+                                            <del>$4.300,00</del>
+                                    </p>
+                                                            <p class="block-products-feed__product-additional text--primary uk-flex uk-flex-nowrap">
+                        6 cuotas sin interés de $550,00
+                    </p>
+                             
+                    </div>
+                    <div class="block-products-feed__product-buttons contrast_text--primary">
+                <a href="#" class="block-products-feed__product-buttons-buy btn-buy background--primary contrast_text--primary" data-id="1628307">
+                    Comprar
+                </a>
+            </div>
+            </div>
+</div>                </div>
+                            <div class="block-products-feed__product uk-width-1-4@l uk-width-1-3@m uk-width-1-2">
+                    <div class="block-products-feed__product-wrapper">
+    <div class="block-products-feed__product-media">
+        <a href="https://dekka.com.ar/accesorios/scrunchies" class="block-products-feed__product-link">
+                                    <img class="block-products-feed__product-image" src="https://d22fxaf9t8d39k.cloudfront.net/5b51638456d9a3d7526ec591cfa5c15e1a0f052499f9958d302f69aa243144eb2026.png" alt="Producto - Scrunchies" />
+        </a>
+    </div>
+    <div class="uk-flex uk-flex-center uk-flex-column uk-margin-small-top">
+        <div class="block-products-feed__product-info uk-text-center">
+            <h3 class="block-products-feed__product-name text--primary">
+                <a href="https://dekka.com.ar/accesorios/scrunchies">
+                    Scrunchies
+                </a>
+            </h3>
+                            <p class="block-products-feed__product-price text--primary uk-flex uk-flex-center">
+                    $270,00
+                                    </p>
+                                                            <p class="block-products-feed__product-additional text--primary uk-flex uk-flex-nowrap">
+                        6 cuotas sin interés de $45,00
+                    </p>
+                             
+                    </div>
+                    <div class="block-products-feed__product-buttons contrast_text--primary">
+                <a href="#" class="block-products-feed__product-buttons-buy btn-buy background--primary contrast_text--primary" data-id="2106599">
+                    Comprar
+                </a>
+            </div>
+            </div>
+</div>                </div>
+                            <div class="block-products-feed__product uk-width-1-4@l uk-width-1-3@m uk-width-1-2">
+                    <div class="block-products-feed__product-wrapper">
+    <div class="block-products-feed__product-media">
+        <a href="https://dekka.com.ar/cuidado-capilar/acondicionador-solido" class="block-products-feed__product-link">
+                                    <img class="block-products-feed__product-image" src="https://d22fxaf9t8d39k.cloudfront.net/daf1dc641c63383f64da036f49df11cb37ca227fb6ce54ff641f3664a3a0cbb52026.jpeg" alt="Producto - Acondicionador solido" />
+        </a>
+    </div>
+    <div class="uk-flex uk-flex-center uk-flex-column uk-margin-small-top">
+        <div class="block-products-feed__product-info uk-text-center">
+            <h3 class="block-products-feed__product-name text--primary">
+                <a href="https://dekka.com.ar/cuidado-capilar/acondicionador-solido">
+                    Acondicionador solido
+                </a>
+            </h3>
+                            <p class="block-products-feed__product-price text--primary uk-flex uk-flex-center">
+                    $1.100,00
+                                    </p>
+                                                            <p class="block-products-feed__product-additional text--primary uk-flex uk-flex-nowrap">
+                        6 cuotas sin interés de $183,33
+                    </p>
+                             
+                    </div>
+                    <div class="block-products-feed__product-buttons contrast_text--primary">
+                <a href="#" class="block-products-feed__product-buttons-buy btn-buy background--primary contrast_text--primary" data-id="261208">
+                    Comprar
+                </a>
+            </div>
+            </div>
+</div>                </div>
+                            <div class="block-products-feed__product uk-width-1-4@l uk-width-1-3@m uk-width-1-2">
+                    <div class="block-products-feed__product-wrapper">
+    <div class="block-products-feed__product-media">
+        <a href="https://dekka.com.ar/cuidado-capilar/shampoo-solido-con-tensioactivos" class="block-products-feed__product-link">
+                                    <img class="block-products-feed__product-image" src="https://d22fxaf9t8d39k.cloudfront.net/4fbdef782fa88750570026789d3ac4c2cf29dab1e6b64c4880ee3a4248ba0c2d2026.jpeg" alt="Producto - Shampoo solido con tensioactivos" />
+        </a>
+    </div>
+    <div class="uk-flex uk-flex-center uk-flex-column uk-margin-small-top">
+        <div class="block-products-feed__product-info uk-text-center">
+            <h3 class="block-products-feed__product-name text--primary">
+                <a href="https://dekka.com.ar/cuidado-capilar/shampoo-solido-con-tensioactivos">
+                    Shampoo solido con tensioactivos
+                </a>
+            </h3>
+                            <p class="block-products-feed__product-price text--primary uk-flex uk-flex-center">
+                    $1.050,00
+                                    </p>
+                                                            <p class="block-products-feed__product-additional text--primary uk-flex uk-flex-nowrap">
+                        6 cuotas sin interés de $175,00
+                    </p>
+                             
+                    </div>
+                    <div class="block-products-feed__product-buttons contrast_text--primary">
+                <a href="#" class="block-products-feed__product-buttons-buy btn-buy background--primary contrast_text--primary" data-id="261219">
+                    Comprar
+                </a>
+            </div>
+            </div>
+</div>                </div>
+                        <div class="block-products-feed__actions uk-width-1-1">
+                 
+                    <div class="block-products-feed__actions-button uk-section-block__actions uk-flex uk-flex-center">
+                        <a href="/productos" class="button block-products-feed__btn-load border-radius background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-normal" data-label="VER MÁS" >
+    VER MÁS
+</a>                    </div>
+                                            </div>
+        </div>
+    </div>
+</section>
+                        <section class="block-categories-carrousel block-categories-carrousel--55300 uk-section-block--quarter background--primary">
+    <div class="block-categories-carrousel__container uk-container">
+                    <div class="block-categories-carrousel__heading">
+                <h4 class="block-categories-carrousel__title contrast_text--primary">
+                    PRODUCTOS
+                </h4>
+            </div>
+                            <div class="block-categories-carrousel__wrapper">
+                <ul class="block-categories-carrousel__list uk-flex uk-flex-center uk-flex-row uk-flex-wrap">
+                                            <li class="block-categories-carrousel__list-item contrast_text--primary">
+                            <a href="https://dekka.com.ar/cuidado-capilar" class="block-categories-carrousel__link contrast_text--primary border-radius uk-text-uppercase">
+                                Cuidado Capilar
+                            </a>
+                        </li>
+                                            <li class="block-categories-carrousel__list-item contrast_text--primary">
+                            <a href="https://dekka.com.ar/cuidado-facial" class="block-categories-carrousel__link contrast_text--primary border-radius uk-text-uppercase">
+                                Cuidado Facial
+                            </a>
+                        </li>
+                                            <li class="block-categories-carrousel__list-item contrast_text--primary">
+                            <a href="https://dekka.com.ar/accesorios" class="block-categories-carrousel__link contrast_text--primary border-radius uk-text-uppercase">
+                                Accesorios
+                            </a>
+                        </li>
+                                            <li class="block-categories-carrousel__list-item contrast_text--primary">
+                            <a href="https://dekka.com.ar/promociones" class="block-categories-carrousel__link contrast_text--primary border-radius uk-text-uppercase">
+                                Promociones
+                            </a>
+                        </li>
+                                            <li class="block-categories-carrousel__list-item contrast_text--primary">
+                            <a href="https://dekka.com.ar/repuestos" class="block-categories-carrousel__link contrast_text--primary border-radius uk-text-uppercase">
+                                Repuestos
+                            </a>
+                        </li>
+                                    </ul>
+            </div>
+            </div>
+</section>
+                        <section class="block-grill-images block-grill-images--77352 uk-section-block" style="background-color: #ffffff;">
+    <div class="block-grill-images__wrapper uk-container">
+                <div class="block-grill-images__container"> 
+            <div class="block-grill-images__items uk-grid-small uk-grid" uk-grid>
+                                        <div class="uk-width-1-2@s uk-width-1-1">
+                            <a href="#!" class="block-grill-images__link">
+    <div class="block-grill-images__grid-item block-grill-images__grid-item--full">
+        <img class="block-grill-images__image" src="https://d22fxaf9t8d39k.cloudfront.net/a0d5d61b9b03de5e4be1577495960e515098fda15d8b7d54fd2bc55077c9dafb2026.png" alt="Imagen"/>
+            </div>
+</a>                        </div>
+                        <div class="uk-width-1-2@s uk-width-1-1">
+                            <div class="uk-grid-small uk-grid" uk-grid>
+                                <div class="uk-width-1-1">
+                                    <a href="https://dekka.empretienda.com.ar/cuidado-capilar" class="block-grill-images__link">
+    <div class="block-grill-images__grid-item block-grill-images__grid-item--half">
+        <img class="block-grill-images__image" src="https://d22fxaf9t8d39k.cloudfront.net/044f1aec1af03f53a0a9e945b348f227d92f395365acbc50041ab1b62269d1ff2026.png" alt="Imagen"/>
+            </div>
+</a>                                </div>
+                                <div class="uk-width-1-1">
+                                    <div class="uk-grid-small uk-grid" uk-grid>
+                                        <div class="uk-width-1-2">
+                                            <a href="https://dekka.empretienda.com.ar/cuidado-capilar/serum-capilar" class="block-grill-images__link">
+    <div class="block-grill-images__grid-item block-grill-images__grid-item--half">
+        <img class="block-grill-images__image" src="https://d22fxaf9t8d39k.cloudfront.net/f09fa653ef36cdce0ae316474f8975be63c8a7a29aeb4bd899cfcf5dc5745bd52026.jpeg" alt="Imagen"/>
+            </div>
+</a>                                        </div>
+                                        <div class="uk-width-1-2">
+                                            <a href="https://dekka.empretienda.com.ar/cuidado-facial" class="block-grill-images__link">
+    <div class="block-grill-images__grid-item block-grill-images__grid-item--half">
+        <img class="block-grill-images__image" src="https://d22fxaf9t8d39k.cloudfront.net/459d635f1183cc49787265e7771b579edb39ce6a5833ac14b0339a289a33f2442026.jpeg" alt="Imagen"/>
+            </div>
+</a>                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                </div>
+        </div>
+    </div>
+</section>
+                        <section class="block-grill-images block-grill-images--77354 uk-section-block" style="background-color: #ffffff;">
+    <div class="block-grill-images__wrapper uk-container">
+                <div class="block-grill-images__container"> 
+            <div class="block-grill-images__items uk-grid-small uk-grid" uk-grid>
+                                        <div class="uk-width-1-3@s uk-width-1-1">
+                            <a href="#!" class="block-grill-images__link">
+    <div class="block-grill-images__grid-item block-grill-images__grid-item--full">
+        <img class="block-grill-images__image" src="https://d22fxaf9t8d39k.cloudfront.net/5335ab068fd174924c5cdf1376d823282beb8c3fe0569a0e6e2ddf34c32e77db2026.jpeg" alt="Imagen"/>
+            </div>
+</a>                        </div>
+                        <div class="uk-width-2-3@s uk-width-1-1">
+                            <div class="uk-grid-small uk-grid" uk-grid>
+                                <div class="uk-width-1-1">
+                                    <div class="uk-grid-small uk-grid" uk-grid>
+                                        <div class="uk-width-1-2">
+                                            <a href="#!" class="block-grill-images__link">
+    <div class="block-grill-images__grid-item block-grill-images__grid-item--half">
+        <img class="block-grill-images__image" src="https://d22fxaf9t8d39k.cloudfront.net/75a5ec7548bec23e70468d0c00b017356078cb0e85573fced6c9126afbd322b22026.png" alt="Imagen"/>
+            </div>
+</a>                                        </div>
+                                        <div class="uk-width-1-2">
+                                            <a href="#!" class="block-grill-images__link">
+    <div class="block-grill-images__grid-item block-grill-images__grid-item--half">
+        <img class="block-grill-images__image" src="https://d22fxaf9t8d39k.cloudfront.net/eef188c4a511d803d9feda365e194fe976c5baac6a16c2e1f66b3e77949209822026.jpeg" alt="Imagen"/>
+            </div>
+</a>                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-1">
+                                    <div class="uk-grid-small uk-grid" uk-grid>
+                                        <div class="uk-width-1-2">
+                                            <a href="#!" class="block-grill-images__link">
+    <div class="block-grill-images__grid-item block-grill-images__grid-item--half">
+        <img class="block-grill-images__image" src="https://d22fxaf9t8d39k.cloudfront.net/1892ac2e8f96c9546138ce13d7c7e31010e8d0e75007fb453ddfe3baeb02ee6b2026.png" alt="Imagen"/>
+            </div>
+</a>                                        </div>
+                                        <div class="uk-width-1-2">
+                                            <a href="#!" class="block-grill-images__link">
+    <div class="block-grill-images__grid-item block-grill-images__grid-item--half">
+        <img class="block-grill-images__image" src="https://d22fxaf9t8d39k.cloudfront.net/8254c8dfbd727c1e1e55765f62b456c6bdc1463c8bc423ebafb6dc0aff8bc0102026.png" alt="Imagen"/>
+            </div>
+</a>                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                </div>
+        </div>
+    </div>
+</section>
+            
+
+    
+            <div class="newsletter uk-container-expand uk-padding-small">
+            <div class="newsletter__container">
+                <h5 class="newsletter__container__title">
+                    Dejanos tu mail para recibir novedades
+                </h5>
+                <form id="newsletter-form" action="#" method="POST">
+                    <div class="newsletter__container__form">
+                        <div class="newsletter__container__input uk-width-expand">
+                            <div class="field field--newsletter_email">
+                <input type="email" name="newsletter_email" id="newsletter_email" class="field__input border-radius border-radius--plain" data-regex="/^[\w\-\.]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z]{2,7}$/" data-message="Ingrese un email válido" placeholder="Tu email" data-required="1"/>
+        <p class="field__message field__message--newsletter_email"></p>
+</div>                        </div>
+                        <div class="newsletter__container__button">
+                            <button type="submit" id="newsletter-btn" class="button button--full background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-input border-radius"  data-label="Enviar" data-spinner-ratio="0.75" >
+     
+        Enviar
+    </button>                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+
+    
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__container uk-container">
+                <div class="footer__top__items">
+                    <div class="footer__top__item footer__top__payment">
+                        <h5 class="footer__top__title text--primary">
+                            Medios de pago
+                        </h5>
+                        <div class="footer__top__icons uk-flex-wrap">
+                            <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/mercadopago.png" class="footer__top__icon" alt="Mercado Pago"> 
+    <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/visa.png" class="footer__top__icon" alt="Visa"> 
+    <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/mastercard.png" class="footer__top__icon" alt="MasterCard"> 
+    <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/american-express.png" class="footer__top__icon" alt="American Express"> 
+    <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/naranja.png" class="footer__top__icon" alt="Naranja"> 
+    <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/cabal.png" class="footer__top__icon" alt="Cabal"> 
+    <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/maestro.png" class="footer__top__icon" alt="Maestro"> 
+            <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/nativa.png" class="footer__top__icon" alt="Nativa"> 
+        <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/tarjeta-shopping.png" class="footer__top__icon" alt="Tarjeta Shopping"> 
+        <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/argencard.png" class="footer__top__icon" alt="Argencard">   
+                <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/diners-club.png" class="footer__top__icon" alt="Diners Club"> 
+        <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/pagofacil.png" class="footer__top__icon" alt="Pago Fácil"> 
+    <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/rapipago.png" class="footer__top__icon" alt="Rapipago"> 
+    <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-pago/deposito.png" class="footer__top__icon" alt="Depósito o transferencia bancaria"> 
+                        </div>
+                    </div>
+                    <div class="footer__top__item">
+                        <h5 class="footer__top__title text--primary">
+                            Medios de envío
+                        </h5>
+                        <div class="footer__top__icons uk-flex uk-flex-wrap">
+                            <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-envio/andreani.png" class="footer__top__icon" alt="Por Andreani a domicilio o sucursal">
+    <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-envio/e-pick.png" class="footer__top__icon" alt="E-Pick">
+    <img src="https://dk0k1i3js6c49.cloudfront.net/iconos-envio/retiro-local.png" class="footer__top__icon" alt="Retiro en local">
+                        </div>
+                    </div>
+                                            <div class="footer__top__item">
+                            <h5 class="footer__top__title text--primary">
+                                Nuestras redes sociales
+                            </h5>
+                            <ul class="footer__top__social-media-list uk-flex uk-flex-row">
+                                                                    <li class="footer__top__social-media-item text--primary">
+                                        <a href="https://facebook.com/dekka.arg"
+                                            class="footer__top__social-media-link" target="_blank">
+                                            <i class="fab fa-facebook-f footer__top__social-media-icon"></i>
+                                        </a>
+                                    </li>
+                                                                                                                                    <li class="footer__top__social-media-item text--primary">
+                                        <a href="https://instagram.com/dekka.arg"
+                                            class="footer__top__social-media-link" target="_blank">
+                                            <i class="fab fa-instagram footer__top__social-media-icon"></i>
+                                        </a>
+                                    </li>
+                                                                                                    <li class="footer__top__social-media-item text--primary">
+                                        <a href="https://pinterest.com/ladebkim"
+                                            class="footer__top__social-media-link" target="_blank">
+                                            <i class="fab fa-pinterest footer__top__social-media-icon"></i>
+                                        </a>
+                                    </li>
+                                                                                                                            </ul>
+                        </div>
+                                        <div class="footer__top__item">
+                        <h5 class="footer__top__title text--primary">
+                            Contacto
+                        </h5>
+                        <ul class="footer__top__info-list uk-flex">
+                            <li class="footer__top__info-item text--primary">
+                                <a href="mailto:dekka.arg@gmail.com" class="footer__top__info-link"
+                                    target="_blank">
+                                    dekka.arg@gmail.com
+                                </a>
+                            </li>
+                                                                                    <li class="footer__top__info-item footer__top__info-item--underline text--primary">
+                                <a href="#regret-modal" uk-toggle>
+                                    Botón de arrepentimiento
+                                </a>
+                            </li>
+                                                            <li class="footer__top__info-item footer__bottom__datafiscal">
+                                    <a href="http://qr.afip.gob.ar/?qr=TiorLA0I7ho1yJD27dAvLQ,," target="_F960AFIPInfo"><img src="https://www.afip.gob.ar/images/f960/DATAWEB.jpg" border="0"></a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__container uk-container">
+                <div class="footer__bottom__copyright uk-flex uk-flex-row uk-flex-middle">
+                    <p class="footer__bottom__copyright-text text--primary">
+                        Creado con 
+                    </p>
+                    <a href="https://www.empretienda.com" target="_blank">
+                        <svg class="footer__bottom__copyright-empretienda-logo" width="104px" height="15px" viewBox="0 0 104 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g fill="#000000" fill-rule="nonzero">
+                                    <g id="Group" transform="translate(19.230769, 0.769231)">
+                                        <path d="M19.35,10.2384615 C18.7269231,10.2384615 18.1384615,10.2384615 17.5076923,10.2384615 C17.5076923,10.1192308 17.5076923,10.0115385 17.5076923,9.90384615 C17.5076923,8.66923077 17.5076923,7.43461538 17.5076923,6.2 C17.5076923,6.06923077 17.5076923,5.93846154 17.4923077,5.81153846 C17.4,5.05 17.0038462,4.65769231 16.3269231,4.64615385 C15.6230769,4.63461538 15.1230769,5.06923077 15.0192308,5.79230769 C14.9884615,6.00384615 14.9769231,6.21923077 14.9769231,6.43076923 C14.9730769,7.58076923 14.9769231,8.73461538 14.9769231,9.88461538 C14.9769231,9.99615385 14.9769231,10.1038462 14.9769231,10.2538462 C14.3884615,10.2538462 13.8269231,10.2615385 13.2615385,10.2423077 C13.2153846,10.2423077 13.1384615,10.0807692 13.1384615,9.99615385 C13.1307692,9.03076923 13.1346154,8.06538462 13.1307692,7.1 C13.1307692,6.68076923 13.1384615,6.26538462 13.1230769,5.84615385 C13.0961538,5.16153846 12.7307692,4.74230769 12.1038462,4.65384615 C11.4730769,4.56538462 10.9038462,4.90384615 10.7153846,5.51538462 C10.6346154,5.77692308 10.6,6.06153846 10.6,6.33461538 C10.5884615,7.52307692 10.5961538,8.71153846 10.5961538,9.9 C10.5961538,10.0076923 10.5961538,10.1153846 10.5961538,10.2384615 C9.96923077,10.2384615 9.38076923,10.2384615 8.77307692,10.2384615 C8.77307692,7.87692308 8.77307692,5.53076923 8.77307692,3.16538462 C9.36923077,3.16538462 9.95769231,3.16538462 10.5769231,3.16538462 C10.5884615,3.36538462 10.6,3.57307692 10.6115385,3.85 C11.1538462,3.17307692 11.8346154,2.93461538 12.6076923,2.94230769 C13.3961538,2.95 14.05,3.25 14.4807692,3.90769231 C14.6423077,3.76923077 14.7807692,3.63461538 14.9307692,3.51538462 C15.8,2.85 16.7615385,2.77307692 17.7461538,3.15769231 C18.7038462,3.53076923 19.1576923,4.31923077 19.2961538,5.30384615 C19.3461538,5.65 19.3461538,6.00769231 19.3461538,6.35769231 C19.3538462,7.54615385 19.35,8.73461538 19.35,9.92307692 C19.35,10.0230769 19.35,10.1230769 19.35,10.2384615 Z" id="Path"></path>
+                                        <path d="M73.6038462,3.91538462 C73.6038462,2.69615385 73.6038462,1.52307692 73.6038462,0.319230769 C74.2192308,0.319230769 74.8153846,0.319230769 75.4307692,0.319230769 C75.4307692,3.62307692 75.4307692,6.91923077 75.4307692,10.2384615 C74.8346154,10.2384615 74.2461538,10.2384615 73.6192308,10.2384615 C73.6192308,9.99615385 73.6192308,9.75384615 73.6192308,9.50769231 C73.5653846,9.51153846 73.5384615,9.50384615 73.5307692,9.51538462 C72.4807692,10.8346154 69.7230769,10.9269231 68.4,8.8 C67.2038462,6.87692308 67.8923077,4.25 69.8423077,3.28076923 C71.0269231,2.69230769 72.6576923,2.86923077 73.4923077,3.84230769 C73.5076923,3.86153846 73.5346154,3.86923077 73.6038462,3.91538462 Z M69.6538462,6.7 C69.6538462,7.87692308 70.4846154,8.71153846 71.6461538,8.70384615 C72.7846154,8.69615385 73.6076923,7.85384615 73.6076923,6.69230769 C73.6076923,5.52692308 72.7884615,4.69615385 71.6384615,4.69615385 C70.4692308,4.69615385 69.6538462,5.51923077 69.6538462,6.7 Z" id="Shape"></path>
+                                        <path d="M22.7538462,9.44230769 C22.7538462,10.6923077 22.7538462,11.8769231 22.7538462,13.0807692 C22.1423077,13.0807692 21.5538462,13.0807692 20.9384615,13.0807692 C20.9384615,9.78461538 20.9384615,6.48846154 20.9384615,3.16923077 C21.5307692,3.16923077 22.1269231,3.16923077 22.7538462,3.16923077 C22.7538462,3.41538462 22.7538462,3.65 22.7538462,3.86538462 C23.1192308,3.63076923 23.45,3.34615385 23.8307692,3.18461538 C25.2038462,2.60769231 26.8038462,3.07307692 27.7461538,4.28076923 C28.8230769,5.66153846 28.8115385,7.73846154 27.7423077,9.12692308 C26.4730769,10.7653846 23.9884615,10.8769231 22.7538462,9.44230769 Z M22.7576923,6.65769231 C22.7423077,7.83846154 23.5576923,8.69230769 24.7076923,8.70384615 C25.8538462,8.71538462 26.6961538,7.88846154 26.7115385,6.73461538 C26.7269231,5.56153846 25.9230769,4.71153846 24.7884615,4.69615385 C23.6038462,4.67692308 22.7730769,5.48461538 22.7576923,6.65769231 Z" id="Shape"></path>
+                                        <path d="M82.5769231,3.92307692 C82.5769231,3.65 82.5769231,3.41923077 82.5769231,3.16923077 C83.1923077,3.16923077 83.7846154,3.16923077 84.4,3.16923077 C84.4,5.52307692 84.4,7.87307692 84.4,10.2423077 C83.8,10.2423077 83.2115385,10.2423077 82.5884615,10.2423077 C82.5884615,9.99615385 82.5884615,9.75 82.5884615,9.48461538 C82.5269231,9.50384615 82.4961538,9.50769231 82.4846154,9.52307692 C81.4653846,10.7538462 78.9730769,10.9115385 77.5769231,9.10769231 C76.1346154,7.24230769 76.7153846,4.36153846 78.7423077,3.31153846 C79.9653846,2.67692308 81.6115385,2.87692308 82.4653846,3.85384615 C82.4807692,3.87307692 82.5076923,3.88076923 82.5769231,3.92307692 Z M80.5769231,4.69615385 C79.4307692,4.7 78.6192308,5.53076923 78.6192308,6.7 C78.6192308,7.86153846 79.4423077,8.7 80.5846154,8.70384615 C81.7384615,8.70769231 82.5807692,7.85769231 82.5769231,6.69230769 C82.5730769,5.52307692 81.7423077,4.69230769 80.5769231,4.69615385 Z" id="Shape"></path>
+                                        <path d="M53.2384615,7.44615385 C53.4269231,8.13846154 53.8538462,8.53076923 54.4807692,8.68846154 C55.3038462,8.89615385 56.0846154,8.82692308 56.7384615,8.2 C56.7846154,8.15384615 56.9,8.12307692 56.9461538,8.14615385 C57.4,8.39615385 57.8461538,8.65769231 58.3461538,8.94615385 C58.1076923,9.19230769 57.9153846,9.42692308 57.6884615,9.62307692 C56.2269231,10.8923077 53.2230769,10.7461538 51.95,8.88846154 C50.9346154,7.40384615 51.1346154,5.16538462 52.4269231,3.95 C53.7653846,2.69230769 55.9384615,2.57692308 57.3307692,3.73461538 C58.4384615,4.65384615 58.8038462,5.87307692 58.6384615,7.27692308 C58.6153846,7.48461538 58.4769231,7.44615385 58.3576923,7.44615385 C56.7692308,7.44615385 55.1846154,7.44615385 53.5961538,7.44615385 C53.4884615,7.44615385 53.3884615,7.44615385 53.2384615,7.44615385 Z M56.8307692,6.01923077 C56.6769231,5.39230769 56.3653846,4.94230769 55.7923077,4.73076923 C55.0538462,4.46153846 54.35,4.53846154 53.7346154,5.06153846 C53.4038462,5.34230769 53.2076923,5.78076923 53.2769231,6.01923077 C54.4461538,6.01923077 55.6076923,6.01923077 56.8307692,6.01923077 Z" id="Shape"></path>
+                                        <path d="M2.01153846,7.44615385 C2.18846154,8.06923077 2.55,8.46538462 3.10384615,8.63846154 C3.97692308,8.91153846 4.80769231,8.86538462 5.51923077,8.19615385 C5.56923077,8.15 5.69230769,8.13076923 5.75,8.16153846 C6.18846154,8.4 6.61923077,8.65384615 7.07692308,8.91923077 C7.03461538,8.99230769 7.00769231,9.05769231 6.96153846,9.11153846 C6.33076923,9.90384615 5.49615385,10.3269231 4.5,10.4192308 C3.16153846,10.5423077 1.95,10.2576923 1.00384615,9.22692308 C-0.0269230769,8.10384615 -0.226923077,6.23076923 0.519230769,4.85384615 C1.26153846,3.48076923 2.82692308,2.74230769 4.4,2.98461538 C6.37692308,3.28846154 7.67692308,5.08846154 7.42307692,7.23076923 C7.4,7.43846154 7.28461538,7.45 7.11923077,7.45 C5.54230769,7.44615385 3.96538462,7.44615385 2.38461538,7.44615385 C2.28076923,7.44615385 2.16923077,7.44615385 2.01153846,7.44615385 Z M5.58461538,6.01538462 C5.45,5.11153846 4.68846154,4.55 3.69615385,4.59615385 C2.80769231,4.63461538 2.06923077,5.25769231 2.02307692,6.01538462 C3.20769231,6.01538462 4.38846154,6.01538462 5.58461538,6.01538462 Z" id="Shape"></path>
+                                        <path d="M36.2538462,7.44615385 C36.4461538,8.13461538 36.8653846,8.52307692 37.4807692,8.68076923 C38.3153846,8.89615385 39.1,8.82692308 39.7653846,8.19230769 C39.8115385,8.14615385 39.9384615,8.13076923 39.9961538,8.16538462 C40.4346154,8.40384615 40.8653846,8.65769231 41.3307692,8.92692308 C41.2576923,9.02692308 41.2038462,9.11923077 41.1346154,9.2 C40.1846154,10.2884615 38.9538462,10.5692308 37.5807692,10.4038462 C35.9769231,10.2115385 34.8,9.17692308 34.4269231,7.63846154 C34.05,6.08846154 34.6192308,4.48846154 35.8576923,3.61153846 C37.0692308,2.75384615 38.8269231,2.69230769 40.0576923,3.52692308 C41.35,4.40384615 41.8076923,5.67307692 41.6653846,7.2 C41.6461538,7.40769231 41.5653846,7.45384615 41.3692308,7.45384615 C39.95,7.44615385 38.5307692,7.45 37.1115385,7.45 C36.8384615,7.44615385 36.5730769,7.44615385 36.2538462,7.44615385 Z M39.8115385,6.01923077 C39.7576923,5.19230769 38.9692308,4.57692308 38.0115385,4.59615385 C37.0769231,4.61538462 36.2884615,5.25 36.2615385,6.01923077 C37.4423077,6.01923077 38.6269231,6.01923077 39.8115385,6.01923077 Z" id="Shape"></path>
+                                        <path d="M59.9923077,3.15384615 C60.5961538,3.15384615 61.1807692,3.15384615 61.7923077,3.15384615 C61.8038462,3.37692308 61.8115385,3.59230769 61.8230769,3.82307692 C61.8653846,3.80769231 61.8961538,3.80384615 61.9115385,3.78846154 C62.7461538,2.89230769 63.7769231,2.75 64.8769231,3.10384615 C65.9692308,3.45384615 66.5115385,4.31153846 66.5923077,5.41538462 C66.6653846,6.37692308 66.6307692,7.34230769 66.6384615,8.30769231 C66.6423077,8.88461538 66.6461538,9.45769231 66.6346154,10.0346154 C66.6346154,10.1076923 66.55,10.2423077 66.5038462,10.2461538 C65.95,10.2615385 65.3961538,10.2538462 64.8,10.2538462 C64.8,10.1153846 64.8,10.0076923 64.8,9.9 C64.8,8.68461538 64.8038462,7.46923077 64.7961538,6.25 C64.7961538,6.03076923 64.7807692,5.8 64.7230769,5.58846154 C64.5423077,4.94230769 63.9961538,4.59615385 63.2692308,4.64230769 C62.5076923,4.69230769 61.9884615,5.13846154 61.8653846,5.87307692 C61.8269231,6.1 61.8153846,6.33461538 61.8153846,6.56538462 C61.8115385,7.68076923 61.8115385,8.79230769 61.8115385,9.90769231 C61.8115385,10.0076923 61.8115385,10.1076923 61.8115385,10.2307692 C61.1961538,10.2307692 60.6076923,10.2307692 59.9923077,10.2307692 C59.9923077,7.88461538 59.9923077,5.53461538 59.9923077,3.15384615 Z" id="Path"></path>
+                                        <path d="M46.8384615,8.6 C46.8384615,9.12692308 46.8423077,9.61538462 46.8307692,10.1076923 C46.8307692,10.1615385 46.7384615,10.2576923 46.6923077,10.2576923 C46.1,10.2538462 45.4961538,10.3038462 44.9230769,10.2 C43.9807692,10.0307692 43.4692308,9.41153846 43.4269231,8.42307692 C43.3807692,7.38461538 43.3961538,6.34615385 43.3846154,5.30769231 C43.3846154,5.18846154 43.3846154,5.06923077 43.3846154,4.91538462 C42.9653846,4.91538462 42.5730769,4.91538462 42.1615385,4.91538462 C42.1615385,4.31538462 42.1615385,3.75384615 42.1615385,3.14230769 C42.4807692,3.14230769 42.8,3.13076923 43.1192308,3.14615385 C43.3269231,3.15769231 43.3961538,3.08461538 43.3884615,2.87692308 C43.3730769,2.55384615 43.3730769,2.22692308 43.3923077,1.90384615 C43.3961538,1.81923077 43.4730769,1.68461538 43.5461538,1.66153846 C44.0576923,1.49230769 44.5730769,1.34615385 45.0884615,1.19230769 C45.1192308,1.18461538 45.1576923,1.19230769 45.2307692,1.19230769 C45.2307692,1.83846154 45.2307692,2.47692308 45.2307692,3.13846154 C45.7730769,3.13846154 46.2807692,3.13846154 46.8115385,3.13846154 C46.8115385,3.73076923 46.8115385,4.3 46.8115385,4.9 C46.2961538,4.9 45.7807692,4.9 45.2423077,4.9 C45.2384615,5.02307692 45.2307692,5.11153846 45.2307692,5.20384615 C45.2307692,6.04615385 45.2269231,6.89230769 45.2307692,7.73461538 C45.2346154,8.38076923 45.4192308,8.57307692 46.0769231,8.59615385 C46.3153846,8.60384615 46.5538462,8.6 46.8384615,8.6 Z" id="Path"></path>
+                                        <path d="M31.7076923,10.2423077 C31.0807692,10.2423077 30.5,10.2423077 29.8923077,10.2423077 C29.8923077,7.88461538 29.8923077,5.53461538 29.8923077,3.16153846 C30.4807692,3.16153846 31.0730769,3.16153846 31.6923077,3.16153846 C31.6923077,3.50384615 31.6923077,3.84230769 31.6923077,4.18076923 C32.2038462,3.38461538 32.9153846,3.01153846 33.8576923,3.00769231 C33.8576923,3.68846154 33.8576923,4.34230769 33.8576923,5.01538462 C33.65,5.02692308 33.45,5.02692308 33.25,5.05384615 C32.2807692,5.19230769 31.7230769,5.80769231 31.7076923,6.78461538 C31.6923077,7.82307692 31.7038462,8.86538462 31.7038462,9.90384615 C31.7076923,10.0076923 31.7076923,10.1115385 31.7076923,10.2423077 Z" id="Path"></path>
+                                        <path d="M48.1730769,3.15769231 C48.7884615,3.15769231 49.3692308,3.15769231 49.9730769,3.15769231 C49.9730769,5.52307692 49.9730769,7.87307692 49.9730769,10.2423077 C49.3730769,10.2423077 48.7807692,10.2423077 48.1730769,10.2423077 C48.1730769,7.88076923 48.1730769,5.52692308 48.1730769,3.15769231 Z" id="Path"></path>
+                                        <path d="M47.9346154,1.15 C47.9423077,0.534615385 48.4692308,0.0192307692 49.0846154,0.0269230769 C49.6961538,0.0346153846 50.2230769,0.573076923 50.2076923,1.18076923 C50.1923077,1.78076923 49.6769231,2.28461538 49.0692308,2.28846154 C48.4538462,2.29230769 47.9307692,1.76538462 47.9346154,1.15 Z" id="Path"></path>
+                                    </g>
+                                    <path d="M14.0692308,0.742307692 C14.0692308,0.676923077 14.0576923,0.619230769 14.0461538,0.557692308 C13.9692308,0.238461538 13.6961538,-5.68434189e-14 13.3730769,-5.68434189e-14 L0.696153846,-5.68434189e-14 C0.369230769,-5.68434189e-14 0.1,0.238461538 0.0230769231,0.557692308 C0.00769230769,0.615384615 0,0.676923077 0,0.742307692 L0,14.2384615 C0,14.2461538 0.00384615385,14.2538462 0.00384615385,14.2615385 C0.00384615385,14.2692308 0,14.2769231 0,14.2846154 C0,14.6692308 0.311538462,14.9807692 0.696153846,14.9807692 L13.3692308,14.9807692 C13.7538462,14.9807692 14.0653846,14.6692308 14.0653846,14.2846154 C14.0653846,14.2769231 14.0615385,14.2692308 14.0615385,14.2615385 C14.0615385,14.2538462 14.0653846,14.2461538 14.0653846,14.2384615 L14.0653846,0.742307692 L14.0692308,0.742307692 Z M7.03461538,7.03461538 C9.34230769,7.03461538 11.3923077,5.92307692 12.6730769,4.20384615 L12.6730769,13.5846154 L1.39230769,13.5846154 L1.39230769,4.20769231 C2.67692308,5.92307692 4.72692308,7.03461538 7.03461538,7.03461538 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    
+        
+
+    
+    <div id="cart-sidenav" class="cart-sidenav" uk-offcanvas="overlay: true; flip: true; mode: slide">
+    <div class="cart-sidenav__offcanvas-bar uk-offcanvas-bar uk-offcanvas-bar--desktop-medium uk-offcanvas-bar--mobile-full text--primary">
+        <button class="cart-sidenav__offcanvas-close uk-offcanvas-close text--primary" type="button" uk-close></button>
+        <div class="cart-sidenav__container">
+                <div class="cart-sidenav__msg"></div>
+                <p class="cart-sidenav__title text--primary">
+                    Mi carrito
+                </p>
+                <div class="cart-sidenav__loader" style="display: none;">
+                    <div uk-spinner></div>
+                </div>
+                <ul class="cart-sidenav__content"></ul>
+            </div>
+    </div>
+</div>    
+
+    
+    <div id="login-modal" class="modal" uk-modal>
+    <div class="modal__dialog uk-modal-dialog">
+        <form id="login-form" action="#" method="POST">
+            <div class="modal__header uk-modal-header">
+                <button class="modal__close text--primary text--primary-hover uk-modal-close-default uk-close-large" type="button" uk-close></button>
+                <p class="modal__title uk-modal-title text--primary">Iniciar sesión</p>
+                            </div>
+            <div class="modal__body uk-modal-body" >
+                <div id="login-alert"></div>
+                <div id="login-modal-content">
+                    <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+            <div>
+                <div class="field field--login_email">
+            <label class="field__label field__label--login_email" for="login_email">Email</label>
+                <input type="email" name="login_email" id="login_email" class="field__input border-radius" data-regex="/^[\w\-\.]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z]{2,7}$/" data-message="Ingrese un email válido"  data-required="1"/>
+        <p class="field__message field__message--login_email"></p>
+</div>            </div>
+            <div>
+                <div class="field field--login_password">
+            <label class="field__label field__label--login_password" for="login_password">Contraseña</label>
+                <input type="password" name="login_password" id="login_password" class="field__input border-radius" data-regex="/^.{6,12}$/" data-message="Ingrese una contraseña válida [6-12 caracteres de longitud]"  data-required="1"/>
+        <p class="field__message field__message--login_password"></p>
+</div>            </div>
+            <div>
+                <p class="login__message text--primary text--primary-hover uk-text-right">
+                    Ha olvidado su contraseña? <a href="#recover-modal" class="login__link text--primary-hover" uk-toggle>Recuperar</a>
+                </p>
+                <p class="login__message text--primary text--primary-hover uk-text-right">
+                    Aún no tiene cuenta? <a href="#register-modal" class="login__link text--primary-hover" uk-toggle>Crear cuenta</a>
+                </p>
+            </div>
+        </div>
+                </div>
+            </div>
+                            <div id="login-modal-footer" class="modal__footer uk-modal-footer uk-flex uk-flex-right">
+                    <button type="submit" id="login-btn" class="button button--half background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-normal border-radius"  data-label="Ingresar" data-spinner-ratio="0.75" >
+     
+        Ingresar
+    </button>
+                </div>
+                    </form>
+    </div>
+</div>
+
+ 
+<div id="recover-modal" class="modal" uk-modal>
+    <div class="modal__dialog uk-modal-dialog">
+        <form id="recover-form" action="#" method="POST">
+            <div class="modal__header uk-modal-header">
+                <button class="modal__close text--primary text--primary-hover uk-modal-close-default uk-close-large" type="button" uk-close></button>
+                <p class="modal__title uk-modal-title text--primary">Recuperar contraseña</p>
+                            </div>
+            <div class="modal__body uk-modal-body" >
+                <div id="recover-alert"></div>
+                <div id="recover-modal-content">
+                    <div class="field field--recover_email">
+            <label class="field__label field__label--recover_email" for="recover_email">Email</label>
+                <input type="email" name="recover_email" id="recover_email" class="field__input border-radius" data-regex="/^[\w\-\.]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z]{2,7}$/" data-message="Ingrese un email válido"  data-required="1"/>
+        <p class="field__message field__message--recover_email"></p>
+</div>
+                </div>
+            </div>
+                            <div id="recover-modal-footer" class="modal__footer uk-modal-footer uk-flex uk-flex-right">
+                    <button type="submit" id="recover-btn" class="button button--half background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-normal border-radius"  data-label="Recuperar" data-spinner-ratio="0.75" >
+     
+        Recuperar
+    </button>
+                </div>
+                    </form>
+    </div>
+</div>
+
+ 
+<div id="register-modal" class="modal" uk-modal>
+    <div class="modal__dialog uk-modal-dialog">
+        <form id="register-form" action="#" method="POST">
+            <div class="modal__header uk-modal-header">
+                <button class="modal__close text--primary text--primary-hover uk-modal-close-default uk-close-large" type="button" uk-close></button>
+                <p class="modal__title uk-modal-title text--primary">Crear cuenta</p>
+                            </div>
+            <div class="modal__body uk-modal-body" uk-overflow-auto>
+                <div id="register-alert"></div>
+                <div id="register-modal-content">
+                    <div class="uk-grid-small" uk-grid>
+            <div class="uk-width-1-2">
+                <div class="field field--register_name">
+            <label class="field__label field__label--register_name" for="register_name">Nombre</label>
+                <input type="text" name="register_name" id="register_name" class="field__input border-radius" data-regex="/^(?=.{2,45}$)([a-zA-Zá-úÁ-Ú](\s[a-zA-Zá-úÁ-Ú])?(\s)?)*$/" data-message="Ingrese un nombre válido"  data-required="1"/>
+        <p class="field__message field__message--register_name"></p>
+</div>            </div>
+            <div class="uk-width-1-2">
+                <div class="field field--register_surname">
+            <label class="field__label field__label--register_surname" for="register_surname">Apellido</label>
+                <input type="text" name="register_surname" id="register_surname" class="field__input border-radius" data-regex="/^(?=.{2,45}$)([a-zA-Zá-úÁ-Ú](\s[a-zA-Zá-úÁ-Ú])?(\s)?)*$/" data-message="Ingrese un apellido válido"  data-required="1"/>
+        <p class="field__message field__message--register_surname"></p>
+</div>            </div>
+            <div class="uk-width-1-1">
+                <div class="field field--register_email">
+            <label class="field__label field__label--register_email" for="register_email">Email</label>
+                <input type="email" name="register_email" id="register_email" class="field__input border-radius" data-regex="/^[\w\-\.]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z]{2,7}$/" data-message="Ingrese un email válido"  data-required="1"/>
+        <p class="field__message field__message--register_email"></p>
+</div>            </div>
+            <div class="uk-width-1-1">
+                <div class="field field--register_phone">
+            <label class="field__label field__label--register_phone" for="register_phone">Teléfono (opcional)</label>
+                <input type="tel" name="register_phone" id="register_phone" class="field__input border-radius" data-regex="/^((\+)?(54|549)?(\s)?(\()?(0)?(?!15)((11)(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{4}[\-\s]{0,3}[\d]{4}|(2|3)[\d]{2}(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{3}[\-\s]{0,3}[\d]{4}|(2|3)[\d]{3}(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{3}[\-\s]{0,3}[\d]{3})|[\+\(]{0,2}(56|569|598|595|55|52|57|58|51|591)[\s\-\(\)]{0,3}[\d]{1}[\s\-\(\)]{0,3}[\d]{1,3}[\s\-\)]{0,3}[\d]{3}[\s\-\)]{0,3}[\d]{3,4})$/" data-message="Ingrese un número de teléfono válido con código de area"  data-required="0"/>
+        <p class="field__message field__message--register_phone"></p>
+</div>            </div>
+            <div class="uk-width-1-2">
+                <div class="field field--register_password">
+            <label class="field__label field__label--register_password" for="register_password">Contraseña</label>
+                <input type="password" name="register_password" id="register_password" class="field__input border-radius" data-regex="/^.{6,12}$/" data-message="Ingrese una contraseña válida [6-12 caracteres de longitud]"  data-required="1"/>
+        <p class="field__message field__message--register_password"></p>
+</div>            </div>
+            <div class="uk-width-1-2">
+                <div class="field field--register_repeat_password">
+            <label class="field__label field__label--register_repeat_password" for="register_repeat_password">Repetir contraseña</label>
+                <input type="password" name="register_repeat_password" id="register_repeat_password" class="field__input border-radius" data-regex="/^.{6,12}$/" data-message="Ingrese una contraseña válida [6-12 caracteres de longitud]"  data-required="1"/>
+        <p class="field__message field__message--register_repeat_password"></p>
+</div>            </div>
+        </div>
+                </div>
+            </div>
+                            <div id="register-modal-footer" class="modal__footer uk-modal-footer uk-flex uk-flex-right">
+                    <button type="submit" id="register-btn" class="button button--half background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-normal border-radius"  data-label="Crear cuenta" data-spinner-ratio="0.75" >
+     
+        Crear cuenta
+    </button>
+                </div>
+                    </form>
+    </div>
+</div>
+
+ 
+<div id="wholesaler-modal" class="modal" uk-modal>
+    <div class="modal__dialog uk-modal-dialog">
+        <form id="wholesaler-form" action="#" method="POST">
+            <div class="modal__header uk-modal-header">
+                <button class="modal__close text--primary text--primary-hover uk-modal-close-default uk-close-large" type="button" uk-close></button>
+                <p class="modal__title uk-modal-title text--primary">Solicitar cuenta mayorista</p>
+                                    <p class="modal__subtitle uk-text-justify">Usted solicitará una cuenta mayorista para poder acceder a nuestra lista de productos mayoristas. Esta solicitud será revisada a la brevedad y será notificado por email cuando la verificación haya concluído.</p>
+                            </div>
+            <div class="modal__body uk-modal-body" uk-overflow-auto>
+                <div id="wholesaler-alert"></div>
+                <div id="wholesaler-modal-content">
+                    <div class="uk-grid-small" uk-grid>
+            <div class="uk-width-1-2">
+                <div class="field field--wholesaler_name">
+            <label class="field__label field__label--wholesaler_name" for="wholesaler_name">Nombre</label>
+                <input type="text" name="wholesaler_name" id="wholesaler_name" class="field__input border-radius" data-regex="/^(?=.{2,45}$)([a-zA-Zá-úÁ-Ú](\s[a-zA-Zá-úÁ-Ú])?(\s)?)*$/" data-message="Ingrese un nombre válido"  data-required="1"/>
+        <p class="field__message field__message--wholesaler_name"></p>
+</div>            </div>
+            <div class="uk-width-1-2">
+                <div class="field field--wholesaler_surname">
+            <label class="field__label field__label--wholesaler_surname" for="wholesaler_surname">Apellido</label>
+                <input type="text" name="wholesaler_surname" id="wholesaler_surname" class="field__input border-radius" data-regex="/^(?=.{2,45}$)([a-zA-Zá-úÁ-Ú](\s[a-zA-Zá-úÁ-Ú])?(\s)?)*$/" data-message="Ingrese un apellido válido"  data-required="1"/>
+        <p class="field__message field__message--wholesaler_surname"></p>
+</div>            </div>
+            <div class="uk-width-1-1">
+                <div class="field field--wholesaler_email">
+            <label class="field__label field__label--wholesaler_email" for="wholesaler_email">Email</label>
+                <input type="email" name="wholesaler_email" id="wholesaler_email" class="field__input border-radius" data-regex="/^[\w\-\.]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z]{2,7}$/" data-message="Ingrese un email válido"  data-required="1"/>
+        <p class="field__message field__message--wholesaler_email"></p>
+</div>            </div>
+            <div class="uk-width-1-1">
+                <div class="field field--wholesaler_phone">
+            <label class="field__label field__label--wholesaler_phone" for="wholesaler_phone">Teléfono</label>
+                <input type="tel" name="wholesaler_phone" id="wholesaler_phone" class="field__input border-radius" data-regex="/^((\+)?(54|549)?(\s)?(\()?(0)?(?!15)((11)(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{4}[\-\s]{0,3}[\d]{4}|(2|3)[\d]{2}(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{3}[\-\s]{0,3}[\d]{4}|(2|3)[\d]{3}(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{3}[\-\s]{0,3}[\d]{3})|[\+\(]{0,2}(56|569|598|595|55|52|57|58|51|591)[\s\-\(\)]{0,3}[\d]{1}[\s\-\(\)]{0,3}[\d]{1,3}[\s\-\)]{0,3}[\d]{3}[\s\-\)]{0,3}[\d]{3,4})$/" data-message="Ingrese un número de teléfono válido con código de area"  data-required="1"/>
+        <p class="field__message field__message--wholesaler_phone"></p>
+</div>            </div>
+            <div class="uk-width-1-2">
+                <div class="field field--wholesaler_password">
+            <label class="field__label field__label--wholesaler_password" for="wholesaler_password">Contraseña</label>
+                <input type="password" name="wholesaler_password" id="wholesaler_password" class="field__input border-radius" data-regex="/^.{6,12}$/" data-message="Ingrese una contraseña válida [6-12 caracteres de longitud]"  data-required="1"/>
+        <p class="field__message field__message--wholesaler_password"></p>
+</div>            </div>
+            <div class="uk-width-1-2">
+                <div class="field field--wholesaler_repeat_password">
+            <label class="field__label field__label--wholesaler_repeat_password" for="wholesaler_repeat_password">Repetir contraseña</label>
+                <input type="password" name="wholesaler_repeat_password" id="wholesaler_repeat_password" class="field__input border-radius" data-regex="/^.{6,12}$/" data-message="Ingrese una contraseña válida [6-12 caracteres de longitud]"  data-required="1"/>
+        <p class="field__message field__message--wholesaler_repeat_password"></p>
+</div>            </div>
+            <div class="uk-width-1-1">
+                <div class="field field--wholesaler_message">
+    <label class="field__label field__label--wholesaler_message" for="wholesaler_message">Mensaje (opcional)</label>
+    <textarea name="wholesaler_message" id="wholesaler_message" class="field__textarea border-radius" data-regex="/^[\s\S]{20,5000}$/" data-message="Ingrese un mensaje válido [Debe contener al menos 20 caracteres]"  data-required="0"/></textarea>
+    <p class="field__message field__message--wholesaler_message"></p>
+</div>            </div>
+        </div>
+                </div>
+            </div>
+                            <div id="wholesaler-modal-footer" class="modal__footer uk-modal-footer uk-flex uk-flex-right">
+                    <button type="submit" id="wholesaler-btn" class="button button--half background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-normal border-radius"  data-label="Enviar solicitud" data-spinner-ratio="0.75" >
+     
+        Enviar solicitud
+    </button>
+                </div>
+                    </form>
+    </div>
+</div>
+
+ 
+<div id="contact-modal" class="modal" uk-modal>
+    <div class="modal__dialog uk-modal-dialog">
+        <form id="contact-form" action="#" method="POST">
+            <div class="modal__header uk-modal-header">
+                <button class="modal__close text--primary text--primary-hover uk-modal-close-default uk-close-large" type="button" uk-close></button>
+                <p class="modal__title uk-modal-title text--primary">Contacto</p>
+                            </div>
+            <div class="modal__body uk-modal-body" uk-overflow-auto>
+                <div id="contact-alert"></div>
+                <div id="contact-modal-content">
+                    <div class="uk-grid-small" uk-grid>
+            <input type="hidden" id="contact_product_id" name="contact_product_id" value="0"/>
+            <input type="hidden" id="contact_stk_id" name="contact_stk_id" value="0"/>
+            <div class="uk-width-1-1" id="contact__show-product"></div>
+            <div class="uk-width-1-1">
+                <div class="field field--contact_full_name">
+            <label class="field__label field__label--contact_full_name" for="contact_full_name">Nombre completo</label>
+                <input type="text" name="contact_full_name" id="contact_full_name" class="field__input border-radius" data-regex="/^(?=.{5,90}$)([a-zA-Zá-úÁ-Ú](\s[a-zA-Zá-úÁ-Ú])?(\s)?)*$/" data-message="Ingrese un nombre y apellido válidos"  data-required="1"/>
+        <p class="field__message field__message--contact_full_name"></p>
+</div>            </div>
+            <div class="uk-width-1-2">
+                <div class="field field--contact_email">
+            <label class="field__label field__label--contact_email" for="contact_email">Email</label>
+                <input type="email" name="contact_email" id="contact_email" class="field__input border-radius" data-regex="/^[\w\-\.]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z]{2,7}$/" data-message="Ingrese un email válido"  data-required="1"/>
+        <p class="field__message field__message--contact_email"></p>
+</div>            </div>
+            <div class="uk-width-1-2">
+                <div class="field field--contact_phone">
+            <label class="field__label field__label--contact_phone" for="contact_phone">Teléfono (opcional)</label>
+                <input type="tel" name="contact_phone" id="contact_phone" class="field__input border-radius" data-regex="/^((\+)?(54|549)?(\s)?(\()?(0)?(?!15)((11)(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{4}[\-\s]{0,3}[\d]{4}|(2|3)[\d]{2}(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{3}[\-\s]{0,3}[\d]{4}|(2|3)[\d]{3}(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{3}[\-\s]{0,3}[\d]{3})|[\+\(]{0,2}(56|569|598|595|55|52|57|58|51|591)[\s\-\(\)]{0,3}[\d]{1}[\s\-\(\)]{0,3}[\d]{1,3}[\s\-\)]{0,3}[\d]{3}[\s\-\)]{0,3}[\d]{3,4})$/" data-message="Ingrese un número de teléfono válido con código de area"  data-required="0"/>
+        <p class="field__message field__message--contact_phone"></p>
+</div>            </div>
+            <div class="uk-width-1-1">
+                <div class="field field--contact_message">
+    <label class="field__label field__label--contact_message" for="contact_message">Mensaje</label>
+    <textarea name="contact_message" id="contact_message" class="field__textarea border-radius" data-regex="/^[\s\S]{20,5000}$/" data-message="Ingrese un mensaje válido [Debe contener al menos 20 caracteres]"  data-required="1"/></textarea>
+    <p class="field__message field__message--contact_message"></p>
+</div>            </div>
+        </div>
+                </div>
+            </div>
+                            <div id="contact-modal-footer" class="modal__footer uk-modal-footer uk-flex uk-flex-right">
+                    <button type="submit" id="contact-btn" class="button button--half background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-normal border-radius"  data-label="Enviar" data-spinner-ratio="0.75" >
+     
+        Enviar
+    </button>
+                </div>
+                    </form>
+    </div>
+</div>
+
+ 
+<div id="regret-modal" class="modal" uk-modal>
+    <div class="modal__dialog uk-modal-dialog">
+        <form id="regret-form" action="#" method="POST">
+            <div class="modal__header uk-modal-header">
+                <button class="modal__close text--primary text--primary-hover uk-modal-close-default uk-close-large" type="button" uk-close></button>
+                <p class="modal__title uk-modal-title text--primary">Solicitud: cancelación de compra</p>
+                                    <p class="modal__subtitle uk-text-justify">La solicitud tendrá validez si es realizada dentro de los plazos determinados en la <a href="https://www.boletinoficial.gob.ar/detalleAviso/primera/235729/20201005" style="text-decoration: underline;color: blue;">Resolución 424/2020</a> de la Secretaría de Comercio Interior y no se traten de productos exceptuados como productos personalizados y todos los comprendidos en el art. 1116 del Código Civil y Comercial.</p>
+                            </div>
+            <div class="modal__body uk-modal-body" uk-overflow-auto>
+                <div id="regret-alert"></div>
+                <div id="regret-modal-content">
+                    <div class="uk-grid-small" uk-grid>
+            <div class="uk-width-1-1">
+                <div class="field field--regret_full_name">
+            <label class="field__label field__label--regret_full_name" for="regret_full_name">Nombre completo</label>
+                <input type="text" name="regret_full_name" id="regret_full_name" class="field__input border-radius" data-regex="/^(?=.{5,90}$)([a-zA-Zá-úÁ-Ú](\s[a-zA-Zá-úÁ-Ú])?(\s)?)*$/" data-message="Ingrese un nombre y apellido válidos"  data-required="1"/>
+        <p class="field__message field__message--regret_full_name"></p>
+</div>            </div>
+            <div class="uk-width-1-1">
+                <div class="field field--regret_email">
+            <label class="field__label field__label--regret_email" for="regret_email">Email (con el que se realizó la compra)</label>
+                <input type="email" name="regret_email" id="regret_email" class="field__input border-radius" data-regex="/^[\w\-\.]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z]{2,7}$/" data-message="Ingrese un email válido"  data-required="1"/>
+        <p class="field__message field__message--regret_email"></p>
+</div>            </div>
+            <div class="uk-width-1-1">
+                <div class="field field--regret_phone">
+            <label class="field__label field__label--regret_phone" for="regret_phone">Teléfono</label>
+                <input type="tel" name="regret_phone" id="regret_phone" class="field__input border-radius" data-regex="/^((\+)?(54|549)?(\s)?(\()?(0)?(?!15)((11)(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{4}[\-\s]{0,3}[\d]{4}|(2|3)[\d]{2}(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{3}[\-\s]{0,3}[\d]{4}|(2|3)[\d]{3}(\))?[\-\s]{0,3}(15)?[\-\s]{0,3}[\d]{3}[\-\s]{0,3}[\d]{3})|[\+\(]{0,2}(56|569|598|595|55|52|57|58|51|591)[\s\-\(\)]{0,3}[\d]{1}[\s\-\(\)]{0,3}[\d]{1,3}[\s\-\)]{0,3}[\d]{3}[\s\-\)]{0,3}[\d]{3,4})$/" data-message="Ingrese un número de teléfono válido con código de area"  data-required="1"/>
+        <p class="field__message field__message--regret_phone"></p>
+</div>            </div>
+            <div class="uk-width-1-1">
+                <div class="field field--regret_order">
+            <label class="field__label field__label--regret_order" for="regret_order">Número de orden sin # (te llegó por email al momento de realizar la compra)</label>
+                <input type="number" name="regret_order" id="regret_order" class="field__input border-radius" data-regex="/^[1-9]{1}([0-9]?)*$/" data-message="Ingrese un número válido"  data-required="1"/>
+        <p class="field__message field__message--regret_order"></p>
+</div>            </div>
+            <div class="uk-width-1-1">
+                <div class="field field--regret_message">
+    <label class="field__label field__label--regret_message" for="regret_message">Aclaraciones: información sobre el inconveniente, productos que quieres devolver, dirección de retiro, otras observaciones.</label>
+    <textarea name="regret_message" id="regret_message" class="field__textarea border-radius" data-regex="/^[\s\S]{20,5000}$/" data-message="Ingrese un mensaje válido [Debe contener al menos 20 caracteres]"  data-required="1"/></textarea>
+    <p class="field__message field__message--regret_message"></p>
+</div>            </div>
+        </div>
+                </div>
+            </div>
+                            <div id="regret-modal-footer" class="modal__footer uk-modal-footer uk-flex uk-flex-right">
+                    <button type="submit" id="regret-btn" class="button button--half background--primary background--primary-hover contrast_text--primary contrast_text--primary-hover uk-button uk-button-normal border-radius"  data-label="Enviar" data-spinner-ratio="0.75" >
+     
+        Enviar
+    </button>
+                </div>
+                    </form>
+    </div>
+</div>
+    
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.10/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.10/dist/js/uikit-icons.min.js"></script>
+    <script>
+        var uri = "https://dekka.com.ar";
+        var cart_labels = {"sidenav_title":"Mi carrito","sidenav_empty_cart":"El carrito de compras est\u00e1 vacio","sidenav_back_shop":"Volver a la tienda","sidenav_subtotal":"Subtotal","sidenav_total":"Total","sidenav_coupon_add_title":"\u00bfTen\u00e9s un descuento?","sidenav_coupon":"Descuento","sidenav_coupon_remove_button":"Remover cup\u00f3n","sidenav_coupon_button":"Aplicar","sidenav_shipment_title":"Calcul\u00e1 el costo de env\u00edo","sidenav_shipment_button":"Calcular","sidenav_shipment_list_title":"M\u00e9todos de env\u00edo","sidenav_shipment":"Env\u00edo","sidenav_checkout_start_button":"Iniciar compra","sidenav_keep_buying_button":"Seguir comprando","sidenav_shipment_list_change_zip_code":"Cambiar c\u00f3digo postal"};
+        var open_cart = 0;
+        var pago_online = 1;
+        var products_feed = {"order":4,"filter":0,"masonry":0,"product_subtext":"Hasta 18 cuotas sin inter\u00e9s","product_subtext_type":1,"product_subtext_cuotas":6};
+        var product_common = {"list_installments":":installments cuotas sin inter\u00e9s de :amount","list_transfer":":discount de descuento pagando por transferencia bancaria","list_cash":":discount de descuento pagando con efectivo","list_cash_and_transfer":":discount de descuento pagando por transferencia bancaria \u00f3 efectivo","list_cash_and_transfer_not_eq":"Descuento pagando por transferencia bancaria \u00f3 efectivo","list_add_to_cart":"Comprar","wholesale_min_qty":"Cantidad m\u00ednima :qty","wholesale_min_qty_vip_product":"La cantidad m\u00ednima de compra mayorista para este producto es :qty.","wholesale_min_qty_vip_product_extra":"La cantidad m\u00ednima de compra mayorista para este producto es :qty. Adicionalmente, la cantidad m\u00ednima para la opci\u00f3n seleccionada es :qty_selected.","out_of_stock":"SIN STOCK","show_product_label_hover":"Ver m\u00e1s","production_time":"Plazo de entrega aproximado: :time","add_to_cart":"Agregar al carrito","contact_product":"Consultar","show_payment_offers":"Ver formas de pago","contact_product_title":"Consultar por:","shipment_cost_title":"Calcul\u00e1 el costo de env\u00edo","shipment_cost_button":"Calcular","shipment_free_label":"Gratis","shipment_pay_on_destination":"Pago en destino","shipment_day":":days d\u00eda h\u00e1bil","shipment_days":":days d\u00edas h\u00e1biles","shipment_days_after":"luego de ser despachado","shipment_domicile":"Env\u00edo a domicilio","shipment_office":"Retirar en sucursal del correo","shipment_office_show_more":"Ver todas las sucursales","shipment_point":"Retirar en nuestros puntos","shipment_other":"Otros medios de env\u00edo","product_link_show_more_label":"Ver m\u00e1s","product_modal_show_product_detail":"Ver detalle del producto"};
+        var cupones_descuento = 1;
+        var alerta_envio = 0;
+        var alerta_envio_mensaje = "Durante el mes de Enero TODOS los pedidos operaran con 2 dias de demora a la fecha estimada por cada empresa de envios. Muchas gracias por tu paciencia y comprensión";
+        var estado_mayorista = 0;
+        var categorias_flatten = [{"idCategorias":16552,"c_nombre":"Cuidado Capilar","c_google_category_id":0,"c_prefix":"-","c_link_full":"\/cuidado-capilar","c_link":"cuidado-capilar","c_nombre_full":"Cuidado Capilar","c_padre":null,"padres":[],"hijos":[]},{"idCategorias":73084,"c_nombre":"Cuidado Facial","c_google_category_id":0,"c_prefix":"-","c_link_full":"\/cuidado-facial","c_link":"cuidado-facial","c_nombre_full":"Cuidado Facial","c_padre":null,"padres":[],"hijos":[]},{"idCategorias":127365,"c_nombre":"Accesorios","c_google_category_id":0,"c_prefix":"-","c_link_full":"\/accesorios","c_link":"accesorios","c_nombre_full":"Accesorios","c_padre":null,"padres":[],"hijos":[]},{"idCategorias":16600,"c_nombre":"Promociones","c_google_category_id":0,"c_prefix":"-","c_link_full":"\/promociones","c_link":"promociones","c_nombre_full":"Promociones","c_padre":null,"padres":[],"hijos":[]},{"idCategorias":383140,"c_nombre":"Repuestos","c_google_category_id":0,"c_prefix":"-","c_link_full":"\/repuestos","c_link":"repuestos","c_nombre_full":"Repuestos","c_padre":null,"padres":[],"hijos":[]}];
+        var currency = {"symbol":"$","country_code":"ARS","thousand_separator":".","decimal_separator":",","code":"de-DE"};
+        var fields = {"name":{"label":"Nombre","error_message":"Ingrese un nombre v\u00e1lido","regex":"\/^(?=.{2,45}$)([a-zA-Z\u00e1-\u00fa\u00c1-\u00da](\\s[a-zA-Z\u00e1-\u00fa\u00c1-\u00da])?(\\s)?)*$\/","placeholder":"Su nombre"},"surname":{"label":"Apellido","error_message":"Ingrese un apellido v\u00e1lido","regex":"\/^(?=.{2,45}$)([a-zA-Z\u00e1-\u00fa\u00c1-\u00da](\\s[a-zA-Z\u00e1-\u00fa\u00c1-\u00da])?(\\s)?)*$\/","placeholder":"Su apellido"},"full_name":{"label":"Nombre completo","error_message":"Ingrese un nombre y apellido v\u00e1lidos","regex":"\/^(?=.{5,90}$)([a-zA-Z\u00e1-\u00fa\u00c1-\u00da](\\s[a-zA-Z\u00e1-\u00fa\u00c1-\u00da])?(\\s)?)*$\/","placeholder":"Su nombre completo"},"email":{"label":"Email","error_message":"Ingrese un email v\u00e1lido","regex":"\/^[\\w\\-\\.]+\\@[a-zA-Z0-9\\.\\-]+\\.[a-zA-z]{2,7}$\/","placeholder":"Su email"},"password":{"label":"Contrase\u00f1a","error_message":"Ingrese una contrase\u00f1a v\u00e1lida [6-12 caracteres de longitud]","regex":"\/^.{6,12}$\/","placeholder":"Contrase\u00f1a"},"repeat_password":{"label":"Repetir contrase\u00f1a","error_message":"Ingrese una contrase\u00f1a v\u00e1lida [6-12 caracteres de longitud]","error_message_repeat":"Las contrase\u00f1as no coinciden","regex":"\/^.{6,12}$\/","placeholder":"Repetir contrase\u00f1a"},"phone":{"label":"Tel\u00e9fono","error_message":"Ingrese un n\u00famero de tel\u00e9fono v\u00e1lido con c\u00f3digo de area","regex":"\/^((\\+)?(54|549)?(\\s)?(\\()?(0)?(?!15)((11)(\\))?[\\-\\s]{0,3}(15)?[\\-\\s]{0,3}[\\d]{4}[\\-\\s]{0,3}[\\d]{4}|(2|3)[\\d]{2}(\\))?[\\-\\s]{0,3}(15)?[\\-\\s]{0,3}[\\d]{3}[\\-\\s]{0,3}[\\d]{4}|(2|3)[\\d]{3}(\\))?[\\-\\s]{0,3}(15)?[\\-\\s]{0,3}[\\d]{3}[\\-\\s]{0,3}[\\d]{3})|[\\+\\(]{0,2}(56|569|598|595|55|52|57|58|51|591)[\\s\\-\\(\\)]{0,3}[\\d]{1}[\\s\\-\\(\\)]{0,3}[\\d]{1,3}[\\s\\-\\)]{0,3}[\\d]{3}[\\s\\-\\)]{0,3}[\\d]{3,4})$\/","placeholder":"Su tel\u00e9fono"},"identification_number":{"label":"DNI","error_message":"Ingrese un n\u00famero de documento v\u00e1lido [sin puntos]","regex":"\/^[0-9]{7,8}$\/","placeholder":"Su documento"},"identification_type":{"label":"Tipo de documento","error_message":"Seleccione un n\u00famero de documento","first":"DNI","options":{"DNI":"DNI"}},"tax_identification_type":{"label":"Tipo de documento","error_message":"Seleccione un n\u00famero de documento","first":"DNI","options":{"DNI":"DNI","CUIT":"CUIT","CUIL":"CUIL"}},"tax_identification_number":{"label":"N\u00famero de documento","error_message":"Por favor, ingrese un CUIT \u00f3 CUIL v\u00e1lido","regex":"\/^[0-9]{2}[\\-]{0,1}[0-9]{7,8}[\\-]{0,1}[0-9]{1}$\/","placeholder":"Su documento"},"tax_company_name":{"label":"Nombre completo \/ Raz\u00f3n social","error_message":"Ingrese una raz\u00f3n social v\u00e1lida","regex":"\/^[a-z\u00e1-\u00fa\u00c1-\u00da\u00e4-\u00fc\u00c4-\u00dcA-Z0-9\\s\\!\\.\\-\\,\\?\\\u0022\u0027\\:\\\u00a1\\\u00bf\\%\\(\\)\\[\\]\\$\\+\\~\\#\\_\\\u0026\\\/]{2,90}$\/","placeholder":"Su raz\u00f3n social"},"street_name":{"label":"Calle","error_message":"Ingrese una calle v\u00e1lida","regex":"\/^(?=.{1,30}$)(([a-z\u00e1-\u00fa\u00c1-\u00daA-Z0-9](\\.|\\s|\\,|\\,\\s)?)((\\s|\\s\\-\\s|\\-|\\.|\\s\\.|\\s\\.\\s)[a-z\u00e1-\u00fa\u00c1-\u00daA-Z0-9])?(\\s)?)*$\/","placeholder":""},"street_number":{"label":"N\u00famero","error_message":"Ingrese un n\u00famero de calle v\u00e1lido","regex":"\/^(?=.{1,10}$)(([a-z\u00e1-\u00fa\u00c1-\u00daA-Z0-9](\\.|\\s|\\,|\\,\\s|\\\/)?)((\\s|\\s\\-\\s|\\-|\\.|\\s\\.|\\s\\.\\s|\\s\\\/|\\s\\\/\\s)[a-z\u00e1-\u00fa\u00c1-\u00daA-Z0-9])?(\\s)?)*$\/","placeholder":""},"floor":{"label":"Piso","error_message":"Ingrese un piso v\u00e1lido","regex":"\/^(?=.{1,10}$)(([a-z\u00e1-\u00fa\u00c1-\u00daA-Z0-9](\\.|\\s|\\,|\\,\\s|\\\/)?)((\\s|\\s\\-\\s|\\-|\\.|\\s\\.|\\s\\.\\s|\\s\\\/|\\s\\\/\\s)[a-z\u00e1-\u00fa\u00c1-\u00daA-Z0-9])?(\\s)?)*$\/","placeholder":""},"apartment":{"label":"Dpto","error_message":"Ingrese un departamento v\u00e1lido","regex":"\/^(?=.{1,10}$)(([a-z\u00e1-\u00fa\u00c1-\u00daA-Z0-9](\\.|\\s|\\,|\\,\\s|\\\/)?)((\\s|\\s\\-\\s|\\-|\\.|\\s\\.|\\s\\.\\s|\\s\\\/|\\s\\\/\\s)[a-z\u00e1-\u00fa\u00c1-\u00daA-Z0-9])?(\\s)?)*$\/","placeholder":""},"city":{"label":"Ciudad","error_message":"Ingrese una ciudad v\u00e1lida","regex":"\/^(?=.{1,30}$)(([a-z\u00e1-\u00fa\u00c1-\u00daA-Z0-9](\\.|\\s|\\,|\\,\\s)?)((\\s|\\s\\-\\s|\\-|\\.|\\s\\.|\\s\\.\\s)[a-z\u00e1-\u00fa\u00c1-\u00daA-Z0-9])?(\\s)?)*$\/","placeholder":""},"zip_code":{"label":"C\u00f3digo postal","error_message":"Ingrese un c\u00f3digo postal v\u00e1lido","regex":"\/^[1-9]{1}[0-9]{3}$\/","placeholder":"C\u00f3digo postal"},"state":{"label":"Provincia","error_message":"Seleccione una provincia","first":"BUENOS AIRES","options":{"BUENOS AIRES":"Buenos Aires","CAPITAL FEDERAL":"Capital Federal","CATAMARCA":"Catamarca","CHACO":"Chaco","CHUBUT":"Chubut","CORDOBA":"C\u00f3rdoba","CORRIENTES":"Corrientes","ENTRE RIOS":"Entre R\u00edos","FORMOSA":"Formosa","JUJUY":"Jujuy","LA PAMPA":"La Pampa","LA RIOJA":"La Rioja","MENDOZA":"Mendoza","MISIONES":"Misiones","NEUQUEN":"Neuqu\u00e9n","RIO NEGRO":"R\u00edo Negro","SALTA":"Salta","SAN JUAN":"San Juan","SAN LUIS":"San Luis","SANTA CRUZ":"Santa Cruz","SANTA FE":"Santa Fe","SGO. DEL ESTERO":"Santiago del Estero","TIERRA DEL FUEGO":"Tierra del Fuego","TUCUMAN":"Tucum\u00e1n"}},"discount_code":{"label":"Cup\u00f3n de descuento","error_message":"Ingrese un cup\u00f3n v\u00e1lido","regex":"\/^[0-9a-zA-Z\\-]{2,30}$\/","placeholder":"C\u00f3digo"},"message":{"label":"Mensaje","label_alt":"Observaciones adicionales","error_message":"Ingrese un mensaje v\u00e1lido [Debe contener al menos 20 caracteres]","regex":"\/^[\\s\\S]{20,5000}$\/","placeholder":""},"quantity":{"label":"Cantidad","error_message":"Ingrese una cantidad v\u00e1lida","regex":"\/^[1-9]{1}([0-9]?)*$\/","placeholder":""},"number":{"label":"N\u00famero","error_message":"Ingrese un n\u00famero v\u00e1lido","regex":"\/^[1-9]{1}([0-9]?)*$\/","placeholder":""}};
+        var timezone_math = -3;
+        var search_autocomplete_not_found = "No se han encontrado productos, intente con otro nombre";
+        var facebook_pixel_tracking = 0;
+    </script>
+    <script src="https://d2op8dwcequzql.cloudfront.net/assets/1.9.1/shared/js/helpers.js"></script>
+    <script src="https://d2op8dwcequzql.cloudfront.net/assets/1.9.1/templates/eris/js/main.js">
+    </script>
+    <script>
+    var products = [{"idProductos":3690684,"p_nombre":"ESENCIA FACIAL","p_precio":3300,"p_link":"esencia-facial","p_descripcion":"\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch3\u003EESENCIA FACIAL DEKKA - HIDRATACION PROFUNDA DE LA PIEL\u003C\/h3\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EMODO DE USO:\u003C\/p\u003E\u003Cp\u003ESe utilizan unas gotas con la mano limpia sobre la cara limpia\u003C\/p\u003E\u003Cp\u003EVa despues del tonico (si es que hubiese) y antes del suero (si es que hubiese). Sino antes de la crema.\u003C\/p\u003E\u003Cp\u003EEs de uso diario, dia y noche.\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EACTIVOS PRINCIPALES:\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EEXTRACTO DE ARROZ\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cul\u003E\u003Cli\u003EEl arroz es rico en vitaminas B1, que ayuda a retrasar el envejecimiento y le da elasticidad a la cutis. Tambi\u00e9n contiene Niacina (vitamina B3), y ayuda a optimizar la capacidad para retener humedad e hidratar la piel.\u003C\/li\u003E\u003C\/ul\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003ENIACINAMIDA 5%\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cul\u003E\u003Cli\u003ELa vitamina B3 (niacinamida) es una vitamina soluble en agua con multitud de propiedades cosm\u00e9ticas. Numerosos estudios destacan su efecto sobre la reducci\u00f3n de manchas hiperpigmentadas, regulaci\u00f3n de la producci\u00f3n de sebo superficial y tama\u00f1o de poro, acci\u00f3n antipoluci\u00f3n y mejora de la textura superficial.\u003C\/li\u003E\u003C\/ul\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EHYDRASKIN\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cul\u003E\u003Cli\u003EHydraskin\u2122 es un activo biotecnol\u00f3gico obtenido a partir de levaduras de la industria del vino (Malbec). Dichos componentes naturales de las levaduras act\u00faan en sinergia para hidratar la piel de manera instant\u00e1nea y prolongada, y la protege del estr\u00e9s osm\u00f3tico. Adem\u00e1s, hidrata hasta 72 Horas.\u003C\/li\u003E\u003Cli\u003EBeneficios de Hydraskin\u2122:\u003C\/li\u003E\u003Cli\u003EOsmoprotege e hidrata.\u003C\/li\u003E\u003Cli\u003EMantiene el equilibrio en la piel frente al estr\u00e9s ambiental.\u003C\/li\u003E\u003Cli\u003EHidrata la piel de manera instant\u00e1nea.\u003C\/li\u003E\u003Cli\u003EMantiene la hidrataci\u00f3n natural por un tiempo prolongado (72 horas)\u003C\/li\u003E\u003Cli\u003EHidrata la piel en un 66% a las 72 horas.\u003C\/li\u003E\u003Cli\u003EAporta NMF de origen natural.\u003C\/li\u003E\u003Cli\u003EBrinda elasticidad.\u003C\/li\u003E\u003Cli\u003EMejora la funci\u00f3n barrera de la piel.\u003C\/li\u003E\u003Cli\u003EAporta amino\u00e1cidos de origen natural.\u003C\/li\u003E\u003Cli\u003EHydraskin\u2122 es un activo cosm\u00e9tico con certificaci\u00f3n Ecocert, consiste en un activo biotecnol\u00f3gico y 100% natural para el cuidado de la piel. Se obtiene a partir de levaduras - mediante un proceso biol\u00f3gico d\u00f3nde atraviesan un proceso natural de autolisis, mediante el cual liberan sus componentes al medio extracelular por acci\u00f3n de sus propias enzimas; estos componentes son la materia prima principal del activo.\u003C\/li\u003E\u003C\/ul\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cul\u003E\u003Cli\u003EHydraskin\u2122 es un osmoprotector para la piel que contiene amino\u00e1cidos (AAs) de levadura. Restablece los niveles de agua de manera instant\u00e1nea (1h) y mantiene en equilibrio la hidrataci\u00f3n por un tiempo prolongado (72h). Es importante para mantener la piel hidratada y hacer frente al estr\u00e9s osm\u00f3tico producido por factores externos.\u003C\/li\u003E\u003C\/ul\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cul\u003E\u003Cli\u003EEl agua, componente principal del cuerpo, es esencial para la funci\u00f3n barrera de la piel frente a factores externos: fr\u00edo, calor, cambios en la humedad. La variabilidad de estos genera estr\u00e9s osm\u00f3tico y el agua tiende a salir de la piel. Por eso, son importantes los osmoprotectores que regulan el contenido de agua y favorecen su retenci\u00f3n en la piel, y los Factores Naturales de Hidrataci\u00f3n (NMF). El 40% de los NMF son AAs libres que en la piel provienen de la filagrina.\u003C\/li\u003E\u003C\/ul\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EACIDO HIALURONICO\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cul\u003E\u003Cli\u003EEl \u00e1cido hialur\u00f3nico act\u00faa como una esponja, capaz de retener grandes cantidades de agua en la piel, aporta volumen, adem\u00e1s de reducir las arrugas y disimular las l\u00edneas de expresi\u00f3n.\u003C\/li\u003E\u003C\/ul\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EIngredientes: Water, Oryza Sativa Extract, Niacinamide, Glycerin,\u0026nbsp;\u003C\/p\u003E\u003Cp\u003E\u0026nbsp;Saccharomyces lysate f\u00edltrate, Phenoxyethanol and ethylhexylglycerin, Xanthan gum,Pectin,Hydrolyzed vegetable protein, Serine, Arginine, Proline, Sodium Hyaluronate\u003C\/p\u003E\u003Cp\u003EModo de uso: aplicar sobre el rostro limpio.\u003C\/p\u003E\u003Cp\u003EAdvertencias: Evite el contacto con la mucosa de los ojos. En caso de irritaci\u00f3n, suspenda el uso y consulte a su m\u00e9dico. Mantener fuera del alcance de los ni\u00f1os\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003ECont neto: 200ML. (y otras presentaciones)\u003C\/p\u003E\u003Cp\u003ELote y vto: ver envase.\u003C\/p\u003E\u003Cp\u003EMS: y A Res. N\u00ba 155\/98\u003C\/p\u003E\u003Cp\u003EEstablecimiento Elaborador Legajo N\u00ba 1930\u003C\/p\u003E\u003Cp\u003ECODAC S.R.L. G\u00e9nova 4045 Ciudadela Buenos Aires Argentina\u003C\/p\u003E\u003Cp\u003EIndustria Argentina\u003C\/p\u003E","p_oferta":0,"p_precio_oferta":0,"p_oferta_fecha_inicio":null,"p_oferta_fecha":null,"p_tipo_venta":0,"p_precio_mayorista":0,"p_cantidad_minima":1,"p_destacado":0,"p_atributos":0,"p_mostrar_precio":1,"p_datos_stock":1,"p_producto_digital":0,"p_desactivado":0,"p_orden":14,"Categorias_idCategorias":73084,"imagenes":[{"idImagenes":8371836,"i_link":"ee4c235a54a410795e8d6e176638d278803e3864e64ab70a7d1e112a9a29098e2026.jpeg"}],"stock":[{"idStock":8368768,"s_cantidad":319,"s_ilimitado":0,"s_precio":3300,"s_oferta":0,"s_precio_oferta":0,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":8371836,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[]}]},{"idProductos":3054110,"p_nombre":"COMBO COMPLETO 3 shampoo + 1 acondicionador + 2 bolsitas","p_precio":4350,"p_link":"combo-completo-3-shampoo-1-acondicionador-2-bolsitas","p_descripcion":"\u003Ch1\u003ECOMBO COMPLETO\u003C\/h1\u003E\u003Ch1\u003E\u003Cbr\u003E\u003C\/h1\u003E\u003Ch3\u003E3 SHAMPOO SOLIDO CON TENSIOACTIVOS\u003C\/h3\u003E\u003Ch3\u003E1 ACONDICIONADOR SOLIDO\u003C\/h3\u003E\u003Ch3\u003E2 bolsitas conservadoras.\u003C\/h3\u003E\u003Ch3\u003E*El color de la bolsita es aleatorio, puede ser rosa, lila, fucsia, celeste o blanca.\u003C\/h3\u003E\u003Ch3\u003E\u003Cbr\u003E\u003C\/h3\u003E\u003Ch2\u003E\u003Cbr\u003E\u003C\/h2\u003E\u003Ch2\u003ESHAMPOO SOLIDO DEKKA - 70gr\u003C\/h2\u003E\u003Cp\u003EApto para todo tipo de cabellos\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EShampoo solido para el cabello hecho con aceite de oliva organico, aceite de coco y aceites esenciales. Sin enjuague de vinagre, con tensioactivos de origen natural.\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003ESin sulfatos\u003C\/h5\u003E\u003Ch5\u003ESin parabenos\u003C\/h5\u003E\u003Ch5\u003ESin colorantes ni fragancias sinteticas\u003C\/h5\u003E\u003Ch5\u003ESin aceite de palma\u003C\/h5\u003E\u003Ch5\u003EApto veganos, no testeados en animales\u003C\/h5\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cem style=\u0022color: inherit;\u0022\u003EPRODUCTO REGISTRADO EN ANMAT\u003C\/em\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003EIngredientes:\u0026nbsp;\u003Cem style=\u0022color: inherit;\u0022\u003ESodium cocoyl isethionate, Water , Cocos ucifera (Coconut) Oil, Olive Oil, Lavandin hydra grosso, Citrus aurantium dulcis oil, Tocopherol Acetate, D-limonene, Citral, Citronellol, Linalool.\u0026nbsp;\u003C\/em\u003E\u003C\/h5\u003E\u003Ch5\u003E\u003Cbr\u003E\u003C\/h5\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E***Recorda que el rendimiento es aproximado y personal. Cuanto mas cantidad se utiliza mas rapido se gasta. Se sugiere que sea de uso personal y no compartido ya que como con cualquier producto solido, si se moja mas seguido se disuelve mas seguido.\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch2\u003EAcondicionador S\u00f3lido - 70gr\u003C\/h2\u003E\u003Ch2\u003E\u003Cbr\u003E\u003C\/h2\u003E\u003Cp\u003EApto para todo tipo de cabellos\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EAcondicionador para el cabello hecho con manteca de cacao, aceite de oliva organico, aceite de coco y aceites esenciales\u003C\/p\u003E\u003Cp\u003ERinde aprox 100 lavados\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cem style=\u0022color: inherit;\u0022\u003EPRODUCTO REGISTRADO EN ANMAT\u003C\/em\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003ESin sulfatos\u003C\/h5\u003E\u003Ch5\u003ESin parabenos\u003C\/h5\u003E\u003Ch5\u003ESin colorantes ni fragancias sinteticas\u003C\/h5\u003E\u003Ch5\u003ESin aceite de palma\u003C\/h5\u003E\u003Ch5\u003EApto veganos, no testeados en animales\u003C\/h5\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cspan style=\u0022color: rgb(108, 129, 129);\u0022\u003EIdeal para utilizar luego del shampoo solido. Pasar la pastilla de acondicionador solido sobre el cabello mojado, desde el largo hacia las puntas. Dejar actuar 3 minutos. Enjuagar con abundante agua.\u003C\/span\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cspan style=\u0022color: rgb(108, 129, 129);\u0022\u003EIngredientes:\u0026nbsp;\u003C\/span\u003E\u003Cem style=\u0022color: rgb(108, 129, 129);\u0022\u003ECetyl Alcohol, Behentrimo- nium Methosulfate (and) Cetearyl Alcohol, Cocos Nucifera (Coconut) Oil, Theobroma Cacao Deed Butter, Olive Oil, Lavandin hydra grosso, Citrus aurantium dulcis oil, Tocopherol Acetate, D-limonene, Citral, Citronellol, Linalool.\u003C\/em\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E***Recorda que el rendimiento es aproximado y personal. Cuanto mas cantidad se utiliza mas rapido se gasta. Se sugiere que sea de uso personal y no compartido ya que como con cualquier producto solido, si se moja mas seguido se disuelve mas seguido.\u003C\/p\u003E","p_oferta":1,"p_precio_oferta":3500,"p_oferta_fecha_inicio":null,"p_oferta_fecha":null,"p_tipo_venta":0,"p_precio_mayorista":0,"p_cantidad_minima":1,"p_destacado":0,"p_atributos":0,"p_mostrar_precio":1,"p_datos_stock":1,"p_producto_digital":0,"p_desactivado":0,"p_orden":11,"Categorias_idCategorias":16600,"imagenes":[{"idImagenes":6917780,"i_link":"11be3d7f23d9009b88dffb8413690e0175ef1218db4075e330ab36fc253556032026.png"}],"stock":[{"idStock":6687682,"s_cantidad":127,"s_ilimitado":0,"s_precio":4350,"s_oferta":1,"s_precio_oferta":3500,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":6917780,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[]}]},{"idProductos":2806358,"p_nombre":"COMBO ACEITES","p_precio":4500,"p_link":"combo-aceites","p_descripcion":"\u003Cp\u003ECombo aceite facial 30ml + aceite limpiador 125ml\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EConoce el nuevo producto de DEKKA. Es un aceite facial multiuso:\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Col\u003E\u003Cli\u003ESerum facial antes de tu crema\u003C\/li\u003E\u003Cli\u003EMezclar unas gotas con tu base de maquillaje para dar efecto GLOW\u003C\/li\u003E\u003Cli\u003EMezclar unas gotas con tu hidratante para aportar extra humectaci\u00f3n\u003C\/li\u003E\u003Cli\u003ESellar tu rutina nocturna con este aceite\u003C\/li\u003E\u003Cli\u003EMasajes faciales\u003C\/li\u003E\u003C\/ol\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EQue tiene de especial este aceite? Que es un aceite TOQUE SECO. No te va a dejar sensac\u00f3n pesada ni de oleosidad. Ayuda a reparar la barrera cutanea, aporta humectacion, oclusion y GLOW.\u003Cstrong\u003E***Por toque seco se entiende que la experiencia sensorial es mas liviana que la de un aceite puro ya que no contiene 100% aceites sino que ademas es un blend con derivados.\u003C\/strong\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EPrincipios activos:\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003ECapric caprylic triglycerido\u0026nbsp;\u003C\/strong\u003EDerivado del Aceite de Coco y Glicerina, excelente emoliente y agente de reparaci\u00f3n de la piel. Se trata de una mezcla de \u00e1cidos grasos. Son aceites neutros que no irritan la piel, son f\u00e1ciles de aplicar y se absorben muy r\u00e1pidamente\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003EEscualeno:\u003C\/strong\u003E\u0026nbsp;\u003Cspan style=\u0022color: rgb(32, 33, 36);\u0022\u003EDebido a su gran afinidad natural con la\u0026nbsp;piel, este l\u00edpido ligero se absorbe f\u00e1cilmente sin dejar residuos grasos. Eficaz emoliente, el escualeno se utiliza para ayudar a proteger la barrera cut\u00e1nea y retener la hidrataci\u00f3n, con lo que conseguiremos una\u0026nbsp;piel\u0026nbsp;m\u00e1s suave y tersa.\u003C\/span\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong style=\u0022color: rgb(32, 33, 36);\u0022\u003EAceite de Jojoba:\u003C\/strong\u003E\u003Cspan style=\u0022color: rgb(32, 33, 36);\u0022\u003E\u0026nbsp;Es una CERA\u0026nbsp;penetra muy bien en la\u0026nbsp;piel, tiene adem\u00e1s propiedades antioxidantes y se considera un producto muy valioso para prevenir las arrugas y neutralizar los radicales libres. Tambi\u00e9n se recomienda mucho como remedio para el acn\u00e9 y para tratar\u0026nbsp;pieles\u0026nbsp;grasas y sensibles.\u003C\/span\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong style=\u0022color: rgb(32, 33, 36);\u0022\u003EOnagra\u003C\/strong\u003E\u003Cspan style=\u0022color: rgb(32, 33, 36);\u0022\u003E: aliado perfecto para cuidar la\u0026nbsp;piel\u0026nbsp;madura, enlentece el envejecimiento facial y reduce las arrugas y l\u00edneas de expresi\u00f3n. Contiene antioxidantes que combaten los radicales libres, uno de los principales causantes de que la\u0026nbsp;piel\u0026nbsp;pierda su elasticidad y firmeza\u003C\/span\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003EAceite de abisinia:\u0026nbsp;\u003C\/strong\u003EP\u003Cspan style=\u0022color: rgb(32, 33, 36);\u0022\u003Erotege la barrera cut\u00e1nea formando de esta manera una pel\u00edcula que aporta m\u00e1s flexibilidad a la zona\u0026nbsp;en\u0026nbsp;la que se haya aplicado. Act\u00faa como una especie de film protector\u0026nbsp;sobre la piel.\u003C\/span\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003EExtracto de Rosa Mosqueta:\u0026nbsp;\u003C\/strong\u003ERegeneradora e hidratante para la\u0026nbsp;piel. Ayuda a la eliminaci\u00f3n de manchas, cicatrices y estr\u00edas. Contiene \u00e1cidos esenciales como el omega 6, omega 3 y linoleico, y antioxidantes y vitaminas como la vitamina A.\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong style=\u0022color: rgb(32, 33, 36);\u0022\u003EVitamina E:\u0026nbsp;\u003C\/strong\u003E\u003Cspan style=\u0022color: rgb(32, 33, 36);\u0022\u003EBarrera natural para proteger la\u0026nbsp;piel\u0026nbsp;de los rayos solares. Esta\u0026nbsp;vitamina\u0026nbsp;tambi\u00e9n es un antioxidante que protege las c\u00e9lulas.\u003C\/span\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EIngredientes: Caprylic\/Capric Trigliceride, Squalene, Simmondsia (jojoba) Seed Oil, Evening Primrose Oil, Crambe Abyssinian Seed Oil, Rosa rubiginosa fruit extract, Vitamin E acetate.\u003C\/p\u003E\u003Cp\u003EModo de uso: aplicar sobre el rostro limpio con suave masajes hasta su total absorci\u00f3n.\u003C\/p\u003E\u003Cp\u003EAdvertencias: Evite el contacto con la mucosa de los ojos. En caso de irritaci\u00f3n, suspenda el uso y consulte a su m\u00e9dico.\u0026nbsp;\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003ECont neto: 30ML.\u003C\/p\u003E\u003Cp\u003ELote y vto: ver envase.\u003C\/p\u003E\u003Cp\u003EMS: y A Res. N\u00ba 155\/98\u003C\/p\u003E\u003Cp\u003EEstablecimiento Elaborador Legajo N\u00ba 1930\u003C\/p\u003E\u003Cp\u003EIndustria Argentina\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003ESIN PARABENOS NI SILICONAS\u003C\/p\u003E\u003Cp\u003ESIN FRAGANCIA\u003C\/p\u003E\u003Cp\u003ESIN ACEITES MINERALES\u003C\/p\u003E\u003Cp\u003EAPTO VEGANO\u003C\/p\u003E\u003Cp\u003ECON INGREDIENTES NATURALES\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch1\u003EAceite limpiador - Desmaquillante facial coreano 125ml\u003C\/h1\u003E\u003Ch2\u003EDesmaquillante inspirado en formulas asiaticas. Aceites que limpian, a su vez no resecan la piel y emulsiona en el agua.\u003C\/h2\u003E\u003Cp\u003E\u003Cem style=\u0022color: inherit;\u0022\u003ECon aceite de almendras, de jojoba, abisinia y vitamina E.\u003C\/em\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003ESin siliconas\u003C\/h5\u003E\u003Ch5\u003ESin sulfatos\u003C\/h5\u003E\u003Ch5\u003ESin fragancia sintetica\u003C\/h5\u003E\u003Ch5\u003ESin aceites minerales ni petrolatos\u003C\/h5\u003E\u003Ch5\u003EApto Vegano\u003C\/h5\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong style=\u0022color: inherit;\u0022\u003E\u003Cem\u003EPRODUCTO REGISTRADO EN ANMAT\u003C\/em\u003E\u003C\/strong\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003E\u003Cstrong\u003EModo de uso:\u003C\/strong\u003E\u0026nbsp;Masajear sobre la cara en seco, retirar con agua. Se puede usar una esponja, algodon o pad de tela si gusta. Para la doble limpieza coreana tambien se puede hacer otra limpieza con algun limpiador a base de agua como un gel de limpieza o agua micelar.\u003C\/h5\u003E\u003Ch5\u003E\u003Cbr\u003E\u003C\/h5\u003E\u003Ch5\u003E\u003Cstrong\u003EIngredientes\u003C\/strong\u003E: Helianthus Annuus (Sunflower) Seed Oil, Polysorbate-20,\u0026nbsp;Prunus Amygdalus Dulcis (Sweet Almond) Oil,\u0026nbsp;Alkane C15-C19, Abyssinian Oil, Jojoba (Buxus Chinensis) Oil, Tocopherol acetate, Citrus Aurantium dulcis, Lavandula hydra Grosso, Benzyl Alcohol, Citric Acid, D-limonene, Citral, Linalool, Citronellol\u003C\/h5\u003E","p_oferta":1,"p_precio_oferta":3700,"p_oferta_fecha_inicio":null,"p_oferta_fecha":null,"p_tipo_venta":0,"p_precio_mayorista":0,"p_cantidad_minima":1,"p_destacado":0,"p_atributos":0,"p_mostrar_precio":1,"p_datos_stock":1,"p_producto_digital":0,"p_desactivado":0,"p_orden":10,"Categorias_idCategorias":16600,"imagenes":[{"idImagenes":7578170,"i_link":"11384e116ff35b957ce49a17fa69ab23ad00ddf73ec4a852bd6b8bc6ed2617142026.jpeg"},{"idImagenes":7578171,"i_link":"bf951f0129c0fa171b2c919575b75b5f65ef0a53b49cc8e7d38e2b198f2ed9212026.jpeg"},{"idImagenes":6341096,"i_link":"a55b1494ec9c6b7d39c35dc5fe64e3062755725acbc1d651b095bdf18bd1f2922026.png"}],"stock":[{"idStock":6124314,"s_cantidad":18,"s_ilimitado":0,"s_precio":4500,"s_oferta":1,"s_precio_oferta":3700,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":7578170,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[]}]},{"idProductos":2324674,"p_nombre":"ACEITE FACIAL DEKKA","p_precio":2500,"p_link":"aceite-facial-dekka","p_descripcion":"\u003Cp\u003EConoce el nuevo producto de DEKKA. Es un aceite facial multiuso:\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Col\u003E\u003Cli\u003ESerum facial antes de tu crema\u003C\/li\u003E\u003Cli\u003EMezclar unas gotas con tu base de maquillaje para dar efecto GLOW\u003C\/li\u003E\u003Cli\u003EMezclar unas gotas con tu hidratante para aportar extra humectaci\u00f3n\u003C\/li\u003E\u003Cli\u003ESellar tu rutina nocturna con este aceite\u003C\/li\u003E\u003Cli\u003EMasajes faciales\u003C\/li\u003E\u003C\/ol\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EQue tiene de especial este aceite? Que es un aceite TOQUE SECO. No te va a dejar sensac\u00f3n pesada ni de oleosidad. Ayuda a reparar la barrera cutanea, aporta humectacion, oclusion y GLOW.\u003Cstrong\u003E***Por toque seco se entiende que la experiencia sensorial es mas liviana que la de un aceite puro ya que no contiene 100% aceites sino que ademas es un blend con derivados.\u003C\/strong\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EPrincipios activos:\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003ECapric caprylic triglycerido \u003C\/strong\u003EDerivado del Aceite de Coco y Glicerina, excelente emoliente y agente de reparaci\u00f3n de la piel. Se trata de una mezcla de \u00e1cidos grasos. Son aceites neutros que no irritan la piel, son f\u00e1ciles de aplicar y se absorben muy r\u00e1pidamente\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003EEscualeno:\u003C\/strong\u003E \u003Cspan style=\u0022color: rgb(32, 33, 36);\u0022\u003EDebido a su gran afinidad natural con la\u0026nbsp;piel, este l\u00edpido ligero se absorbe f\u00e1cilmente sin dejar residuos grasos. Eficaz emoliente, el escualeno se utiliza para ayudar a proteger la barrera cut\u00e1nea y retener la hidrataci\u00f3n, con lo que conseguiremos una\u0026nbsp;piel\u0026nbsp;m\u00e1s suave y tersa.\u003C\/span\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong style=\u0022color: rgb(32, 33, 36);\u0022\u003EAceite de Jojoba:\u003C\/strong\u003E\u003Cspan style=\u0022color: rgb(32, 33, 36);\u0022\u003E Es una CERA\u0026nbsp;penetra muy bien en la\u0026nbsp;piel, tiene adem\u00e1s propiedades antioxidantes y se considera un producto muy valioso para prevenir las arrugas y neutralizar los radicales libres. Tambi\u00e9n se recomienda mucho como remedio para el acn\u00e9 y para tratar\u0026nbsp;pieles\u0026nbsp;grasas y sensibles.\u003C\/span\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong style=\u0022color: rgb(32, 33, 36);\u0022\u003EOnagra\u003C\/strong\u003E\u003Cspan style=\u0022color: rgb(32, 33, 36);\u0022\u003E: aliado perfecto para cuidar la\u0026nbsp;piel\u0026nbsp;madura, enlentece el envejecimiento facial y reduce las arrugas y l\u00edneas de expresi\u00f3n. Contiene antioxidantes que combaten los radicales libres, uno de los principales causantes de que la\u0026nbsp;piel\u0026nbsp;pierda su elasticidad y firmeza\u003C\/span\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003EAceite de abisinia: \u003C\/strong\u003EP\u003Cspan style=\u0022color: rgb(32, 33, 36);\u0022\u003Erotege la barrera cut\u00e1nea formando de esta manera una pel\u00edcula que aporta m\u00e1s flexibilidad a la zona\u0026nbsp;en\u0026nbsp;la que se haya aplicado. Act\u00faa como una especie de film protector\u0026nbsp;sobre la piel.\u003C\/span\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003EExtracto de Rosa Mosqueta: \u003C\/strong\u003ERegeneradora e hidratante para la\u0026nbsp;piel. Ayuda a la eliminaci\u00f3n de manchas, cicatrices y estr\u00edas. Contiene \u00e1cidos esenciales como el omega 6, omega 3 y linoleico, y antioxidantes y vitaminas como la vitamina A.\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong style=\u0022color: rgb(32, 33, 36);\u0022\u003EVitamina E: \u003C\/strong\u003E\u003Cspan style=\u0022color: rgb(32, 33, 36);\u0022\u003EBarrera natural para proteger la\u0026nbsp;piel\u0026nbsp;de los rayos solares. Esta\u0026nbsp;vitamina\u0026nbsp;tambi\u00e9n es un antioxidante que protege las c\u00e9lulas.\u003C\/span\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EIngredientes: Caprylic\/Capric Trigliceride, Squalene, Simmondsia (jojoba) Seed Oil, Evening Primrose Oil, Crambe Abyssinian Seed Oil, Rosa rubiginosa fruit extract, Vitamin E acetate.\u003C\/p\u003E\u003Cp\u003EModo de uso: aplicar sobre el rostro limpio con suave masajes hasta su total absorci\u00f3n.\u003C\/p\u003E\u003Cp\u003EAdvertencias: Evite el contacto con la mucosa de los ojos. En caso de irritaci\u00f3n, suspenda el uso y consulte a su m\u00e9dico.\u0026nbsp;\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003ECont neto: 30ML.\u003C\/p\u003E\u003Cp\u003ELote y vto: ver envase.\u003C\/p\u003E\u003Cp\u003EMS: y A Res. N\u00ba 155\/98\u003C\/p\u003E\u003Cp\u003EEstablecimiento Elaborador Legajo N\u00ba 1930\u003C\/p\u003E\u003Cp\u003EIndustria Argentina\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003ESIN PARABENOS NI SILICONAS\u003C\/p\u003E\u003Cp\u003ESIN FRAGANCIA\u003C\/p\u003E\u003Cp\u003ESIN ACEITES MINERALES\u003C\/p\u003E\u003Cp\u003EAPTO VEGANO\u003C\/p\u003E\u003Cp\u003ECON INGREDIENTES NATURALES\u003C\/p\u003E","p_oferta":0,"p_precio_oferta":0,"p_oferta_fecha_inicio":null,"p_oferta_fecha":null,"p_tipo_venta":0,"p_precio_mayorista":0,"p_cantidad_minima":1,"p_destacado":0,"p_atributos":0,"p_mostrar_precio":1,"p_datos_stock":1,"p_producto_digital":0,"p_desactivado":0,"p_orden":9,"Categorias_idCategorias":73084,"imagenes":[{"idImagenes":7578861,"i_link":"4cb4b04f158dc1aac6618cb304d844e2520d2c324172f6762682198c73cb79c62026.jpeg"},{"idImagenes":7578775,"i_link":"c4cf7ce3e9ab4be8708933de67d8a4315ab00a16ee73e94e3ec9617c6253ded32026.jpeg"},{"idImagenes":5246703,"i_link":"decf36604650551dc70cde76901c33487a1a60a1c04c23ffcd67992e63e0bad12026.png"}],"stock":[{"idStock":4987619,"s_cantidad":207,"s_ilimitado":0,"s_precio":2500,"s_oferta":0,"s_precio_oferta":0,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":7578861,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[]}]},{"idProductos":62543,"p_nombre":"Aceite limpiador","p_precio":2100,"p_link":"aceite-limpiador","p_descripcion":"\u003Ch1\u003EAceite limpiador - Desmaquillante facial coreano 125ml\u003C\/h1\u003E\u003Ch2\u003EDesmaquillante inspirado en formulas asiaticas. Aceites que limpian, a su vez no resecan la piel y emulsiona en el agua.\u003C\/h2\u003E\u003Cp\u003E\u003Cem\u003ECon aceite de almendras, de jojoba, abisinia y vitamina E.\u003C\/em\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003ESin siliconas\u003C\/h5\u003E\u003Ch5\u003ESin sulfatos\u003C\/h5\u003E\u003Ch5\u003ESin fragancia sintetica\u003C\/h5\u003E\u003Ch5\u003ESin aceites minerales ni petrolatos\u003C\/h5\u003E\u003Ch5\u003EApto Vegano\u003C\/h5\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003E\u003Cem\u003EPRODUCTO REGISTRADO EN ANMAT\u003C\/em\u003E\u003C\/strong\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003E\u003Cstrong\u003EModo de uso:\u003C\/strong\u003E Masajear sobre la cara en seco, retirar con agua. Se puede usar una esponja, algodon o pad de tela si gusta. Para la doble limpieza coreana tambien se puede hacer otra limpieza con algun limpiador a base de agua como un gel de limpieza o agua micelar.\u003C\/h5\u003E\u003Ch5\u003E\u003Cbr\u003E\u003C\/h5\u003E\u003Ch5\u003E\u003Cstrong\u003EIngredientes\u003C\/strong\u003E: Helianthus Annuus (Sunflower) Seed Oil, Polysorbate-20,\u0026nbsp;Prunus Amygdalus Dulcis (Sweet Almond) Oil,\u0026nbsp;Alkane C15-C19, Abyssinian Oil, Jojoba (Buxus Chinensis) Oil, Tocopherol acetate, Citrus Aurantium dulcis, Lavandula hydra Grosso, Benzyl Alcohol, Citric Acid, D-limonene, Citral, Linalool, Citronellol\u003C\/h5\u003E","p_oferta":0,"p_precio_oferta":0,"p_oferta_fecha_inicio":null,"p_oferta_fecha":null,"p_tipo_venta":0,"p_precio_mayorista":0,"p_cantidad_minima":1,"p_destacado":2,"p_atributos":0,"p_mostrar_precio":1,"p_datos_stock":1,"p_producto_digital":0,"p_desactivado":0,"p_orden":8,"Categorias_idCategorias":73084,"imagenes":[{"idImagenes":7578981,"i_link":"4544ddefd781bc414a1b3e9de4564bf92dad2d55db0cd0bd093e590ca155015d2026.jpeg"},{"idImagenes":834365,"i_link":"4f1ca2bd42ea6721a79afa424aeed33f1dbdd653982cce8515ef0c85473c0f262026.jpeg"},{"idImagenes":834399,"i_link":"e7efb561fa383244c745955607fb554dac1a4fbee09ebdc0621d291bb2f6ad8b2026.jpeg"}],"stock":[{"idStock":111320,"s_cantidad":234,"s_ilimitado":0,"s_precio":2100,"s_oferta":0,"s_precio_oferta":0,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":7578981,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[]}]},{"idProductos":1759425,"p_nombre":"Combo Aceite + Dekkapad LILA","p_precio":2600,"p_link":"combo-aceite-dekkapad-lila","p_descripcion":"\u003Cul\u003E\u003Cli\u003E\u003Cstrong\u003E1 Aceite limpiador 125ml\u003C\/strong\u003E\u003C\/li\u003E\u003Cli\u003E\u003Cstrong\u003E1 Dekkapad (color LILA)\u003C\/strong\u003E\u003C\/li\u003E\u003C\/ul\u003E\u003Ch1\u003E\u003Cbr\u003E\u003C\/h1\u003E\u003Ch1\u003EAceite limpiador - Desmaquillante facial coreano 125ml\u003C\/h1\u003E\u003Ch2\u003EDesmaquillante inspirado en formulas asiaticas. Aceites que limpian, a su vez no resecan la piel y emulsiona en el agua.\u003C\/h2\u003E\u003Cp\u003E\u003Cem style=\u0022color: inherit;\u0022\u003ECon aceite de almendras, de jojoba, abisinia y vitamina E.\u003C\/em\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003ESin siliconas\u003C\/h5\u003E\u003Ch5\u003ESin sulfatos\u003C\/h5\u003E\u003Ch5\u003ESin fragancia sintetica\u003C\/h5\u003E\u003Ch5\u003ESin aceites minerales ni petrolatos\u003C\/h5\u003E\u003Ch5\u003EApto Vegano\u003C\/h5\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cem style=\u0022color: inherit;\u0022\u003EPRODUCTO REGISTRADO EN ANMAT\u003C\/em\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003EModo de uso:\u0026nbsp;Masajear sobre la cara en seco, retirar con agua. Se puede usar una esponja, algodon o pad de tela si gusta. Para la doble limpieza coreana tambien se puede hacer otra limpieza con algun limpiador a base de agua como un gel de limpieza o agua micelar.\u003C\/h5\u003E\u003Ch5\u003E\u003Cbr\u003E\u003C\/h5\u003E\u003Ch5\u003EIngredientes: Helianthus Annuus (Sunflower) Seed Oil, Polysorbate-20,\u0026nbsp;Prunus Amygdalus Dulcis (Sweet Almond) Oil,\u0026nbsp;Alkane C15-C19, Abyssinian Oil, Jojoba (Buxus Chinensis) Oil, Tocopherol acetate, Citrus Aurantium dulcis, Lavandula hydra Grosso, Benzyl Alcohol, Citric Acid, D-limonene, Citral, Linalool, Citronellol\u003C\/h5\u003E\u003Ch1\u003E\u003Cbr\u003E\u003C\/h1\u003E","p_oferta":1,"p_precio_oferta":2300,"p_oferta_fecha_inicio":null,"p_oferta_fecha":null,"p_tipo_venta":0,"p_precio_mayorista":0,"p_cantidad_minima":1,"p_destacado":0,"p_atributos":0,"p_mostrar_precio":1,"p_datos_stock":1,"p_producto_digital":0,"p_desactivado":0,"p_orden":7,"Categorias_idCategorias":16600,"imagenes":[{"idImagenes":8039752,"i_link":"5812fd961fe28d3221583aff7716253870b9ffd2ba3ce290f57baa2c114f90e02026.png"}],"stock":[{"idStock":3652824,"s_cantidad":84,"s_ilimitado":0,"s_precio":2600,"s_oferta":1,"s_precio_oferta":2300,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":8039752,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[]}]},{"idProductos":55341,"p_nombre":"Serum Capilar","p_precio":1800,"p_link":"serum-capilar","p_descripcion":"\u003Ch2\u003ESERUM CAPILAR DEKKA - 125ml\u003C\/h2\u003E\u003Ch3\u003EHidratacion y Nutricion para el cabello\u003C\/h3\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003ESerum capilar hecho a base de aceite de almendras, abisinia, jojoba y aceites esenciales\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003ESin Sulfatos\u003C\/h5\u003E\u003Ch5\u003ESin parabenos ni conservantes de origen sintetico\u003C\/h5\u003E\u003Ch5\u003ESin Siliconas\u003C\/h5\u003E\u003Ch5\u003ESin Colorantes ni fragancias sinteticas\u003C\/h5\u003E\u003Ch5\u003ESin alcohol resecante\u003C\/h5\u003E\u003Ch5\u003EApto vegano, no testeado en animales\u003C\/h5\u003E\u003Ch5\u003EProducto natural.\u003C\/h5\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003E\u003Cem\u003EPRODUCTO REGISTRADO EN ANMAT\u003C\/em\u003E\u003C\/strong\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003E\u003Cstrong\u003E\u003Cu\u003EIngredientes\u003C\/u\u003E:\u003C\/strong\u003E Water, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Glycerin,\u003C\/h5\u003E\u003Ch5\u003ESodium Cocoamphoacetate, Alkane C15-C19, Abyssinian Oil, Matricaria\u003C\/h5\u003E\u003Ch5\u003Echamomilla Extract, Parfum ( Citrus Aurantium dulcis, Citrus Limonum oil),\u003C\/h5\u003E\u003Ch5\u003EBenzyl Alcohol, Citric Acid, D-limonene, Citral, Linalool, Citronellol.\u003C\/h5\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003E\u003Cu\u003EModo de uso\u003C\/u\u003E\u003C\/strong\u003E: rociar sobre el cabello y peinar. No es necesario enjuague.\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong\u003E\u003Cu\u003EAdvertencias\u003C\/u\u003E:\u003C\/strong\u003E Evite el contacto con los ojos. En caso de irritaci\u00f3n, suspenda el\u003C\/p\u003E\u003Cp\u003Euso y consulte a su m\u00e9dico.\u003C\/p\u003E","p_oferta":0,"p_precio_oferta":0,"p_oferta_fecha_inicio":null,"p_oferta_fecha":null,"p_tipo_venta":0,"p_precio_mayorista":0,"p_cantidad_minima":1,"p_destacado":0,"p_atributos":0,"p_mostrar_precio":1,"p_datos_stock":1,"p_producto_digital":0,"p_desactivado":0,"p_orden":6,"Categorias_idCategorias":16552,"imagenes":[{"idImagenes":7579083,"i_link":"7b49e884674f907eb54dfda462c8021d6a85a56da48892bab8c93a188f3b18a52026.jpeg"},{"idImagenes":6989197,"i_link":"1af34d73ce0be7dbd98242156ce332c5f4630d3daa16fcd0c57c1f21d24b29232026.jpeg"},{"idImagenes":834418,"i_link":"8681c4ea637ff936b76a3ee8db4d55f1b63c7cf3fe18f24beff3e06ce6760c5b2026.jpeg"},{"idImagenes":834370,"i_link":"43a864ce200c098863a9f6355e134c73a9ced70dc25930c639cdc207a0cef8c72026.jpeg"},{"idImagenes":834417,"i_link":"df7b6290dae86d633350c46f46347c8bea3db770a4a758a6759d6cefe542f41b2026.jpeg"}],"stock":[{"idStock":93611,"s_cantidad":175,"s_ilimitado":0,"s_precio":1800,"s_oferta":0,"s_precio_oferta":0,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":7579083,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[]}]},{"idProductos":1628471,"p_nombre":"Kit DEKKA LOW POO","p_precio":4050,"p_link":"kit-dekka-low-poo","p_descripcion":"\u003Ch1\u003EKIT CAPILAR DEKKA\u003C\/h1\u003E\u003Ch1\u003E\u003Cbr\u003E\u003C\/h1\u003E\u003Ch1\u003EIncluye:\u003C\/h1\u003E\u003Ch1\u003ESERUM CAPILAR + COMBO SHAMPOO SOLIDO CON TENSIOACTIVOS + ACONDICIONADOR SOLIDO + 2 bolsitas conservadoras (rosa + celeste)\u003C\/h1\u003E\u003Ch2\u003E\u003Cbr\u003E\u003C\/h2\u003E\u003Ch2\u003ESHAMPOO SOLIDO DEKKA - 70gr\u003C\/h2\u003E\u003Cp\u003EApto para todo tipo de cabellos\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EShampoo solido para el cabello hecho con aceite de oliva organico, aceite de coco y aceites esenciales. Sin enjuague de vinagre, con tensioactivos de origen natural.\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003ESin sulfatos\u003C\/h5\u003E\u003Ch5\u003ESin parabenos\u003C\/h5\u003E\u003Ch5\u003ESin colorantes ni fragancias sinteticas\u003C\/h5\u003E\u003Ch5\u003ESin aceite de palma\u003C\/h5\u003E\u003Ch5\u003EApto veganos, no testeados en animales\u003C\/h5\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cem\u003EPRODUCTO REGISTRADO EN ANMAT\u003C\/em\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003EIngredientes:\u0026nbsp;\u003Cem\u003ESodium cocoyl isethionate, Water , Cocos ucifera (Coconut) Oil, Olive Oil, Lavandin hydra grosso, Citrus aurantium dulcis oil, Tocopherol Acetate, D-limonene, Citral, Citronellol, Linalool.\u0026nbsp;\u003C\/em\u003E\u003C\/h5\u003E\u003Ch5\u003E\u003Cbr\u003E\u003C\/h5\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E***Recorda que el rendimiento es aproximado y personal. Cuanto mas cantidad se utiliza mas rapido se gasta. Se sugiere que sea de uso personal y no compartido ya que como con cualquier producto solido, si se moja mas seguido se disuelve mas seguido.\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch2\u003EAcondicionador S\u00f3lido - 70gr\u003C\/h2\u003E\u003Ch2\u003E\u003Cbr\u003E\u003C\/h2\u003E\u003Cp\u003EApto para todo tipo de cabellos\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EAcondicionador para el cabello hecho con manteca de cacao, aceite de oliva organico, aceite de coco y aceites esenciales\u003C\/p\u003E\u003Cp\u003ERinde aprox 100 lavados\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cem\u003EPRODUCTO REGISTRADO EN ANMAT\u003C\/em\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003ESin sulfatos\u003C\/h5\u003E\u003Ch5\u003ESin parabenos\u003C\/h5\u003E\u003Ch5\u003ESin colorantes ni fragancias sinteticas\u003C\/h5\u003E\u003Ch5\u003ESin aceite de palma\u003C\/h5\u003E\u003Ch5\u003EApto veganos, no testeados en animales\u003C\/h5\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cspan style=\u0022color: rgb(108, 129, 129);\u0022\u003EIdeal para utilizar luego del shampoo solido. Pasar la pastilla de acondicionador solido sobre el cabello mojado, desde el largo hacia las puntas. Dejar actuar 3 minutos. Enjuagar con abundante agua.\u003C\/span\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cspan style=\u0022color: rgb(108, 129, 129);\u0022\u003EIngredientes:\u0026nbsp;\u003C\/span\u003E\u003Cem style=\u0022color: rgb(108, 129, 129);\u0022\u003ECetyl Alcohol, Behentrimo- nium Methosulfate (and) Cetearyl Alcohol, Cocos Nucifera (Coconut) Oil, Theobroma Cacao Deed Butter, Olive Oil, Lavandin hydra grosso, Citrus aurantium dulcis oil, Tocopherol Acetate, D-limonene, Citral, Citronellol, Linalool.\u003C\/em\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E***Recorda que el rendimiento es aproximado y personal. Cuanto mas cantidad se utiliza mas rapido se gasta. Se sugiere que sea de uso personal y no compartido ya que como con cualquier producto solido, si se moja mas seguido se disuelve mas seguido.\u003C\/p\u003E","p_oferta":1,"p_precio_oferta":3500,"p_oferta_fecha_inicio":null,"p_oferta_fecha":null,"p_tipo_venta":0,"p_precio_mayorista":0,"p_cantidad_minima":1,"p_destacado":0,"p_atributos":0,"p_mostrar_precio":1,"p_datos_stock":1,"p_producto_digital":0,"p_desactivado":0,"p_orden":5,"Categorias_idCategorias":16600,"imagenes":[{"idImagenes":7579046,"i_link":"60721e46901a5238233dcbd717418c3d0fc8c9eb130e292968275233caad99da2026.jpeg"},{"idImagenes":6988980,"i_link":"b2bd7ef803c6f8b1f5dd0811ea66c9f982f76d2ba8e42298027d56448d90c7512026.jpeg"},{"idImagenes":3665621,"i_link":"2a5a97b1d6ccbf3f9bedd71fdc1e07e60107b167b0e557a4c99ba9e20e2211842026.png"}],"stock":[{"idStock":3328787,"s_cantidad":94,"s_ilimitado":0,"s_precio":4050,"s_oferta":1,"s_precio_oferta":3500,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":7579046,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[]}]},{"idProductos":1628307,"p_nombre":"Pack 4 shampoo solidos con tensioactivos + 2 bolsitas","p_precio":4300,"p_link":"pack-4-shampoo-solidos-con-tensioactivos-2-bolsitas","p_descripcion":"\u003Ch1\u003E\u003Cbr\u003E\u003C\/h1\u003E\u003Ch2\u003E4 UNIDADES DE SHAMPOO SOLIDO DEKKA - 70gr + 2 bolsita conservadora (color sin eleccion)\u003C\/h2\u003E\u003Cp\u003EIDEAL PARA COMPARTIR CON OTRA PERSONA!!!\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EApto para todo tipo de cabellos, SIN ADAPTACION NI VINAGRE.\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EShampoo solido para el cabello hecho con aceite de oliva organico, aceite de coco y aceites esenciales. Sin enjuague de vinagre, con tensioactivos de origen natural.\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003ESin sulfatos\u003C\/h5\u003E\u003Ch5\u003ESin parabenos\u003C\/h5\u003E\u003Ch5\u003ESin colorantes ni fragancias sinteticas\u003C\/h5\u003E\u003Ch5\u003ESin aceite de palma\u003C\/h5\u003E\u003Ch5\u003EApto veganos, no testeados en animales\u003C\/h5\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cem\u003EPRODUCTO REGISTRADO EN ANMAT\u003C\/em\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003EIngredientes:\u0026nbsp;\u003Cem\u003ESodium cocoyl isethionate, Water , Cocos ucifera (Coconut) Oil, Olive Oil, Lavandin hydra grosso, Citrus aurantium dulcis oil, Tocopherol Acetate, D-limonene, Citral, Citronellol, Linalool.\u0026nbsp;\u003C\/em\u003E\u003C\/h5\u003E\u003Ch5\u003E\u003Cbr\u003E\u003C\/h5\u003E\u003Ch5\u003EModo de uso:\u0026nbsp;Pasar la pastilla de shampoo s\u00f3lido sobre el cabello previamente mojado,\u003C\/h5\u003E\u003Ch5\u003Emasajeando el cuero cabelludo. Enjuagar con abundante agua.\u003C\/h5\u003E\u003Ch5\u003E\u003Cbr\u003E\u003C\/h5\u003E\u003Ch5\u003EAdvertencias:\u0026nbsp;Evite el contacto con los ojos. En caso de irritaci\u00f3n, suspenda el uso y\u003C\/h5\u003E\u003Ch5\u003Econsulte a su m\u00e9dico. Mantenga el producto en un lugar protegido del calor excesivo.\u003C\/h5\u003E\u003Cp\u003ETe invitamos a la web a leer las preguntas frecuentes, el blog y\u0026nbsp;tambien nuestro instagram en donde estan las intrucciones de uso.\u0026nbsp;\u003C\/p\u003E","p_oferta":1,"p_precio_oferta":3300,"p_oferta_fecha_inicio":null,"p_oferta_fecha":null,"p_tipo_venta":0,"p_precio_mayorista":0,"p_cantidad_minima":1,"p_destacado":0,"p_atributos":0,"p_mostrar_precio":1,"p_datos_stock":1,"p_producto_digital":0,"p_desactivado":0,"p_orden":3,"Categorias_idCategorias":16600,"imagenes":[{"idImagenes":7579050,"i_link":"f2f7247a6a0b406d79f15c3440adf0f86966e850de5e4e022f87cc34c11c36472026.jpeg"},{"idImagenes":6988966,"i_link":"169c3b1186d8877decaebd7b9a9cec1b86fd26b5c5b338e6173d8c5bd24c2bf72026.jpeg"},{"idImagenes":3665323,"i_link":"8c4af99f3fae44aad3a4c78d4c1638fb83d661502c0a9014c9cce26323f644e92026.png"}],"stock":[{"idStock":3328488,"s_cantidad":87,"s_ilimitado":0,"s_precio":4300,"s_oferta":1,"s_precio_oferta":3300,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":7579050,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[]}]},{"idProductos":2106599,"p_nombre":"Scrunchies","p_precio":270,"p_link":"scrunchies","p_descripcion":"\u003Cp\u003ENuevas!! Scrunchies para que puedas atarte el cabello y cuidarlo de tirones, de cortes y que tu peinado sea mas chic.\u003C\/p\u003E","p_oferta":0,"p_precio_oferta":0,"p_oferta_fecha_inicio":null,"p_oferta_fecha":null,"p_tipo_venta":0,"p_precio_mayorista":0,"p_cantidad_minima":1,"p_destacado":0,"p_atributos":1,"p_mostrar_precio":1,"p_datos_stock":1,"p_producto_digital":0,"p_desactivado":0,"p_orden":1,"Categorias_idCategorias":127365,"imagenes":[{"idImagenes":4748152,"i_link":"5b51638456d9a3d7526ec591cfa5c15e1a0f052499f9958d302f69aa243144eb2026.png"},{"idImagenes":4748153,"i_link":"8dc6aa52255a8c8adcd858967e5aad5e04ae3689fa741d51bf017cb87f1a4cda2026.png"},{"idImagenes":4748154,"i_link":"202864d97c278d81e3042ccf3b3b0325f08fa2e020f273b0371f39b65b99277a2026.png"},{"idImagenes":4748155,"i_link":"5d554398dbcdb8daf7b6fc7dbce18626c69d7c776010df7a5778776ebc497af02026.png"},{"idImagenes":4748156,"i_link":"5cb4453b323fbc4cb7c0b075bbd596d7fe846f7c88311ceb4d38fa6c3db92ce62026.png"},{"idImagenes":4748157,"i_link":"4f4cc510e27ff613d06d0eab151937fa6b4306ffa21fb52f25c571747212caa92026.png"}],"stock":[{"idStock":4484237,"s_cantidad":8,"s_ilimitado":0,"s_precio":270,"s_oferta":0,"s_precio_oferta":0,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":4748152,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[{"idAtributos":941250,"at_nombre":"Color","valor":{"Stock_idStock":4484237,"Atributos_idAtributos":941250,"vat_valor":"ROSA NUDE"}}]},{"idStock":4484238,"s_cantidad":16,"s_ilimitado":0,"s_precio":270,"s_oferta":0,"s_precio_oferta":0,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":4748152,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[{"idAtributos":941250,"at_nombre":"Color","valor":{"Stock_idStock":4484238,"Atributos_idAtributos":941250,"vat_valor":"ROSA VIEJO"}}]},{"idStock":4484239,"s_cantidad":12,"s_ilimitado":0,"s_precio":270,"s_oferta":0,"s_precio_oferta":0,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":4748152,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[{"idAtributos":941250,"at_nombre":"Color","valor":{"Stock_idStock":4484239,"Atributos_idAtributos":941250,"vat_valor":"CREMA"}}]},{"idStock":4484240,"s_cantidad":15,"s_ilimitado":0,"s_precio":270,"s_oferta":0,"s_precio_oferta":0,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":4748152,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[{"idAtributos":941250,"at_nombre":"Color","valor":{"Stock_idStock":4484240,"Atributos_idAtributos":941250,"vat_valor":"GRIS"}}]},{"idStock":4484241,"s_cantidad":20,"s_ilimitado":0,"s_precio":270,"s_oferta":0,"s_precio_oferta":0,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":4748152,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[{"idAtributos":941250,"at_nombre":"Color","valor":{"Stock_idStock":4484241,"Atributos_idAtributos":941250,"vat_valor":"CELESTE"}}]},{"idStock":4484242,"s_cantidad":9,"s_ilimitado":0,"s_precio":270,"s_oferta":0,"s_precio_oferta":0,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":4748152,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[{"idAtributos":941250,"at_nombre":"Color","valor":{"Stock_idStock":4484242,"Atributos_idAtributos":941250,"vat_valor":"NEGRO"}}]}]},{"idProductos":261208,"p_nombre":"Acondicionador solido","p_precio":1100,"p_link":"acondicionador-solido","p_descripcion":"\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch2\u003EAcondicionador Solido 70gr\u003C\/h2\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EApto para todo tipo de cabellos\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EAcondicionador para el cabello hecho con manteca de cacao, aceite de oliva organico, aceite de coco y aceites esenciales\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cem\u003EPRODUCTO REGISTRADO EN ANMAT\u003C\/em\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003ESin sulfatos\u003C\/h5\u003E\u003Ch5\u003ESin parabenos\u003C\/h5\u003E\u003Ch5\u003ESin colorantes ni fragancias sinteticas\u003C\/h5\u003E\u003Ch5\u003ESin aceite de palma\u003C\/h5\u003E\u003Ch5\u003EApto veganos, no testeados en animales\u003C\/h5\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong style=\u0022color: rgb(108, 129, 129);\u0022\u003EIdeal para utilizar luego del shampoo solido. Pasar la pastilla de acondicionador solido sobre el cabello mojado, desde el largo hacia las puntas. Dejar actuar 3 minutos. Enjuagar con abundante agua.\u003C\/strong\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cstrong style=\u0022color: rgb(108, 129, 129);\u0022\u003EIngredientes: \u003C\/strong\u003E\u003Cem style=\u0022color: rgb(108, 129, 129);\u0022\u003ECetyl Alcohol, Behentrimo- nium Methosulfate (and) Cetearyl Alcohol, Cocos Nucifera (Coconut) Oil, Theobroma Cacao Deed Butter, Olive Oil, Lavandin hydra grosso, Citrus aurantium dulcis oil, Tocopherol Acetate, D-limonene, Citral, Citronellol, Linalool.\u0026nbsp;\u003C\/em\u003E\u003C\/p\u003E\u003Cp\u003E***Recorda que el rendimiento es aproximado y personal. Cuanto mas cantidad se utiliza mas rapido se gasta. Se sugiere que sea de uso personal y no compartido ya que como con cualquier producto solido, si se moja mas seguido se disuelve mas seguido.\u003C\/p\u003E","p_oferta":0,"p_precio_oferta":0,"p_oferta_fecha_inicio":null,"p_oferta_fecha":null,"p_tipo_venta":0,"p_precio_mayorista":0,"p_cantidad_minima":1,"p_destacado":0,"p_atributos":0,"p_mostrar_precio":1,"p_datos_stock":1,"p_producto_digital":0,"p_desactivado":0,"p_orden":0,"Categorias_idCategorias":16552,"imagenes":[{"idImagenes":7579162,"i_link":"daf1dc641c63383f64da036f49df11cb37ca227fb6ce54ff641f3664a3a0cbb52026.jpeg"},{"idImagenes":6989242,"i_link":"6d6ce2d83543043c73dee0c6703986fb6a989e7fd089039f635c3e2bfa6eead42026.jpeg"},{"idImagenes":834357,"i_link":"0190df37ec5d8871196ff23ffc1833fb32ee97a934ccc36d7574835f833607532026.jpeg"}],"stock":[{"idStock":495671,"s_cantidad":150,"s_ilimitado":0,"s_precio":1100,"s_oferta":0,"s_precio_oferta":0,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":7579162,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[]}]},{"idProductos":261219,"p_nombre":"Shampoo solido con tensioactivos","p_precio":1050,"p_link":"shampoo-solido-con-tensioactivos","p_descripcion":"\u003Ch1\u003E\u003Cbr\u003E\u003C\/h1\u003E\u003Ch2\u003ESHAMPOO SOLIDO DEKKA - 70gr\u003C\/h2\u003E\u003Cp\u003EApto para todo tipo de cabellos, SIN ADAPTACION NI VINAGRE.\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003EShampoo solido para el cabello hecho con aceite de oliva organico, aceite de coco y aceites esenciales. Sin enjuague de vinagre, con tensioactivos de origen natural.\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003ESin sulfatos\u003C\/h5\u003E\u003Ch5\u003ESin parabenos\u003C\/h5\u003E\u003Ch5\u003ESin colorantes ni fragancias sinteticas\u003C\/h5\u003E\u003Ch5\u003ESin aceite de palma\u003C\/h5\u003E\u003Ch5\u003EApto veganos, no testeados en animales\u003C\/h5\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cem\u003EPRODUCTO REGISTRADO EN ANMAT\u003C\/em\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\/p\u003E\u003Ch5\u003E\u003Cstrong\u003EIngredientes: \u003C\/strong\u003E\u003Cem\u003ESodium cocoyl isethionate, Water , Cocos ucifera (Coconut) Oil, Olive Oil, Lavandin hydra grosso, Citrus aurantium dulcis oil, Tocopherol Acetate, D-limonene, Citral, Citronellol, Linalool.\u0026nbsp;\u003C\/em\u003E\u003C\/h5\u003E\u003Ch5\u003E\u003Cbr\u003E\u003C\/h5\u003E\u003Ch5\u003EModo de uso:\u0026nbsp;Pasar la pastilla de shampoo s\u00f3lido sobre el cabello previamente mojado,\u003C\/h5\u003E\u003Ch5\u003Emasajeando el cuero cabelludo. Enjuagar con abundante agua.\u003C\/h5\u003E\u003Ch5\u003E\u003Cbr\u003E\u003C\/h5\u003E\u003Ch5\u003EAdvertencias:\u0026nbsp;Evite el contacto con los ojos. En caso de irritaci\u00f3n, suspenda el uso y\u003C\/h5\u003E\u003Ch5\u003Econsulte a su m\u00e9dico. Mantenga el producto en un lugar protegido del calor excesivo.\u003C\/h5\u003E\u003Cp\u003E***Recorda que el rendimiento es aproximado y personal. Cuanto mas cantidad se utiliza mas rapido se gasta. Se sugiere que sea de uso personal y no compartido ya que como con cualquier producto solido, si se moja mas seguido se disuelve mas seguido.\u003C\/p\u003E","p_oferta":0,"p_precio_oferta":0,"p_oferta_fecha_inicio":null,"p_oferta_fecha":null,"p_tipo_venta":0,"p_precio_mayorista":0,"p_cantidad_minima":1,"p_destacado":0,"p_atributos":0,"p_mostrar_precio":1,"p_datos_stock":1,"p_producto_digital":0,"p_desactivado":0,"p_orden":0,"Categorias_idCategorias":16552,"imagenes":[{"idImagenes":7579177,"i_link":"4fbdef782fa88750570026789d3ac4c2cf29dab1e6b64c4880ee3a4248ba0c2d2026.jpeg"},{"idImagenes":834354,"i_link":"ffb72943452e08d01097039cc6f4326c33c673cf371aecb02ccad6b25525ede62026.jpeg"}],"stock":[{"idStock":495691,"s_cantidad":13,"s_ilimitado":0,"s_precio":1050,"s_oferta":0,"s_precio_oferta":0,"s_oferta_fecha_inicio":null,"s_oferta_fecha":null,"s_precio_mayorista":0,"s_cantidad_minima":1,"s_mostrar_precio":1,"s_imagen":7579177,"s_producto_digital_plazo":"","s_producto_digital_observacion":"","valoratributo":[]}]}];
+    var products_detail = {"photo_zoom":0,"photo_display":0};
+    var medios_pago = {efectivo:0,efectivo_descuento:0,efectivo_porcentaje:0,transferencia:1,transferencia_descuento:1,transferencia_porcentaje:10};
+</script>
+<script src="https://d2op8dwcequzql.cloudfront.net/assets/1.9.1/templates/eris/js/cart.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
+        
+</body>
+</html>
