@@ -4,7 +4,7 @@
 }
 
 .main-header{
-        background-color:  #E895FF ;        ;
+        background-color:  #FFBE59 ;        ;
         font-family: "antonio";
         display: flex;
         justify-content: space-between;
@@ -27,15 +27,31 @@
 main {
     background-color: #FFE57C;
     font-family: "antonio";
-}
-.courses{
-    width: 20px;
     display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+.banner{
+    width: 100%;
+    justify-content: center;
 }
 
-
 .courses{
-    width: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.courses-images{
+    width: 100%;
+    background-color: #FFF4E4;
+    align-items: stretch;
+    justify-content: center;
+    border:  #FFF4E4 4px solid;
+    border-radius: 8px;
+    padding: 10px;
 }
 .main-footer {
     background-color: #FFBE59;
