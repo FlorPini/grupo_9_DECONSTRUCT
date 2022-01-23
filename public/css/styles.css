@@ -3,8 +3,54 @@
 .main-footer {
     background-color: #FFBE59;
     font-family: "antonio";
-    text-align: center;
-    padding: 10px;
-    margin: 10px 0px;
 }
 
+.container-footer-contact{
+    display: flex;
+    height: auto;
+    text-align: center;
+    justify-content: space-between;
+    padding: 1px 1px 5px 1px;
+    
+}
+
+.span4 {
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+
+}
+
+.contact {
+    font-family: "antonio";
+    font-size: 15px;
+
+}
+
+.row { 
+    display: flex;
+    justify-content: space-evenly;
+}
+.row i{
+    font-size: 22px  
+}
+
+.footer-contact{
+    font-size: 16px;
+}
+
+.container-footer-legal, link{  
+font-size: 14px;  
+}
+
+.container-footer {
+    height: auto;
+    display:flex;
+    width: 100%;
+    padding: 15px 1px 15px 1px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo img{
+   width: 200px
+}
