@@ -4,7 +4,7 @@
 }
 
 .main-header{
-        background-color: whitesmoke
+        background-color: palegoldenrod;
         font-family: "antonio";
         display: flex;
         justify-content: space-between;
@@ -57,7 +57,7 @@ main {
 
 }
 .main-footer {
-    background-color: #FFBE59;
+    background-color: palegoldenrod;
     font-family: "antonio"
 }
 
