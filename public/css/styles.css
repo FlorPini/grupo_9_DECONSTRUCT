@@ -73,18 +73,19 @@ main {
 }
 
 .container-footer-contact{
-    display: flex;
     height: auto;
-    text-align: center;
-    justify-content: space-between;
-    padding: 1px 1px 5px 1px
+    display:flex;
+    width: 100%;
+    padding: 15px 1px 15px 1px;
+    align-items: center;
+    justify-content: center
     
 }
 
 .span4 {
     font-size: 20px;
     text-align: center;
-    width: 50%;
+    width: 300px;
 
 }
 
@@ -99,7 +100,8 @@ main {
     justify-content: space-evenly
 }
 .row i{
-    font-size: 22px  
+    font-size: 22px;
+    color:black  
 }
 
 .footer-contact{
@@ -107,7 +109,8 @@ main {
 }
 
 .container-footer-legal, link{  
-font-size: 14px
+font-size: 14px;
+color: white
 }
 
 .container-footer {
@@ -119,7 +122,15 @@ font-size: 14px
     justify-content: center
 }
 .footer-logo img{
-   width: 200px
+   width: 150px
+}
+
+.link {
+    color:white
+}
+
+.email {
+    color:black
 }
 
 
