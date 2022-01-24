@@ -23,9 +23,11 @@
     width: 120px;
     justify-content: space-around;
     align-items: center;
+}
+.main-header-right i{
+    
     color:white
 }
-
 main {
     margin:auto;
     background-color: white;
@@ -109,6 +111,7 @@ main {
 .container-footer-legal, link{  
 font-size: 14px
 }
+
 
 .container-footer {
     height: auto;
