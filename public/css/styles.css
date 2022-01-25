@@ -71,7 +71,78 @@ main {
     margin: auto;
     max-width: 250px;
     text-align: justify;
-    padding: 10px;
+    padding: 15px;
+}
+.container-product-description-payment-reviews {
+    align-content: center;
+}
+
+.breadcrumbs{
+    display: block;
+    font-family: poppins;
+    font-weight: bold;
+    
+}
+
+.breadcrumbs span {
+    text-align: center;
+    font-size: 14px;
+}
+.product-title h2{ 
+    text-align: center;
+}
+.product-price, .installments-payment {
+    text-align: center;
+}
+
+.list-payment-methods {
+    align-content: center;
+    width: 100%;
+    padding-bottom: 12px;
+}
+.payment-methods{
+    width: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-payment-methods img{
+    width: 50px;
+}
+
+.product-description {
+    font-family: poppins;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px;
+}
+.addtocart-btn {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(94, 201, 94);
+    border: grey;
+    
+}
+.product-image img {
+   width: 80%;
+   padding: 10px;
+}
+
+.questions {
+    margin: 15px;
+}
+
+.questions-and-comments textarea{
+    border: 1px solid #d3d6db;
+    width: 70%;
+    height: 80px;
+    padding: 8px;
+    
+}
+.send-bottom {
+    padding: 20px;
+
 }
 .main-footer {
     background-color: #d6c9c1;
@@ -140,6 +211,7 @@ color: white
     color:black
 }
 
+
 .reviews form {
     width: 250px;
     margin: 0 auto;
@@ -191,7 +263,9 @@ color: white
         font-size: 2.5vw;
         width: 25vw;
      }
-    
+     .product-image img {
+        width: 450px
+     }
 }
 @media (min-width: 992px) {
     main {

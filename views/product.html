@@ -10,8 +10,31 @@
 <link rel="stylesheet" href="/css/normalize.css">
 </head>
 <body>
+    <header class="main-header">
+        <div >    
+            <img class="logo-header" src="/images/logo-deconstruct (500 × 250 px) (1).png" alt="Logo de Deconstruct">
+        </div>
+        <div class="main-header-right">
+            <div>
+               <a href="#" class="search-button"></a>
+               <i class="fas fa-search"></i>  
+            </div>
+            <div > 
+               <a href="#" class="user-button"></a>
+               <i class="fas fa-user"></i>
+            </div>
+            <div>
+                <a href="#" class="shopping-cart"></a> 
+                <i class="fas fa-shopping-cart"></i>      
+            </div>
+            <div > 
+                <a href="#" class="hamburguer-button"></a>
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>        
+    </header>
     <main>
-        <div class="container-product-detail-shipping">
+        <div class="container-product-description-payment-reviews">
             <div class="breadcrumbs">
                 <a class="breadcrumbs-crumb" href="/views/home.html" title="Deconstruct">Inicio</a>
                 <span class="breadcrumbs-divider">/</span>
@@ -20,7 +43,7 @@
                 <a class="breadcrumbs-crumb" href="/views/home.html" title="Deconstruct">Curso de Plomeria</a>
             </div>   
             <div class="product-title"></divclass>
-                <h1 id="product-name">Curso de Plomeria</h1>
+                <h1 id="product-name">CURSO DE PLOMERIA</h1>
             </div> 
             <div class="product-image">
                 <img src="/images/courses/plomeria.png" alt="Curso-plomeria">
@@ -33,7 +56,7 @@
                     <h3 class="installments-payment">3 y 6 Cuotas sin interes </h3>
                 </div>
                 <div class="list-payment-methods">
-                    <ul class="payment-methods">
+                    <ul class="payment-methods" style="list-style: none;">
                         <li class="inline-block"><span class="payment-logo">
                             <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/visa@2x.png" alt="visa">
                         </span></li>
@@ -67,11 +90,13 @@
             <div class="questions-and-comments">
                 <form action=" " method=" ">
                     <div class="questions">
-                        <label>Hacenos tu pergunta o dejanos un comentario</label>
-                        <textarea> </textarea>
+                        <label>Hacenos tu pregunta o dejanos un comentario</label>
                     </div>
-                    <div>
-                        <buttom type="submit" value="enviar">Enviar</buttom>
+                    <div class="textarea">
+                        <textarea aria-label="Agrega un comentario" class="text" placeholder="Agregar un comentario..."></textarea>
+                    </div>
+                    <div class="send-bottom">
+                        <input type="submit" class="send-btn" value="Enviar">
                     </div>
                 </form>
 
