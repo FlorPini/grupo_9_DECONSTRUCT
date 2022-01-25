@@ -140,6 +140,42 @@ color: white
     color:black
 }
 
+.reviews form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  .reviews form p {
+    text-align: center;
+  }
+  
+  .reviews form label {
+    font-size: 20px;
+  }
+  
+  .reviews input[type="radio"] {
+    display: none;
+  }
+  
+  .reviews label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  .reviews
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  .reviews input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+
 @media (min-width: 576px) {
     main {
         
