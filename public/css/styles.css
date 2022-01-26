@@ -43,9 +43,7 @@ main {
     width: 100%;
     max-width: 1100px;
     padding: 15px;
-
 }
-
 .courses{
     margin:auto;
     width: 100%;    
@@ -56,6 +54,15 @@ main {
     padding: 15px;
     max-width: 1250px;
 }
+.courses-cart{
+    margin:auto;
+    width: 100%;    
+    text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    padding: 15px;
+}
 .courses-images{
     width: 100%;
     background-color: #FFF4E4;
@@ -65,23 +72,77 @@ main {
     border-radius: 8px;
     padding: 10px;
     max-width: 250px;
-
 }
+.courses-images-cart{
+    width: 140px;
+    height: 140px;
+    background-color: #FFF4E4;
+    align-items: stretch;
+    justify-content: left;
+    border:  #FFF4E4 4px solid;
+    border-radius: 8px;
+}
+.courses-cart-item{
+    margin:auto;
+    width: 100%;    
+    text-align: center;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.courses-cart-descrip{
+    width: 170px;
+}
+.courses-cart-name{
+    font-size: 17px;
+    margin: auto;
+    max-width: 250px;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 50px;
+}
+.price-cart{
+    height: 60px;
+    align-self: flex-end;
+    justify-content: space-between;
+    display: flex;
+    font-size: 15px;
+    padding-left: 10px;
+    line-height: 0.2;
+}
+.price-home{
+    height: 13px;
+    align-self: center;
+}
+
+.quantity-trash{
+    height: 20px;
+    align-self: center;
+    justify-content: space-between;
+    display: flex
+}
+.quantity-area{
+    width: 30%;
+    height: 80px;
+    padding-left: 20px;
+}
+
+
 .courses-desc{
+    display: none;
     margin: auto;
     max-width: 250px;
     text-align: justify;
-    padding: 15px;
+    padding: 5px;
 }
 .container-product-description-payment-reviews {
     align-content: center;
 }
-
 .breadcrumbs{
     display: block;
     font-family: poppins;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
 
 .breadcrumbs span {
@@ -94,18 +155,20 @@ main {
 .product-price, .installments-payment {
     text-align: center;
 }
-
 .list-payment-methods {
     align-content: center;
     width: 100%;
-    padding-bottom: 12px;
+    padding-bottom: 12px;   
 }
+
 .payment-methods{
     width: 100;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 50px;
 }
+
 .list-payment-methods img{
     width: 50px;
 }
@@ -116,12 +179,22 @@ main {
     text-align: left;
     padding: 20px;
 }
+.addtocart-btn-home {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    background-color: rgb(94, 201, 94);
+    border: grey;
+    border-radius: 15px;
+    
+}
 .addtocart-btn {
     width: 180px;
     height: 50px;
     font-size: 20px;
     background-color: rgb(94, 201, 94);
     border: grey;
+    border-radius: 25px;
     
 }
 .product-image img {
@@ -248,6 +321,9 @@ color: white
     color: orange;
   }
 
+  .shopping-cart-title{
+
+  }
 @media (min-width: 576px) {
     main {
         
