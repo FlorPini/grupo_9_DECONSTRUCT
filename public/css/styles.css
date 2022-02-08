@@ -324,6 +324,98 @@ color: white
   .shopping-cart-title{
 
   }
+
+  .blogin{
+    display:flex;
+	align-items: center;
+	padding: 0;
+	justify-content: center;
+	min-height: 100vh;
+
+	
+}
+.mainlogin{
+    
+	width: 350px;
+	height: 500px;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px rgb(204, 204, 204);
+}
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+label{
+	color: #21cac5;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 50px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+input{
+	width: 60%;
+	height: 20px;
+	background: white;
+	justify-content: center;
+	margin: 16px auto;
+	padding: 20px;
+	border: none;
+
+	outline: none;
+	border-radius: 5px;
+}
+button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	color: #424242;
+	background: #FFBE59;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 30px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	background: rgb(94, 201, 94) ;
+}
+.login{
+	height: 460px;
+	background:#21cac5;
+	opacity: 100%;
+	border-radius: 80% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+}
+.login label{
+	color: rgb(255, 255, 255);
+	transform: scale(.6);
+    padding-top: 10px;
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}
+
+
 @media (min-width: 576px) {
     main {
         
