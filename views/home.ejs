@@ -1,42 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benvenidos a Deconstruct</title>
-    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Bebas+Neue&family=Poppins:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <script src="https://kit.fontawesome.com/6b1c79b184.js" crossorigin="anonymous"></script>
-</head>
+<%- include('./partials/head.ejs') %>
 
 <body>
-    <header class="main-header">
-        <div >    
-            <img class="logo-header" src="/images/logo-deconstruct (500 × 250 px) (200 × 50 px).png" alt="Logo de Deconstruct">
-        </div>
-        <div class="main-header-right">
-            <div>
-               <a href="#" class="search-button"></a>
-               <i class="fas fa-search"></i>  
-            </div>
-            <div > 
-               <a href="#" class="user-button"></a>
-               <i class="fas fa-user"></i>
-            </div>
-            <div>
-                <a href="#" class="shopping-cart"></a> 
-                <i class="fas fa-shopping-cart"></i>      
-            </div>
-            <div > 
-                <a href="#" class="hamburguer-button"></a>
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>        
-    </header>
+    <%- include('./partials/header.ejs') %>
     <main>
             <div class="banner" >    
                 <img src="/images/banner-1.png" alt="Img Plomeria">
@@ -212,44 +179,6 @@
             </div>   
     </main>
 
-    <div class="main-footer">
-        <div class="container-footer-contact">
-            <div class="span4">
-                <p class="contact">Redes Sociales</p>
-                <div class="row">
-                    <a class="link-instagram" href="https://www.instagram.com/">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a class="link-facebook" href="https://es-la.facebook.com/">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a class="link-twitter" href="https://twitter.com/?lang=es">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="span4">
-                <p class="contact">Contactanos</p>
-                <div class="footer-contact">
-                    <i class="fas fa-phone-alt"></i> 541156667777
-                    <div class="email">
-                        <i class="fas fa-envelope"></i>
-                        <a class="email" href="mailto:deconstruct@gmail.com">deconstruct@gmail.com</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="container-footer">
-            <div class="footer-logo">
-                <img src="/images/logo-deconstruct (500 × 250 px) (1).png">
-            </div> 
-            <div class="container-footer-legal">
-                 <div>Copyright deconstruct  - 2022. Todos los derechos reservados.</div>
-                 <div>Defensa de las y los consumidores. Para reclamos 
-                     <a class="link" href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario">ingrese aquí</a>           
-                 </div>
-             </div>
-        </div>
+    <%- include('./partials/footer.ejs') %>
     
 </body>

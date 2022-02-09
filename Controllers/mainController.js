@@ -3,8 +3,16 @@ const path = require ("path");
 const app = express ();
 
 let mainController = {
-    index: function (req, res) {
-        res.sendFile(path.resolve(__dirname, "../views/home.html"));
+    index: (req, res) => {
+        return res.render('home');
+    },
+
+    login: (req, res) => {
+        return res.render('register');
+    },
+
+    register: (req, res) => {
+        return res.render('login');
     }
 };
 

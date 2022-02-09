@@ -3,8 +3,8 @@ const path = require ("path");
 const app = express ();
 
 let productosController = {
-    index: function (req, res) {
-        res.sendFile(path.resolve(__dirname, "../views/product.html"));
+    index: (req, res) => {
+        return res.render('product');
     }
 };
 
