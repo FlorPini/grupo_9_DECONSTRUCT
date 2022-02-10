@@ -7,11 +7,11 @@ let mainController = {
         return res.render('home');
     },
 
-    login: (req, res) => {
-        return res.render('register');
+    register: (req, res) => {
+        return res.render('login');
     },
 
-    register: (req, res) => {
+    login: (req, res) => {
         return res.render('login');
     }
 };
