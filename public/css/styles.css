@@ -61,6 +61,18 @@ main {
   justify-content: space-around;
   padding: 15px;
 }
+.shopping-cart-title {
+  color: white;
+  font-size: 1.5em;
+  justify-content: center;
+  font-weight: bold;    
+  background-color: #d6c9c169;
+  width: 100%;
+  text-align: center;
+  padding: 4px;
+  box-shadow: 0px 3px 10px rgba(100, 100, 100, 0.37);
+  border-radius: 5px;
+}
 .courses-images {
   width: 100%;
   background-color: #fff4e4;
@@ -72,8 +84,8 @@ main {
   max-width: 250px;
 }
 .courses-images-cart {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
   background-color: #fff4e4;
   align-items: stretch;
   justify-content: left;
@@ -83,25 +95,34 @@ main {
 .courses-cart-item {
   margin: auto;
   width: 100%;
+  margin: 4px;
+  color: #d6c9c1;
+  max-height: 140px;
   text-align: center;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
   padding: 10px;
+  box-shadow: 0px 3px 10px rgba(100, 100, 100, 0.527);
+  border-radius: 12px;
+  
 }
+
 .courses-cart-descrip {
   width: 170px;
 }
 .courses-cart-name {
   font-size: 17px;
+  color: #d6c9c1;
   margin: auto;
   max-width: 250px;
   text-align: center;
   padding: 5px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .price-cart {
   height: 60px;
+  color: #d6c9c1;
   align-self: flex-end;
   justify-content: space-between;
   display: flex;
@@ -120,10 +141,11 @@ main {
   justify-content: space-between;
   display: flex;
 }
-.quantity-area {
-  width: 30%;
-  height: 80px;
-  padding-left: 20px;
+.quantity-area{
+  flex-grow: .4;
+  font-size: 1em;
+  color: #d6c9c1;
+
 }
 
 .courses-desc {
@@ -332,17 +354,20 @@ label:hover ~ label {
   width: 100%;
   height: 100%;
 }
-label {
+
+.mainlogin label {
   color: #21cac5;
   font-size: 2.3em;
   justify-content: center;
   display: flex;
   margin: 50px;
-  font-weight: bold;
+  font-weight: bold;    
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
-input {
+
+.login input , 
+.signup input {
   width: 60%;
   height: 20px;
   background: white;
@@ -354,7 +379,7 @@ input {
   outline: none;
   border-radius: 5px;
 }
-button {
+.signup button {
   width: 50%;
   height: 40px;
   margin: 10px auto;
@@ -370,7 +395,7 @@ button {
   transition: 0.2s ease-in;
   cursor: pointer;
 }
-button:hover {
+.signup button:hover {
   background: rgb(94, 201, 94);
 }
 .login {
@@ -401,7 +426,7 @@ button:hover {
   main {
     padding: 75px 7px 30px 7px;
   }
-  button {
+  .signup button {
     width: 50%;
   }
 }
@@ -421,7 +446,7 @@ button:hover {
     width: 490px;
   }
   /* <<<<<<< HEAD */
-  button {
+  .signup button {
     width: 53%;
   }
 
@@ -455,7 +480,7 @@ button:hover {
     .mainlogin {
       width: 490px;
     }
-    button {
+    .signup button {
       width: 53%;
     }
   }
@@ -477,7 +502,7 @@ button:hover {
     .mainlogin {
       width: 490px;
     }
-    button {
+    .signup button {
       width: 53%;
     }
   }
