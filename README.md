@@ -32,3 +32,6 @@ Más de 75 años brindando soluciones en destapaciones y plomeria para consorcio
 Plomero en Capital Federal | Plomero Express
 Plomeros en Capital Federal, servicio de plomería en Ciudad de Buenos Aires. Instalaciones, reparaciones, mantenimiento y plomería en general.
 
+LINK TRELLO:
+https://trello.com/b/iCjuHNDO/deconstruct
+
