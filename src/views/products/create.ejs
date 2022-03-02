@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../partials/head.ejs') %>
+    <link rel="stylesheet" href="/css/styles_products_create.css">
+    <body>
+        <%- include('../partials/header.ejs') %>
+    <main>
+            <div class="create-title">    
+                <label for="chk" aria-hidden="true">Crear Producto</label>
+            </div>
+            <div class="create-group" >
+                <form action="/productos/create" method="POST" >
+                <!-- enctype="multipart/form-data"> -->
+                   
+                    <div class="create">
+                        <label>Nombre del producto</label>
+                        <input type="text" name="productName" placeholder="Nombre del producto" required>
+                    </div>
+                 
+                     <div class="create"> 
+                        <label>Categoria</label>
+                        <select name="category">
+                           <option value="courses">Cursos</option>
+                           <option value="services">Servicios</option>
+                           <option value="products">Productos</option>
+                       </select>
+                    </div> 
+              
+                    <div class="create"> 
+                        <label>Rubro</label>
+                        <select name="type">
+                            <option value="electricity">Electricidad</option>
+                            <option value="plumbing">Plomeria</option>
+                            <option value="gas">Gas</option>
+                            <option value="airConditioning">Aire acondicionado</option>
+                        </select>
+                    </div>
+
+                    <div class="create"> 
+                        <label>Descripción</label>
+                        <textarea name="productDescription" placeholder="Descripción" required>
+                        </textarea>
+                        </div> 
+                    <div class="createPrice"> 
+                        <div class="createPriceInput">
+                        <label>Precio</label>
+                        <p>$</p>
+                        <input type="number" name="productPrice" placeholder="0.000,00"  required>
+                        </div>
+                    </div>    
+
+                   <!--  <div class="createImage">
+                        <label for="productImage">Cargar imagenes</label>
+                        <span class="btn-file">
+                             Subir archivo 
+                             <input type="file" name="productImage">
+                        </span>
+                    </div> -->
+                    <div class="create">
+                    <input type="submit" value="cargar">
+                    </div>
+                </form>   
+            </div>
+        </main>
+  
+        <%- include('../partials/footer.ejs') %>
+    
+</body>

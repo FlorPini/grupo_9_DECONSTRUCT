@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 1100px;
+  padding: 15px;
+}
+.courses {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 15px;
+  max-width: 1250px;
+}
+
+.courses-images {
+  width: 100%;
+  background-color: #fff4e4;
+  align-items: stretch;
+  justify-content: center;
+  border: #fff4e4 4px solid;
+  border-radius: 8px;
+  padding: 10px;
+  max-width: 250px;
+}
+
+.price-home {
+  height: 13px;
+  align-self: center;
+}
+
+.courses-desc {
+  display: none;
+  margin: auto;
+  max-width: 250px;
+  text-align: justify;
+  padding: 5px;
+}
+
+.addtocart-btn-home {
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  background-color: rgb(94, 201, 94);
+  border: grey;
+  border-radius: 15px;
+}
+.addtocart-btn {
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(94, 201, 94);
+  border: grey;
+  border-radius: 25px;
+}
+
+
+.reviews label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+
+
+@media (min-width: 576px) {
+  main {
+    padding: 75px 7px 30px 7px;
+  }
+  .signup button {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 100px 7px 30px 7px;
+  }
+  .main-header-right {
+    font-size: 2.5vw;
+    width: 25vw;
+  }
+  .product-image img {
+    width: 450px;
+  }
+  .mainlogin {
+    width: 490px;
+  }
+  /* <<<<<<< HEAD */
+  .signup button {
+    width: 53%;
+  }
+
+  @media (min-width: 576px) {
+    main {
+      padding: 75px 7px 30px 7px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    main {
+      padding: 100px 7px 30px 7px;
+    }
+    .main-header-right {
+      font-size: 2.5vw;
+      width: 25vw;
+    }
+    .product-image img {
+      width: 450px;
+    }
+    /* >>>>>>> 4abd77eb586df7e00049941399bb878360571261 */
+  }
+  @media (min-width: 992px) {
+    main {
+      padding: 125px 7px 30px 7px;
+    }
+    .main-header-right {
+      font-size: 1.5vw;
+      width: 15vw;
+    }
+    .mainlogin {
+      width: 490px;
+    }
+    .signup button {
+      width: 53%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    main {
+      padding: 150px 7px 30px 7px;
+    }
+    .container-footer-legal,
+    link {
+      font-size: 17px;
+      color: white;
+    }
+
+    .main-header-right {
+      font-size: 1vw;
+      width: 10vw;
+    }
+    .mainlogin {
+      width: 490px;
+    }
+    .signup button {
+      width: 53%;
+    }
+  }
+}

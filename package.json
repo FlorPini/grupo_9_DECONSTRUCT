@@ -4,7 +4,8 @@
   },
   "dependencies": {
     "ejs": "^3.1.6",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "multer": "^1.4.4"
   },
   "name": "digitalhouse",
   "description": "En nuestro caso optamos por elegir un sitio que ofrezca principalmente servicios de reparación y mantenimiento para elementos del hogar, cursos de capacitación, herramientas y materiales de construcción.",
