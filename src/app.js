@@ -32,5 +32,3 @@ app.use("/shopping-cart", rutasShopping);
 app.listen(3000, () => {
   console.log("servidor corriendo");
 });
-
-puto el que lee
