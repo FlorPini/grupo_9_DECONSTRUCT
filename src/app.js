@@ -4,7 +4,7 @@ const app = express();
 const rutasProductos = require("./routes/productos.js");
 const rutasMain = require("./routes/main.js");
 const rutasShopping = require("./routes/shopping.js");
-//const res = require("express/lib/response");
+const res = require("express/lib/response");
 
 //para poder usar el metodo post, decimos que tomamos toda la info
 //que llega desde un formulario
@@ -25,7 +25,7 @@ app.use(express.static(publicPath));
 
 app.use("/", rutasMain);
 
-app.use("/productos", rutasProductos);
+app.use("/products", rutasProductos);
 
 app.use("/shopping-cart", rutasShopping);
 

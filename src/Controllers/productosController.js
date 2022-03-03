@@ -25,7 +25,7 @@ let productosController = {
             price :req.body.productPrice
         }
         let productJSON= JSON.stringify(newItem);
-        fs.writeFileSync("./database/productos.json",productJSON);
+        fs.appendFileSync("./database/productos.json",productJSON);
         return res.send(newItem);
     },
     show: (req, res) => {
