@@ -1,10 +1,14 @@
 const express = require("express");
 const path = require("path");
 const app = express();
-const rutasProductos = require("./routes/productos.js");
+const rutasProducts = require("./routes/products.js");
 const rutasMain = require("./routes/main.js");
 const rutasShopping = require("./routes/shopping.js");
 const res = require("express/lib/response");
+
+//para poder usar los metodos PUT y DELETE en el parametro method del HTML
+const methodOverride = require("method-override");
+app.use (methodOverride("_method"))
 
 //para poder usar el metodo post, decimos que tomamos toda la info
 //que llega desde un formulario
@@ -25,7 +29,7 @@ app.use(express.static(publicPath));
 
 app.use("/", rutasMain);
 
-app.use("/products", rutasProductos);
+app.use("/products", rutasProducts);
 
 app.use("/shopping-cart", rutasShopping);
 

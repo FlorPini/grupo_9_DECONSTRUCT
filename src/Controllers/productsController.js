@@ -6,7 +6,7 @@ const fs = require("fs")
 //const jsonTable= require("../database/jsonTable");
 //const productsModel = jsonTable ("products")
 
-let productosController = {
+let productsController = {
     index: (req, res) => {
         return res.render('./products/product');
     },
@@ -25,7 +25,7 @@ let productosController = {
             price :req.body.productPrice
         }
         let productJSON= JSON.stringify(newItem);
-        fs.appendFileSync("./database/productos.json",productJSON);
+        fs.appendFileSync("./database/products.json",productJSON);
         return res.send(newItem);
     },
     show: (req, res) => {
@@ -33,4 +33,4 @@ let productosController = {
     }
 };
 
-module.exports = productosController;
+module.exports = productsController;

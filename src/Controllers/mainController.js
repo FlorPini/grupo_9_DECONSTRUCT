@@ -13,7 +13,18 @@ let mainController = {
 
     login: (req, res) => {
         return res.render('./users/login');
+    },
+    edit: (req, res)=> {
+        let idUser= req.params.idUser;
+        let users = [
+            {id : 1 , name : "Dario"},
+            {id : 2 , name : "Javier"}
+            ];
+       let userToEdit = users[idUser];
+       let esta = "Esta"
+       res.render("./users/userEdit",{userToEdit:userToEdit});
     }
 };
 
 module.exports = mainController;
+ 

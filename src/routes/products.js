@@ -2,7 +2,7 @@ const express = require ("express");
 const router = express.Router ();
 const multer = require("multer");
 const { path } = require("express/lib/application");
-let productosController = require ('../Controllers/productosController')
+let productsController = require ('../Controllers/productsController')
 
 //para poder subir archivos
 const multerDiskStorage = multer.diskStorage({
@@ -26,14 +26,14 @@ const upload = multer ({ storage : multerDiskStorage});
 //subir un solo archivo
 
      //router.post('/create', upload.single("productImage"), productosController.store)
-router.post('/create', productosController.store)   //procesamiento del formulario de creacion
+router.post('/create', productsController.store)   //procesamiento del formulario de creacion
     
-router.get('/', productosController.index ) //Detalle de un producto
+router.get('/', productsController.index ) //Detalle de un producto
 
-router.get('/create', productosController.create) //formulario de creacion
+router.get('/create', productsController.create) //formulario de creacion
 
-router.get('/edit', productosController.edit)  //formulario de edicion
+router.get('/edit', productsController.edit)  //formulario de edicion
 
-router.get('/:id', productosController.show)  //detalle del producto
+router.get('/:id', productsController.show)  //detalle del producto
 
 module.exports = router;
