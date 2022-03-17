@@ -3,8 +3,8 @@ const path = require ("path");
 const app = express ();
 const fs = require("fs")
 
-//const jsonTable= require("../database/jsonTable");
-//const productsModel = jsonTable ("products")
+const jsonTable= require("../database/jsonTable");
+const productsModel = jsonTable ("products")
 
 let productsController = {
     index: (req, res) => {
@@ -12,9 +12,6 @@ let productsController = {
     },
     create: (req, res) => {
         return res.render('./products/create');
-    },
-    edit: (req, res) => {
-        return res.render('./products/edit');
     },
     store: (req, res) => {
         let newItem = {
@@ -26,7 +23,10 @@ let productsController = {
         }
         let productJSON= JSON.stringify(newItem);
         fs.appendFileSync("./database/products.json",productJSON);
-        return res.send(newItem);
+        return res.render('./products/createConfirm');
+    },
+    edit: (req, res) => {
+        return res.render('./products/edit');
     },
     show: (req, res) => {
         return res.render('./products/show');
