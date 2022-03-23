@@ -34,5 +34,50 @@
   "productPrice": "343",
   "image": "Product-1647816594300.png",
   "id": 4
+ },
+ {
+  "productName": "asa",
+  "category": "Curso",
+  "type": "plumbing",
+  "productDescription": "                        ",
+  "productPrice": "656",
+  "image": "Product-1647901155190.png",
+  "id": 5
+ },
+ {
+  "productName": "asa",
+  "category": "Curso",
+  "type": "plumbing",
+  "productDescription": "                        ",
+  "productPrice": "",
+  "image": "Product-1647901180740.png",
+  "id": 6
+ },
+ {
+  "productName": "asa",
+  "category": "Curso",
+  "type": "plumbing",
+  "productDescription": "                        ",
+  "productPrice": "",
+  "image": "Product-1647901202732.png",
+  "id": 7
+ },
+ {
+  "productName": "sdfsd",
+  "category": "Servicio",
+  "type": "electricity",
+  "productDescription": "                        sdfsd",
+  "productPrice": "23423",
+  "image": "Product-1647994774114.png",
+  "id": 8
+ },
+ {
+  "productName": "asdas",
+  "category": "Producto",
+  "type": "gas",
+  "productDescription": "                        asdasd",
+  "productPrice": "23423",
+  "image": "Product-1647994816435.png",
+  "id": 9
  }
 ]

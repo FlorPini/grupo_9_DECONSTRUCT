@@ -8,22 +8,39 @@
             <div class="create-title">    
                 <label for="chk" aria-hidden="true">Crear Producto</label>
             </div>
+            
             <div class="create-group" >
                 <form action="/products/create" method="POST" enctype="multipart/form-data">
                    
                     <div class="create">
                         <label for="productName">Nombre del producto</label>
-                        <input type="text" name="productName" id="productName" 
-                        placeholder="Nombre del producto" required>
+                        <input type="text" 
+                        name="productName" 
+                        id="productName" 
+                        placeholder="Nombre del producto" 
+                        value="<%= locals.old && old.productName %>" 
+                        class=" form-control <%= locals.errors && errors.productName ? 'is-invalid' : null %>">
+                        <% if (locals.errors && errors.productName) { %>
+                            <div>
+                            <%= errors.productName.msg %>
+                            </div>
+                        <% } %>
                     </div>
                  
                      <div class="create"> 
                         <label for="category">Categoria</label>
                         <select name="category">
                            <option value="">-</option>
-                           <option value="Curso">Curso</option>
-                           <option value="Servicio">Servicio</option>
-                           <option value="Producto">Producto</option>
+                           <% 
+                             let category = [ "Curso" , "Servicio" , "Producto" , "Otra"];
+                           %>
+                           <% for (const oneCategory of category) { %>
+                              <option 
+                                value="<%= oneCategory %>"
+                                <%= locals.old && (oneCategory === old.category) ? "selected" : null %>
+                                > <%= oneCategory %>  </option>
+                            <% } %>
+                           
                        </select>
                     </div> 
               
@@ -40,26 +57,40 @@
 
                     <div class="create"> 
                         <label>Descripción</label>
-                        <textarea name="productDescription" placeholder="Descripción" required>
+                        <textarea name="productDescription" placeholder="Descripción" value="<%= locals.old && old.productDescription %>">
                         </textarea>
                     </div> 
-
+                    <% if (locals.errors && errors.productDescription) { %>
+                        <div>
+                        <%= errors.productDescription.msg %>
+                        </div>
+                    <% } %>
                     <div class="createPrice"> 
                         <div class="createPriceInput">
                         <label>Precio</label>
                         <p>$</p>
-                        <input type="number" name="productPrice" placeholder="0.000,00"  required>
+                        <input type="number" name="productPrice" placeholder="0.000,00" value="<%= locals.old && old.productPrice %>" >
+                        <% if (locals.errors && errors.productPrice) { %>
+                            <div>
+                            <%= errors.productPrice.msg %>
+                            </div>
+                        <% } %>
                         </div>
+                        
                     </div>    
-
+                    
                     <div class="createImage">
                         <label for="productImage">Cargar imagenes</label>
                         <span class="btn-file">
                              Subir archivo 
                              <input type="file" name="productImage">
                         </span>
+                        <% if (locals.errors && errors.productImage) { %>
+                            <div>
+                               <%= errors.productImage.msg %>
+                            </div>
+                        <% } %>
                     </div> 
-
                     <div class="button">
                         <input type="submit" value="cargar">
                     </div>

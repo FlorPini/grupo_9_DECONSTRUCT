@@ -9,8 +9,25 @@ let productsController = require ('../Controllers/productsController')
 
 const validateCreateForm =[                   //validaciones
             check('productName').notEmpty().withMessage('Dato Obligatorio'),
-            check('productName').notEmpty().withMessage('Dato Obligatorio'),
-            check('productName').notEmpty().withMessage('Dato Obligatorio'),
+            check('category').notEmpty().withMessage('Dato Obligatorio'),
+            check('productDescription').notEmpty().withMessage('Dato Obligatorio'),
+            check('productPrice')
+                    .notEmpty().withMessage('Dato Obligatorio').bail()
+                    .isNumeric().withMessage('Dato Obligatorio'),
+            check('productImage').custom((value, { req }) => {  //para validar archivos
+                   let file = req.file;
+                   let acceptedExtension = ['.jpg' , '.png' , '.gif'] //para validar si el formato en el que vienene esta entre estos
+                   
+                   if (!file) {
+                        throw new Error('Agregar una imagen');
+                   } else {
+                        let fileExtension = path.extname(file.originalname)
+                        if (!acceptedExtension.includes(fileExtension)){
+                            throw new Error(`Las extensiones de archivo permitidas son ${acceptedExtension.join(', ')}`);
+                        }
+                   }
+                   return true;
+            })
 
 ]
 //para poder subir archivos
@@ -38,7 +55,7 @@ router.get('/', productsController.index ) //Detalle de un producto
 
 router.get('/create', productsController.create) //formulario de creacion
 
-router.post('/create', upload.single("productImage"), validateCreateForm, productsController.store) //procesamiento del formulario de creacion
+router.post('/create', upload.single("productImage"), validateCreateForm , productsController.store) //procesamiento del formulario de creacion
 
 router.get('/edit', productsController.edit)  //formulario de edicion
 
