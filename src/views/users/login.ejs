@@ -3,60 +3,83 @@
   <%- include('../partials/head.ejs') %>
   <link rel="stylesheet" href="/css/styles_users.css">
   <body >
- <header class="main-header">
       <%- include('../partials/header.ejs') %>
-    </header>
     <main class="blogin">
       <div class="container-main">
         <div class="mainlogin">
-          <input type="checkbox" id="chk" aria-hidden="true" />
+          <input type="checkbox" id="chk" aria-hidden="true">
           <div class="signup">
-            <form>
+            <form action="/users/register" method="POST" >
               <label for="chk" aria-hidden="true">Crear cuenta</label>
-              <input type="text" name="txt" placeholder="Nombre" required="" />
-              <input
-                type="text"
-                name="txt"
-                placeholder="Apellido"
-                required=""
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="Correo"
-                required=""
-              />
-              <input
-                type="password"
-                name="pswd"
-                placeholder="Contraseña"
-                required=""
-              />
-              <input
-                type="password"
-                name="confrimpswd"
-                placeholder="Confirmar Contraseña"
-                required=""
-              />
-              <button class="buttons">Crear</button>
-            </form>
-          </div>
+              <div>
+              <input type="text" id="name" name="name" placeholder="Nombre" value="<%= locals.old && old.name %>">  
+              <input type="text" name="lastName" placeholder="Apellido" value="<%= locals.old && old.lastName %>" >
+             
+              <input type="email" name="email" placeholder="Correo" value="<%= locals.old && old.email %>">
+             
+              <input type="password" name="pswd" placeholder="Contraseña" >
+              
+              <input type="password" name="confirmPswd" placeholder="Confirmar Contraseña" >
+             
+              <button type="submit" class="buttons">Crear</button> 
+              
+              </div> 
+              <% if (locals.errors && errors.name) { %>
+                <div>
+                <%= errors.name.msg %>
+                </div>
+               <% } %>
+               <% if (locals.errors && errors.lastName) { %>
+                <div>
+                <%= errors.lastName.msg %>
+                </div>
+               <% } %>
+               <% if (locals.errors && errors.email) { %>
+                <div>
+                <%= errors.email.msg %>
+                </div>
+               <% } %>
+               <% if (locals.errors && errors.pswd) { %>
+                <div>
+                <%= errors.pswd.msg %>
+                </div>
+               <% } %>
+               <% if (locals.errors && errors.confirmPswd) { %>
+                <div>
+                <%= errors.confirmPswd.msg %>
+                </div>
+               <% } %>
+              </form>
+              </div>
+            
+           
+          
           <div class="login">
-            <form>
+            
+            <form action="/users/login" method="POST">
+              
               <label for="chk" aria-hidden="true">Login</label>
               <input
                 type="email"
-                name="email"
+                name="emailLogin"
                 placeholder="Correo"
-                required=""
-              />
+                value="<%= locals.old && old.emailLogin %>"/>
+                <% if (locals.errors && errors.emailLogin) { %>
+                <div>
+                <%= errors.emailLogin.msg %>
+                </div>
+               <% } %>
               <input
                 type="password"
-                name="pswd"
+                name="pswdLogin"
                 placeholder="Contraseña"
-                required=""
-              />
-              <button class="buttons">Login</button>
+                value="<%= locals.old && old.pswdLogin %>"/>
+                <% if (locals.errors && errors.pswLogin) { %>
+                <div>
+                <%= errors.pswLogin.msg %>
+                </div>
+               <% } %>
+              <button type="submit"  class="buttons">Login</button>
             </form>
           </div>
         </div>

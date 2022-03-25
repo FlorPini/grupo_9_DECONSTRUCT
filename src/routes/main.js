@@ -1,21 +1,17 @@
 const express = require("express");
 const router = express.Router();
 const multer = require ("multer");
-let mainController = require("../Controllers/mainController");
+const {check} = require ('express-validator');
+const mainController = require("../Controllers/mainController");
+
+const validateLogin =[                   //validaciones
+            check('email').notEmpty().withMessage('Dato Obligatorio').bail()
+                    .isEmail().withMessage('No es una direccion valida'),
+            check('pswd').notEmpty().withMessage('Dato Obligatorio').bail()
+                    .isLength({min: 8}).withMessage('Ingrese una contraseña valida')
+]
 
 router.get("/", mainController.index);
 
-router.get("/register", mainController.register);
-
-router.get("/login", mainController.login);
-
-//para editar un usuario primero debemos ver el formulario para editar
-//entonces creamos la ruta con el metodo get para que nos muestre los datos
-//del usuario del idUser
-router.get("/edit/:idUser", mainController.edit )
-
-router.put("/edit",function (req,res){
-    res.send("Fui por PUT")
-})
 
 module.exports = router;

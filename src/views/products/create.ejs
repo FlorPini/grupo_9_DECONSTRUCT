@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="/css/styles_products_create.css">
     <body>
         <%- include('../partials/header.ejs') %>
-    <main>
+        <main>
             <div class="create-title">    
                 <label for="chk" aria-hidden="true">Crear Producto</label>
             </div>
@@ -30,7 +30,7 @@
                      <div class="create"> 
                         <label for="category">Categoria</label>
                         <select name="category">
-                           <option value="">-</option>
+                           <option value=null>-</option>
                            <% 
                              let category = [ "Curso" , "Servicio" , "Producto" , "Otra"];
                            %>

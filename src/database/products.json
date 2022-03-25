@@ -1,83 +1,11 @@
 [
  {
-  "productName": "656",
-  "category": "Curso",
-  "type": "electricity",
-  "productDescription": "         6565              ",
-  "productPrice": "565",
-  "image": "Product-1647792172364.png",
-  "id": 1
- },
- {
-  "productName": "puto el que lee",
-  "category": "Curso",
-  "type": "electricity",
-  "productDescription": "                      asdaasd  ",
-  "productPrice": "32200",
-  "image": "Product-1647793544677.png",
-  "id": 2
- },
- {
-  "productName": "",
-  "category": "Curso",
-  "type": "electricity",
-  "productDescription": "                        <<",
+  "productName": "sdfs",
+  "category": "null",
+  "type": "",
+  "productDescription": "                        ",
   "productPrice": "3434",
-  "image": "Product-1647816521757.png",
-  "id": 3
- },
- {
-  "productName": "",
-  "category": "Curso",
-  "type": "electricity",
-  "productDescription": "                        asda",
-  "productPrice": "343",
-  "image": "Product-1647816594300.png",
-  "id": 4
- },
- {
-  "productName": "asa",
-  "category": "Curso",
-  "type": "plumbing",
-  "productDescription": "                        ",
-  "productPrice": "656",
-  "image": "Product-1647901155190.png",
-  "id": 5
- },
- {
-  "productName": "asa",
-  "category": "Curso",
-  "type": "plumbing",
-  "productDescription": "                        ",
-  "productPrice": "",
-  "image": "Product-1647901180740.png",
-  "id": 6
- },
- {
-  "productName": "asa",
-  "category": "Curso",
-  "type": "plumbing",
-  "productDescription": "                        ",
-  "productPrice": "",
-  "image": "Product-1647901202732.png",
-  "id": 7
- },
- {
-  "productName": "sdfsd",
-  "category": "Servicio",
-  "type": "electricity",
-  "productDescription": "                        sdfsd",
-  "productPrice": "23423",
-  "image": "Product-1647994774114.png",
-  "id": 8
- },
- {
-  "productName": "asdas",
-  "category": "Producto",
-  "type": "gas",
-  "productDescription": "                        asdasd",
-  "productPrice": "23423",
-  "image": "Product-1647994816435.png",
-  "id": 9
+  "image": "Product-1648154140293.jpg",
+  "id": 1
  }
 ]
