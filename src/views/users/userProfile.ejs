@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../partials/head.ejs') %>
+    <link rel="stylesheet" href="/css/styles.css">
+<body>
+    <%- include('../partials/header.ejs') %>
+    <main>
+        <div class="container-product-description-payment-reviews">
+              
+            <div class="product-title"></divclass>
+                <h1 id="product-name"><%= user.name%></h1>
+            </div> 
+            <div class="product-image">
+                <img src="/images/usersImages/<%= user.userImage ? user.userImage : 'default.png' %>">
+            </div>
+            <div class="product-price">
+                <h3 class="price">$3600</h3>
+            </div>
+            <div class="payments-container">
+                <div class="installments-means-of-payment">
+                    <h3 class="installments-payment">3 y 6 Cuotas sin interes </h3>
+                </div>
+                <div class="list-payment-methods">
+                    <ul class="payment-methods" style="list-style: none;>
+                        <li class="inline-block"><span class="payment-logo">
+                            <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/visa@2x.png" alt="visa">
+                        </span></li>
+                        <li class="inline-block"><span class="payment-logo">
+                            <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/mastercard@2x.png" alt="mastercard">
+                        </span></li>
+                        <li class="inline-block"><span class="payment-logo">
+                            <img src="https://d26lpennugtm8s.cloudfront.net/assets/common/img/logos/payment/new_logos_payment/amex@2x.png" alt="american">
+                        </span></li>
+                    </ul>
+                    <div class="payment-methods-link"> Ver medios de pago</div>
+                </div>
+                <div class="addtocart-button">
+                    <input type="submit" class="addtocart-btn" value="Agregar al carrito">
+                </div>
+
+            </div>
+            <div class="product-description">
+                <h2>Curso de Plomeria domestica</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis saepe! Sit eveniet id amet excepturi nobis ratione at consectetur nam quae blanditiis exercitationem nesciunt, vero commodi velit deleniti vitae.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis saepe! Sit eveniet id amet excepturi nobis ratione at consectetur nam quae blanditiis exercitationem nesciunt, vero commodi velit deleniti vitae.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis saepe! Sit eveniet id amet excepturi nobis ratione at consectetur nam quae blanditiis exercitationem nesciunt, vero commodi velit deleniti vitae.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis saepe! Sit eveniet id amet excepturi nobis ratione at consectetur nam quae blanditiis exercitationem nesciunt, vero commodi velit deleniti vitae.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis saepe! Sit eveniet id amet excepturi nobis ratione at consectetur nam quae blanditiis exercitationem nesciunt, vero commodi velit deleniti vitae.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis saepe! Sit eveniet id amet excepturi nobis ratione at consectetur nam quae blanditiis exercitationem nesciunt, vero commodi velit deleniti vitae.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis saepe! Sit eveniet id amet excepturi nobis ratione at consectetur nam quae blanditiis exercitationem nesciunt, vero commodi velit deleniti vitae.</p>
+
+            </div>
+            <div class="questions-and-comments">
+                <form action=" " method=" ">
+                    <div class="questions">
+                        <label>Hacenos tu pregunta o dejanos un comentario</label>
+                    </div>
+                    <div class="textarea">
+                        <textarea aria-label="Agrega un comentario" class="text" placeholder="Agregar un comentario..."></textarea>
+                    </div>
+                    <div class="send-bottom">
+                        <input type="submit" class="send-btn" value="Enviar">
+                    </div>
+                </form>
+
+            </div>
+            <div class="reviews">
+                <form>
+                    <p class="clasificacion">
+                      <input id="radio1" type="radio" name="star" value="5"><!--
+                      --><label for="radio1">★</label><!--
+                      --><input id="radio2" type="radio" name="star" value="4"><!--
+                      --><label for="radio2">★</label><!--
+                      --><input id="radio3" type="radio" name="star" value="3"><!--
+                      --><label for="radio3">★</label><!--
+                      --><input id="radio4" type="radio" name="star" value="2"><!--
+                      --><label for="radio4">★</label><!--
+                      --><input id="radio5" type="radio" name="star" value="1"><!--
+                      --><label for="radio5">★</label>
+                    </p>
+                  </form>
+            </div>
+
+            
+        </div>
+
+    </main>
+    <%- include('../partials/footer.ejs') %>
+    
+</body>
+</html>

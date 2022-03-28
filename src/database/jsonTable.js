@@ -35,6 +35,10 @@ let model = function(tableName) {
             let rows = this.readFile();  //trae el archivo .JSON pasado a objeto literal completo
             return rows.find(row => row.id == id) //nos muestra el elemento del objeto literal que coincida con el id que dimos de argumento
         },
+        findByField(field , text) {                        //requiere que le demos dos argumentos por un lado el parametro que se va a buscar y por otro el valor que se debe comparar 
+            let rows = this.readFile();  //trae el archivo .JSON pasado a objeto literal completo
+            return rows.find(row => row[field] === text) //nos muestra el elemento del objeto literal que coincida con la busquesa 
+        },
         create(row) {                   //requiere que le demos un argumento (objeto literal que venga del formulario)
             let rows = this.readFile(); //trae el archivo .JSON pasado a objeto literal completo
             row.id = this.nextId();     //al elemento id del objeto literal que llego como argumento que le dimos desde el formulario le pone el valor siguiente

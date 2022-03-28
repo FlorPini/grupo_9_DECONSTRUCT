@@ -6,7 +6,6 @@ const {check} = require ('express-validator');  //con la herramienta desustructu
 
 let productsController = require ('../Controllers/productsController')
 
-
 const validateCreateForm =[                   //validaciones
             check('productName').notEmpty().withMessage('Dato Obligatorio'),
             check('category').notEmpty().withMessage('Dato Obligatorio'),
