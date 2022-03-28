@@ -5,6 +5,9 @@ const path= require("path");
 const {check} = require ('express-validator');
 
 const usersController = require("../Controllers/usersController");
+const guestMiddleware = require("../middleWares/guestMiddleware");
+const authMiddleware = require("../middleWares/authMiddleware");
+
 
 const validateRegister =[                   //validaciones
         check('name').notEmpty().withMessage('Agregar Nombre'),
@@ -66,15 +69,17 @@ router.get("/",function (req,res){
         res.redirect('/users/register')
     })
 
-router.get('/register', usersController.index);
+router.get('/register', guestMiddleware, usersController.index);
 
 router.post('/register',  upload.single("userImage"), validateRegister,  usersController.register);
 
-router.post("/login", validateLogin ,usersController.login);
+router.post("/login",  validateLogin ,  usersController.login);
 
-router.get("/edit/:idUser", usersController.edit)
+router.get("/edit/:idUser", usersController.edit);
 
-router.get("/profile/:idUser", usersController.profile)
+router.get("/profile", authMiddleware , usersController.profile);
+
+router.get("/logout",  usersController.logout);
 
 router.put("/edit",function (req,res){
     res.send("Fui por PUT")

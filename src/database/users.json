@@ -1,2 +1,26 @@
 [
+ {
+  "name": "Marcos",
+  "lastName": "Alterio",
+  "email": "m_alterio@yahoo.com.ar",
+  "pswd": "$2a$10$RSIyBjEyVGbmW75Uo.Wwre/xS.cgOUbfyV1zFMxAiC0firrq7BkOG",
+  "userImage": "User-1648501525302.jpeg",
+  "id": 1
+ },
+ {
+  "name": "Marcos",
+  "lastName": "Alterio",
+  "email": "marcosalterio1982@gmail.com",
+  "pswd": "$2a$10$4xN9lHARG9trficqXvhgQurBBEGYl7oDC3rLriXQYJurX7G2VNwG2",
+  "userImage": "User-1648501589888.jpeg",
+  "id": 2
+ },
+ {
+  "name": "Marcos",
+  "lastName": "Alterio",
+  "email": "m_alterio@yahoo.com.ar.lkdls",
+  "pswd": "$2a$10$3qztL5MyiYBOwB/zUa4cyu01jxWYYrtzW6bgsWZe4SYpPSEdyPe2q",
+  "userImage": "User-1648509484171.jpg",
+  "id": 3
+ }
 ]

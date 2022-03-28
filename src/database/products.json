@@ -1,3 +1,11 @@
 [
-
+ {
+  "productName": "Curso Plomeria",
+  "category": "Curso",
+  "type": "plumbing",
+  "productDescription": "                        Dificil",
+  "productPrice": "12345",
+  "image": "Product-1648509684645.png",
+  "id": 1
+ }
 ]

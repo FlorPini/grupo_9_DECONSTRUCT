@@ -14,9 +14,7 @@ let usersController = {
     },
 
     register: (req, res) => {
-        console.log(req.body);
         let errors = validationResult(req);
-        console.log(errors);
         if ( errors.isEmpty()){
             let user = {  //creamos el objeto literal user para cargarlo en el archivo general .JSON
                 ...req.body,    // tomamos el body del formulario enviado
@@ -24,7 +22,6 @@ let usersController = {
                 userImage: req.file.filename,  
                 }
                 delete user.confirmPswd;
-                console.log(user);
             let existingUser = usersModel.findByField('email' , req.body.email)
             if(existingUser == undefined){
 
@@ -54,11 +51,10 @@ let usersController = {
         if ( errors.isEmpty()){
             let userToLogin=usersModel.findByField('email' ,req.body.emailLogin)
                 if(userToLogin){
-                    console.log(userToLogin);
                     if( bcryptjs.compareSync(req.body.pswdLogin, userToLogin.pswd)){
                         delete userToLogin.pswd                  //para que no quede en session el pswd
                         req.session.userLogged = userToLogin;
-                        res.redirect('/users/profile/'+  userToLogin.id )       
+                        res.redirect('/users/profile')       
                     } else {
                         return res.render('./users/login', { 
                             errors: {
@@ -80,6 +76,12 @@ let usersController = {
              user : req.session.userLogged
         });
        
+        
+    },
+
+    logout: (req, res) => {
+       req.session.destroy();   
+       res.redirect('/')
         
     },
 

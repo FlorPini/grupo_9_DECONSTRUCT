@@ -15,7 +15,7 @@ const validateCreateForm =[                   //validaciones
                     .isNumeric().withMessage('Dato Obligatorio'),
             check('productImage').custom((value, { req }) => {  //para validar archivos
                    let file = req.file;
-                   let acceptedExtension = ['.jpg' , '.png' , '.gif'] //para validar si el formato en el que vienene esta entre estos
+                   let acceptedExtension = ['.jpg' , '.png' , '.gif' , '.jpeg'] //para validar si el formato en el que vienene esta entre estos
                    
                    if (!file) {
                         throw new Error('Agregar una imagen');
