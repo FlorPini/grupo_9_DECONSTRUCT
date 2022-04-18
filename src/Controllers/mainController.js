@@ -1,7 +1,7 @@
 const express = require ("express");
 const path = require ("path");
 const app = express ();
-const jsonTable= require("../database/jsonTable");
+const jsonTable= require("../database2/jsonTable");
 const usersModel = jsonTable ("users")
 
 let mainController = {

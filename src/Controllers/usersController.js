@@ -3,7 +3,7 @@ const path = require ("path");
 const app = express ();
 const fs = require("fs");
 const {validationResult} = require ('express-validator');
-const jsonTable= require("../database/jsonTable");
+const jsonTable= require("../database2/jsonTable");
 const usersModel = jsonTable ("users")
 const session = require('express-session');
 const bcryptjs = require('bcryptjs');
@@ -54,6 +54,11 @@ let usersController = {
                     if( bcryptjs.compareSync(req.body.pswdLogin, userToLogin.pswd)){
                         delete userToLogin.pswd                  //para que no quede en session el pswd
                         req.session.userLogged = userToLogin;
+
+                        if(req.body.rememberMe){
+                            res.cookie('userEmail', req.body.emailLogin, { maxAge : 1000*60*2})
+                        }
+                        
                         res.redirect('/users/profile')       
                     } else {
                         return res.render('./users/login', { 
@@ -80,8 +85,9 @@ let usersController = {
     },
 
     logout: (req, res) => {
+       res.clearCookie('userEmail');
        req.session.destroy();   
-       res.redirect('/')
+       res.redirect('/');
         
     },
 

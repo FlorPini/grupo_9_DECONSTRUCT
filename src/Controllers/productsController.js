@@ -3,7 +3,7 @@ const path = require ("path");
 const app = express ();
 const fs = require("fs")
 const { validationResult} = require ('express-validator');
-const jsonTable= require("../database/jsonTable");
+const jsonTable= require("../database2/jsonTable");
 const productsModel = jsonTable ("products")
 
 let productsController = {
