@@ -3,7 +3,7 @@ const path = require('path');
 
 let model = function(tableName) {
     return {
-        filePath: path.join(__dirname, '../database/' + tableName + '.json'), //se crea la ruta donde se va a guardar la table .JSON con el nombre que le de al argumento de la funcion JsonTable en el controlador que lo requiera
+        filePath: path.join(__dirname, '../database2/' + tableName + '.json'), //se crea la ruta donde se va a guardar la table .JSON con el nombre que le de al argumento de la funcion JsonTable en el controlador que lo requiera
                                                                               
         readFile() {
             let fileContents = fs.readFileSync(this.filePath, 'utf8'); //recupera los datos del archivo .json que se creo arriba
