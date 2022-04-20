@@ -1,0 +1,24 @@
+module.exports = function(sequelize, dataTypes){
+    let alias = "Users_Category";
+    let cols = {
+        id: {
+            type: dataTypes.INTEGER,
+            primaryKey: true,
+            autoIncrement: true, 
+        },
+        users_id: {
+            type: dataTypes.INTEGER,
+         
+        },
+        category_id: {
+            type: dataTypes.INTEGER,
+            
+        }        
+    } 
+    let config = {
+        tableName: "users_category",
+        timestamps: false 
+    }
+    let Users_Category = sequelize.define(alias, cols, config);
+    return Users_Category;
+}

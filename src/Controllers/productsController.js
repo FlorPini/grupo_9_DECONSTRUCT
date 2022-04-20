@@ -5,6 +5,7 @@ const fs = require("fs")
 const { validationResult} = require ('express-validator');
 const jsonTable= require("../database2/jsonTable");
 const productsModel = jsonTable ("products")
+const db = require("../database/models");
 
 let productsController = {
     index: (req, res) => {

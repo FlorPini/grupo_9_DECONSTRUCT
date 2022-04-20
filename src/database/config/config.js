@@ -2,7 +2,7 @@ module.exports= {
   "development": {
     "username": "root",
     "password": "23362287Eh",
-    "database": "database_development",
+    "database": "users_products_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
