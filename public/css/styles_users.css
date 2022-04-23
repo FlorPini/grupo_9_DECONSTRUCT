@@ -91,7 +91,8 @@
   outline: none;
   border-radius: 5px;
 }
-.signup button {
+.signup button,
+.login button {
   width: 50%;
   height: 40px;
   justify-content: center;

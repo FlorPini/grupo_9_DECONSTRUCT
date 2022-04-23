@@ -10,6 +10,9 @@ const validateCreateForm =[                   //validaciones
             check('productName').notEmpty().withMessage('Dato Obligatorio'),
             check('category').notEmpty().withMessage('Dato Obligatorio'),
             check('productDescription').notEmpty().withMessage('Dato Obligatorio'),
+            check('duration')
+                    .notEmpty().withMessage('Agregar la duración del curso').bail()
+                    .isNumeric().withMessage('Dato Obligatorio'),
             check('productPrice')
                     .notEmpty().withMessage('Dato Obligatorio').bail()
                     .isNumeric().withMessage('Dato Obligatorio'),

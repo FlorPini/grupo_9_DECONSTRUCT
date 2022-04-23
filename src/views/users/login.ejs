@@ -1,117 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
   <%- include('../partials/head.ejs') %>
-  <link rel="stylesheet" href="/css/styles_login.css" />
-  <body>
-    <%- include('../partials/header.ejs') %>
+  <link rel="stylesheet" href="/css/styles_users.css">
+  <body >
+      <%- include('../partials/header.ejs') %>
     <main class="blogin">
       <div class="container-main">
         <div class="mainlogin">
-          <input type="checkbox" id="chk" aria-hidden="true" />
+          <input type="checkbox" id="chk" aria-hidden="true">
           <div class="signup">
-            <form
-              action="/users/register"
-              method="POST"
-              enctype="multipart/form-data"
-            >
-              <label class="label-create" for="chk" aria-hidden="true"
-                >Crear cuenta</label
-              >
+            <form action="/users/register" method="POST" enctype="multipart/form-data">
+              <label class="label-create" for="chk" aria-hidden="true">Crear cuenta</label>
               <div>
-                <div>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Nombre"
-                    value="<%= locals.old && old.name %>"
-                  />
-                  <input
-                    type="text"
-                    name="lastName"
-                    placeholder="Apellido"
-                    value="<%= locals.old && old.lastName %>"
-                  />
+                  <div>
+                    <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="Nombre" 
+                    value="<%= locals.old && old.name %>">  
+                    <% if (locals.errors && errors.name) { %>
+                      <div>
+                      <%= errors.name.msg %>
+                      </div>
+                      <% } %>
 
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Correo"
-                    value="<%= locals.old && old.email %>"
-                  />
+                    <input 
+                    type="text" 
+                    name="lastName" 
+                    placeholder="Apellido" 
+                    value="<%= locals.old && old.lastName %>">
+                    <% if (locals.errors && errors.lastName) { %>
+                      <div>
+                      <%= errors.lastName.msg %>
+                      </div>
+                    <% } %>
 
-                  <input type="password" name="pswd" placeholder="Contraseña" />
+                    <input 
+                    type="email" 
+                    name="email" 
+                    placeholder="Correo" 
+                    value="<%= locals.old && old.email %>">
+                    <% if (locals.errors && errors.email) { %>
+                      <div>
+                      <%= errors.email.msg %>
+                      </div>
+                    <% } %>
 
-                  <input
-                    type="password"
-                    name="confirmPswd"
-                    placeholder="Confirmar Contraseña"
-                  />
-                </div>
-                <div class="createImage">
-                  <span class="btn-file">
-                    Subir archivo
-                    <input
-                      class="btn-file-input"
-                      type="file"
-                      name="userImage"
-                    />
-                  </span>
-                </div>
-                <div>
+                    <input 
+                    type="password" 
+                    name="pswd" 
+                    placeholder="Contraseña">
+                    <% if (locals.errors && errors.pswd) { %>
+                      <div>
+                      <%= errors.pswd.msg %>
+                      </div>
+                    <% } %>
+              
+                    <input 
+                    type="password" 
+                    name="confirmPswd" 
+                    placeholder="Confirmar Contraseña">
+                    <% if (locals.errors && errors.confirmPswd) { %>
+                      <div>
+                      <%= errors.confirmPswd.msg %>
+                      </div>
+                    <% } %>
+              
+                  </div>
+
+                  <div class="createImage">
+                    <span class="btn-file">
+                      Subir archivo 
+                      <input class="btn-file-input" type="file" name="userImage">
+                    </span>
+                  </div>
+                  <div>   
                   <% if (locals.errors && errors.userImage) { %>
-                  <div><%= errors.userImage.msg %></div>
+                    <div>
+                    <%= errors.userImage.msg %>
+                    </div>
                   <% } %>
-                </div>
-
-                <button type="submit" class="buttons">Crear</button>
-              </div>
-              <% if (locals.errors && errors.name) { %>
-              <div><%= errors.name.msg %></div>
-              <% } %> <% if (locals.errors && errors.lastName) { %>
-              <div><%= errors.lastName.msg %></div>
-              <% } %> <% if (locals.errors && errors.email) { %>
-              <div><%= errors.email.msg %></div>
-              <% } %> <% if (locals.errors && errors.pswd) { %>
-              <div><%= errors.pswd.msg %></div>
-              <% } %> <% if (locals.errors && errors.confirmPswd) { %>
-              <div><%= errors.confirmPswd.msg %></div>
-              <% } %>
+                  </div> 
+                    <button type="submit" class="button">Crear</button> 
+              </div>  
             </form>
           </div>
-
+               
           <div class="login">
             <form action="/users/login" method="POST">
-              <label class="label-create" for="chk" aria-hidden="true"
-                >Login</label
-              >
+              <label class="label-create" for="chk" aria-hidden="true">Login</label>
               <input
                 type="email"
                 name="emailLogin"
                 placeholder="Correo"
-                value="<%= locals.old && old.emailLogin %>"
-              />
-              <% if (locals.errors && errors.emailLogin) { %>
-              <div><%= errors.emailLogin.msg %></div>
-              <% } %>
-
+                value="<%= locals.old && old.emailLogin %>"/>
+                <% if (locals.errors && errors.emailLogin) { %>
+                  <div>
+                  <%= errors.emailLogin.msg %>
+                  </div>
+                <% } %>
+              
               <input
                 type="password"
                 name="pswdLogin"
                 placeholder="Contraseña"
-                value="<%= locals.old && old.pswdLogin %>"
-              />
-              <% if (locals.errors && errors.pswdLogin) { %>
-              <div><%= errors.pswdLogin.msg %></div>
-              <% } %>
-
-              <div class="rememberMeDiv">
-                <div class="rememberMeText">Recuerda esta cuenta</div>
-
-                <input class="rememberMe" type="checkbox" name="rememberMe" />
+                value="<%= locals.old && old.pswdLogin %>"/>
+                <% if (locals.errors && errors.pswdLogin) { %>
+                  <div>
+                  <%= errors.pswdLogin.msg %>
+                  </div>
+                <% } %>
+              <div class="rememberMe">
+                <div >Recordar esta cuenta</div>
+                <input type="checkbox" name="rememberMe">
               </div>
+              
+              <button type="submit"  class="button">Login</button>
 
-              <button type="submit" class="buttons">Login</button>
             </form>
           </div>
         </div>

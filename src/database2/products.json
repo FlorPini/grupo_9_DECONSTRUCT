@@ -7,5 +7,24 @@
   "productPrice": "12345",
   "image": "Product-1648509684645.png",
   "id": 1
+ },
+ {
+  "productName": "asa",
+  "category": "Curso",
+  "type": "",
+  "productDescription": "                        ",
+  "productPrice": "345",
+  "image": "Product-1650747304611.png",
+  "id": 2
+ },
+ {
+  "productName": "tghgh",
+  "category": "Servicio",
+  "type": "",
+  "productDescription": "                        ",
+  "duration": "45",
+  "productPrice": "4545",
+  "image": "Product-1650747860806.png",
+  "id": 3
  }
 ]

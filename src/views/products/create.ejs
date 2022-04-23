@@ -65,6 +65,15 @@
                         <%= errors.productDescription.msg %>
                         </div>
                     <% } %>
+                    <div class="create"> 
+                        <label>Duración</label>
+                        <input type="number" name="duration" placeholder="00:00 h" value="<%= locals.old && old.duration %>" >
+                        <% if (locals.errors && errors.duration) { %>
+                            <div>
+                            <%= errors.duration.msg %>
+                            </div>
+                        <% } %> 
+                    </div> 
                     <div class="createPrice"> 
                         <div class="createPriceInput">
                         <label>Precio</label>

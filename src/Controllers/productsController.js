@@ -16,15 +16,12 @@ let productsController = {
         return res.render('./products/create');
     },
     store: (req, res) => {
-        console.log(req.body);
         let errors = validationResult(req);
-        console.log(errors);
         if ( errors.isEmpty()){
                 let product = req.body;
                 product.image = req.file.filename;   //con esto tomo el valor filename (nombre que le di al archivo) de la informacion que viene del req.file y se la asocio a la clave image del objeto literal group
                 productId = productsModel.create(product);
                 res.redirect('/products/' + productId);
-                console.log(product);
                 } else {
                 res.render('./products/create', { errors: errors.mapped(), old: req.body}); //le enviamos a la vista de creacion de producto un array con los errores
                 }
