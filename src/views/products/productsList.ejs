@@ -6,11 +6,16 @@
     <body>
         <%- include('../partials/header.ejs') %>
     <main>
-        <div>
-            <% products.forEach(product => { %>
-                <%- include('product', { product }) %>
-            <% }) %> 
-        </div>
+        <ul>
+            <% for (let i=0 ; i < products.length; i++) {%>
+                <li>
+                    <a href="/products/<%=products[i].id%>">  
+                        <%=products[i].product_name %>
+                        <img src="/images/productImages/<%=products[i].image %>">
+                    </a>
+                </li>    
+            <% } %> 
+        </ul>
     </main>
         <%- include('../partials/footer.ejs') %>
     </body>

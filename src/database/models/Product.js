@@ -7,32 +7,28 @@ module.exports = function(sequelize, dataTypes){
             autoIncrement: true, 
         },
         product_name: {
-            type: dataTypes.STRING,
-            
+            type: dataTypes.STRING,   
         },
         price: {
-            type: dataTypes.DECIMAL,
-            
+            type: dataTypes.DECIMAL,    
         },
         duration: {
-            type: dataTypes.INTEGER,
-            
+            type: dataTypes.INTEGER,    
         },
         image: {
-            type: dataTypes.STRING,
-            
+            type: dataTypes.STRING,   
         },
         category_id: {
-            type: dataTypes.INTEGER,
-            
+            type: dataTypes.INTEGER,   
         },
         type_id: {
             type: dataTypes.INTEGER,
-            
+        },
+        description: {
+                type: dataTypes.STRING,   
         },
         user_id: {
-            type: dataTypes.INTEGER,
-            
+            type: dataTypes.INTEGER,   
         }
     } 
     let config = {

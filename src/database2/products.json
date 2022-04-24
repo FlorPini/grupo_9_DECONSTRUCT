@@ -66,5 +66,15 @@
   "productPrice": "545",
   "image": "Product-1650768835238.png",
   "id": 7
+ },
+ {
+  "productName": "asda",
+  "category": "null",
+  "type": "null",
+  "productDescription": "            dfd            ",
+  "duration": "433",
+  "productPrice": "454",
+  "image": "Product-1650810418250.png",
+  "id": 8
  }
 ]

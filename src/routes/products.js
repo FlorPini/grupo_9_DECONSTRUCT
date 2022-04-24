@@ -8,7 +8,8 @@ let productsController = require ('../Controllers/productsController')
 
 const validateCreateForm =[                   //validaciones
             check('productName').notEmpty().withMessage('Dato Obligatorio'),
-            check('category').notEmpty().withMessage('Dato Obligatorio'),
+            check('category').notEmpty().withMessage('Seleccionar una opción'),
+            check('type').notEmpty().withMessage('Seleccionar una opción'),
             check('productDescription').notEmpty().withMessage('Dato Obligatorio'),
             check('duration')
                     .notEmpty().withMessage('Agregar la duración del curso').bail()
@@ -30,6 +31,19 @@ const validateCreateForm =[                   //validaciones
                    }
                    return true;
             })
+
+]
+const validateUpdateForm =[                   //validaciones
+            check('productName').notEmpty().withMessage('Dato Obligatorio'),
+            check('category').notEmpty().withMessage('Seleccionar una opción'),
+            check('type').notEmpty().withMessage('Seleccionar una opción'),
+            check('productDescription').notEmpty().withMessage('Dato Obligatorio'),
+            check('duration')
+                    .notEmpty().withMessage('Agregar la duración del curso').bail()
+                    .isNumeric().withMessage('Dato Obligatorio'),
+            check('productPrice')
+                    .notEmpty().withMessage('Dato Obligatorio').bail()
+                    .isNumeric().withMessage('Dato Obligatorio'),
 
 ]
 //para poder subir archivos
@@ -59,7 +73,11 @@ router.get('/create', productsController.create) //formulario de creacion
 
 router.post('/create', upload.single("productImage"), validateCreateForm , productsController.store) //procesamiento del formulario de creacion
 
-router.get('/edit', productsController.edit)  //formulario de edicion
+router.get('/edit/:id', productsController.edit)  //formulario de edicion
+
+router.post('/edit/:id',upload.single("productImage"), validateUpdateForm , productsController.update)  //formulario de actualizacion
+
+router.post('/erase/:id', productsController.erase)
 
 router.get('/:id', productsController.show)  //detalle del producto
 

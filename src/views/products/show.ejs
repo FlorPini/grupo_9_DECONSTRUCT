@@ -9,15 +9,15 @@
             <div class="breadcrumbs">
                 <a class="breadcrumbs-crumb" href="/views/home.html" title="Deconstruct">Inicio</a>
                 <span class="breadcrumbs-divider">/</span>
-                <a class="breadcrumbs-crumb" href="/views/home.html" title="Deconstruct">Cursos</a>
+                <a class="breadcrumbs-crumb" href="/views/home.html" title="Deconstruct"><%=product.category.category + "s"%></a>
                 <span class="breadcrumbs-divider">/</span>
-                <a class="breadcrumbs-crumb" href="/views/home.html" title="Deconstruct">Curso de Plomeria</a>
+                <a class="breadcrumbs-crumb" href="/views/home.html" title="Deconstruct"><%=product.category.category + " de " +product.type.type %></a>
             </div>   
             <div class="product-title"></divclass>
-                <h1 id="product-name">CURSO DE PLOMERIA</h1>
+                <h1 id="product-name"><%=product.product_name%></h1>
             </div> 
             <div class="product-image">
-                <img src="/images/courses/plomeria.png" alt="Curso-plomeria">
+                <img src="/images/productImages/<%=product.image %>">
             </div>
             <div class="product-price">
                 <h3 class="price">$3600</h3>
@@ -46,17 +46,8 @@
 
             </div>
             <div class="product-description">
-                <h2>Curso de Plomeria domestica</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis saepe! Sit eveniet id amet excepturi nobis ratione at consectetur nam quae blanditiis exercitationem nesciunt, vero commodi velit deleniti vitae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis saepe! Sit eveniet id amet excepturi nobis ratione at consectetur nam quae blanditiis exercitationem nesciunt, vero commodi velit deleniti vitae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis saepe! Sit eveniet id amet excepturi nobis ratione at consectetur nam quae blanditiis exercitationem nesciunt, vero commodi velit deleniti vitae.</p>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis saepe! Sit eveniet id amet excepturi nobis ratione at consectetur nam quae blanditiis exercitationem nesciunt, vero commodi velit deleniti vitae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis saepe! Sit eveniet id amet excepturi nobis ratione at consectetur nam quae blanditiis exercitationem nesciunt, vero commodi velit deleniti vitae.</p>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis saepe! Sit eveniet id amet excepturi nobis ratione at consectetur nam quae blanditiis exercitationem nesciunt, vero commodi velit deleniti vitae.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, perspiciatis saepe! Sit eveniet id amet excepturi nobis ratione at consectetur nam quae blanditiis exercitationem nesciunt, vero commodi velit deleniti vitae.</p>
-
+                <h2><%=product.product_name%></h2>
+                <p><%=product.description%></p>
             </div>
             <div class="questions-and-comments">
                 <form action=" " method=" ">
@@ -64,7 +55,8 @@
                         <label>Hacenos tu pregunta o dejanos un comentario</label>
                     </div>
                     <div class="textarea">
-                        <textarea aria-label="Agrega un comentario" class="text" placeholder="Agregar un comentario..."></textarea>
+                        <textarea aria-label="Agrega un comentario" 
+                        class="text" placeholder="Agregar un comentario..."></textarea>
                     </div>
                     <div class="send-bottom">
                         <input type="submit" class="send-btn" value="Enviar">
@@ -88,7 +80,12 @@
                     </p>
                   </form>
             </div>
-
+            <a href="/products/edit/<%=product.id%>">
+                <button>Editar</button>
+            </a>
+            <form action="/products/erase/<%=product.id%>" method="POST">
+                <button type="submit">Borrar</button>
+            </form>
             
         </div>
 

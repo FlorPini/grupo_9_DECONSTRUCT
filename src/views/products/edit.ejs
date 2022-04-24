@@ -1,71 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
     <%- include('../partials/head.ejs') %>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles_products_create.css">
     <body>
         <%- include('../partials/header.ejs') %>
-    <main>
-            <div class="shopping-cart-title">    
-                <label for="chk" aria-hidden="true">Carrito de Compras</label>
+        <main>
+            <div class="create-title">    
+                <label for="chk" aria-hidden="true">Crear Producto</label>
             </div>
-            <div class="courses-cart"> 
-                <div class="courses-cart-item"> 
-                    <img class="courses-images-cart" src="/images/courses/shopingcart/plomeria.png" alt="Img Plomeria Banner"> 
-                    <div class="courses-cart-descrip" >  
-                       <h2 class="courses-cart-name" >Curso de Plomeria domestica</h2> 
-                       <div class="quantity-trash">
-                        <div class="quantity-area">
-                            <select name="quantity">
-                                <option> 1 </option>
-                                <option> 2 </option>
-                            </select>
-                        </div>
-                         <i class="far fa-trash-alt"></i>
-                       </div>
-                       <div class="price-cart">
-                          <p>Sub Total</p>
-                          <p>$3600</p>
-                       </div>
+            
+            <div class="create-group" >
+                <form action="/products/edit/<%=product.id%>" method="POST" enctype="multipart/form-data">
+                   
+                    <div class="create">
+                        <label for="productName">Nombre del producto</label>
+                        <input type="text" 
+                        name="productName" 
+                        id="productName" 
+                        placeholder="Nombre del producto" 
+                        value="<%=product.product_name%>" 
+                        class=" form-control <%= locals.errors && errors.productName ? 'is-invalid' : null %>">
+                        <% if (locals.errors && errors.productName) { %>
+                            <div>
+                            <%= errors.productName.msg %>
+                            </div>
+                        <% } %>
                     </div>
-                </div> 
-                <div class="courses-cart-item"> 
-                    <img class="courses-images-cart" src="/images/courses/shopingcart/plomeria.png" alt="Img Plomeria Banner"> 
-                    <div class="courses-cart-descrip" >  
-                       <h2 class="courses-cart-name" >Curso de Plomeria domestica</h2> 
-                       <div class="quantity-trash">
-                        <div class="quantity-area">
-                            <select name="quantity">
-                                <option> 1 </option>
-                                <option> 2 </option>
-                            </select>
-                        </div>
-                         <i class="far fa-trash-alt"></i>
-                       </div>
-                       <div class="price-cart">
-                          <p>Sub Total</p>
-                          <p>$3600</p>
-                       </div>
+                     
+                    <div class="create"> 
+                        <label for="category">Categoria</label>
+                        <select name="category">
+                           <option value="">-</option>
+                            <% for (let j = 0 ; j < categorys.length; j++) { %>
+                                <option
+                                value="<%= categorys[j].id %>"
+                                <%= (categorys[j].id == product.category_id) ? "selected" : null %>>
+                                   <%= categorys[j].category %>  
+                                </option>
+                            <% } %>
+                        </select>
+                        <% if (locals.errors && errors.category) { %>
+                            <div>
+                            <%= errors.category.msg %>
+                            </div>
+                        <% } %>
+                    </div> 
+                 
+                    <div class="create"> 
+                        <label for="type">Rubro</label>
+                        <select name="type">
+                            <option value="">-</option>
+                            <% for (let i = 0 ; i < types.length; i++) { %>
+                                <option
+                                value="<%= types[i].id %>"
+                                <%= (types[i].id == product.type_id) ? "selected" : null %>>>
+                                   <%= types[i].type %>  
+                                </option>
+                            <% } %>
+                        </select>
+                        <% if (locals.errors && errors.type) { %>
+                            <div>
+                            <%= errors.type.msg %>
+                            </div>
+                        <% } %>
                     </div>
-                </div> 
-                <div class="courses-cart-item"> 
-                    <img class="courses-images-cart" src="/images/courses/shopingcart/plomeria.png" alt="Img Plomeria Banner"> 
-                    <div class="courses-cart-descrip" >  
-                       <h2 class="courses-cart-name" >Curso de Plomeria domestica</h2> 
-                       <div class="quantity-trash">
-                        <div class="quantity-area">
-                            <select name="quantity">
-                                <option> 1 </option>
-                                <option> 2 </option>
-                            </select>
+                   
+
+                    <div class="create"> 
+                        <label>Descripción</label>
+                        <textarea name="productDescription"  
+                        placeholder="Descripción" 
+                        class="text"
+                        value="<%= product.desctiption%>">
+                        </textarea>
+                    </div> 
+                    <% if (locals.errors && errors.productDescription) { %>
+                        <div>
+                        <%= errors.productDescription.msg %>
                         </div>
-                         <i class="far fa-trash-alt"></i>
-                       </div>
-                       <div class="price-cart">
-                          <p>Sub Total</p>
-                          <p>$3600</p>
-                       </div>
+                    <% } %>
+
+                    <div class="create"> 
+                        <label>Duración</label>
+                        <input type="number" 
+                        name="duration"  
+                        placeholder="00:00 h" 
+                        value="<%= product.duration%>" >
+                        <% if (locals.errors && errors.duration) { %>
+                            <div>
+                            <%= errors.duration.msg %>
+                            </div>
+                        <% } %> 
+                    </div> 
+                    <div class="createPrice"> 
+                        <div class="createPriceInput">
+                        <label>Precio</label>
+                        <p>$</p>
+                        <input type="number" 
+                        name="productPrice" 
+                        placeholder="0.000,00" 
+                        value="<%= product.price%>" >
+                        <% if (locals.errors && errors.productPrice) { %>
+                            <div>
+                            <%= errors.productPrice.msg %>
+                            </div>
+                        <% } %>
+                        </div>
+                        
+                    </div>    
+                    
+                    <div class="createImage">
+                        <label for="productImage">Cargar imagenes</label>
+                        <span class="btn-file">
+                             Subir archivo 
+                             <input type="file" 
+                             name="productImage">
+                        </span>
+                        <% if (locals.errors && errors.productImage) { %>
+                            <div>
+                               <%= errors.productImage.msg %>
+                            </div>
+                        <% } %>
+                    </div> 
+                    <div class="button">
+                        <input type="submit" value="guardar cambios">
                     </div>
-                </div> 
+                </form>   
             </div>
         </main>
   

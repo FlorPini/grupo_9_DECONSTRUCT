@@ -10,8 +10,13 @@ const db = require("../database/models");
 
 let productsController = {
     index: (req, res) => {
-        let products = productsModel.all() 
-        return res.render('./products/productsList' , {products});
+       db.Product.findAll()
+         .then(function(products){
+            res.render('./products/productsList' , {products:products})
+         })
+       
+        // let products = productsModel.all() 
+        //return res.render('./products/productsList' , {products});
     },
     
     
@@ -29,14 +34,32 @@ let productsController = {
     store: (req, res) => {
         let errors = validationResult(req);
         if ( errors.isEmpty()){
-                let product = req.body;
-                product.image = req.file.filename;   //con esto tomo el valor filename (nombre que le di al archivo) de la informacion que viene del req.file y se la asocio a la clave image del objeto literal group
-                productId = productsModel.create(product);
-                res.redirect('/products/' + productId);
+            db.Product.create({
+                product_name : req.body.productName ,
+                category_id : req.body.category,
+                type_id : req.body.type,
+                description : req.body.productDescription,
+                duration : req.body.duration,
+                price :req.body.productPrice,
+                image: req.file.filename
+                //user_id:user??   
+            })
+            //  name : req.body.productName ,
+            //     category : req.body.category,
+            //     type : req.body.type,
+            //     description : req.body.productDescription,
+            //     price :req.body.productPrice
+
+
+
+
+                     //    let product = req.body;
+               //   product.image = req.file.filename;   //con esto tomo el valor filename (nombre que le di al archivo) de la informacion que viene del req.file y se la asocio a la clave image del objeto literal group
+             //   productId = productsModel.create(product);
+              //  res.redirect('/products/' + productId);
                 } else {
                     Promise.all([db.Category.findAll(),db.Type.findAll()])        
-                    .then(function([categorys, types]){ 
-                        console.log(req.body);    
+                    .then(function([categorys, types]){    
                         res.render('./products/create', {errors: errors.mapped(), old: req.body, types: types , categorys: categorys});
                     })
                  //le enviamos a la vista de creacion de producto un array con los errores
@@ -54,12 +77,59 @@ let productsController = {
     },
 
     edit: (req, res) => {
-        return res.render('./products/edit');
+        Promise.all([db.Product.findByPk(req.params.id),db.Category.findAll(),db.Type.findAll()])        
+                    .then(function([product, categorys, types]){     
+                        res.render('./products/edit', {types: types , categorys: categorys, product:product});
+                    })
+        //let orderProduct =db.Product.findByPk(req.params.id)
+       // return res.render('./products/edit',{product:product});
+    },
+
+    update:(req , res) =>{
+        let errors = validationResult(req);
+        if ( errors.isEmpty()){
+            db.Product.update({
+                product_name : req.body.productName ,
+                category_id : req.body.category,
+                type_id : req.body.type,
+                description : req.body.productDescription,
+                duration : req.body.duration,
+                price :req.body.productPrice,
+                //image:filename,
+                image: req.file.filename,
+                //user_id:user??   
+            },{
+                where:{
+                    id:req.params.id
+                }
+            })
+            res.redirect("/products/" +req.params.id)
+        }else{
+            Promise.all([db.Category.findAll(),db.Type.findAll()])        
+            .then(function([categorys, types]){    
+                res.render('./products/edit', {errors: errors.mapped(), old: req.body, types: types , categorys: categorys});
+            })
+            }
     },
 
     show: (req, res) => {
-        let group = productsModel.find(req.params.id);
-        return res.render('./products/show');
+        db.Product.findByPk(req.params.id, {
+            include:[{association: "category"},{association:"type"}]
+        })
+            .then(function(product){
+                res.render('./products/show',{product:product})
+            }) 
+       // let group = productsModel.find(req.params.id);
+        //return res.render('./products/show');
+    },
+
+    erase: (req, res) => {
+        db.Product.destroy({
+            where:{
+                id:req.params.id
+            }   
+        })  
+        res.redirect('/products')
     }
 };
 

@@ -30,7 +30,7 @@
                     <div class="create"> 
                         <label for="category">Categoria</label>
                         <select name="category">
-                           <option value=null>-</option>
+                           <option value="">-</option>
                             <% for (let j = 0 ; j < categorys.length; j++) { %>
                                 <option
                                 value="<%= categorys[j].id %>"
@@ -39,12 +39,17 @@
                                 </option>
                             <% } %>
                         </select>
+                        <% if (locals.errors && errors.category) { %>
+                            <div>
+                            <%= errors.category.msg %>
+                            </div>
+                        <% } %>
                     </div> 
                  
                     <div class="create"> 
                         <label for="type">Rubro</label>
                         <select name="type">
-                            <option value=null>-</option>
+                            <option value="">-</option>
                             <% for (let i = 0 ; i < types.length; i++) { %>
                                 <option
                                 value="<%= types[i].id %>"
@@ -53,12 +58,20 @@
                                 </option>
                             <% } %>
                         </select>
+                        <% if (locals.errors && errors.type) { %>
+                            <div>
+                            <%= errors.type.msg %>
+                            </div>
+                        <% } %>
                     </div>
                    
 
                     <div class="create"> 
                         <label>Descripción</label>
-                        <textarea name="productDescription" placeholder="Descripción" value="<%= locals.old && old.productDescription %>">
+                        <textarea name="productDescription"  
+                        placeholder="Descripción" 
+                        class="text"
+                        value="<%= locals.old && old.productDescription %>">
                         </textarea>
                     </div> 
                     <% if (locals.errors && errors.productDescription) { %>
@@ -66,9 +79,13 @@
                         <%= errors.productDescription.msg %>
                         </div>
                     <% } %>
+
                     <div class="create"> 
                         <label>Duración</label>
-                        <input type="number" name="duration" placeholder="00:00 h" value="<%= locals.old && old.duration %>" >
+                        <input type="number" 
+                        name="duration" 
+                        placeholder="00:00 h" 
+                        value="<%= locals.old && old.duration %>" >
                         <% if (locals.errors && errors.duration) { %>
                             <div>
                             <%= errors.duration.msg %>
