@@ -20,7 +20,7 @@
                     placeholder="Nombre" 
                     value="<%= locals.old && old.name %>">  
                     <% if (locals.errors && errors.name) { %>
-                      <div>
+                      <div class="errors">
                       <%= errors.name.msg %>
                       </div>
                       <% } %>
@@ -31,7 +31,7 @@
                     placeholder="Apellido" 
                     value="<%= locals.old && old.lastName %>">
                     <% if (locals.errors && errors.lastName) { %>
-                      <div>
+                      <div class="errors">
                       <%= errors.lastName.msg %>
                       </div>
                     <% } %>
@@ -42,7 +42,7 @@
                     placeholder="Correo" 
                     value="<%= locals.old && old.email %>">
                     <% if (locals.errors && errors.email) { %>
-                      <div>
+                      <div class="errors">
                       <%= errors.email.msg %>
                       </div>
                     <% } %>
@@ -52,7 +52,7 @@
                     name="pswd" 
                     placeholder="Contraseña">
                     <% if (locals.errors && errors.pswd) { %>
-                      <div>
+                      <div class="errors">
                       <%= errors.pswd.msg %>
                       </div>
                     <% } %>
@@ -62,7 +62,7 @@
                     name="confirmPswd" 
                     placeholder="Confirmar Contraseña">
                     <% if (locals.errors && errors.confirmPswd) { %>
-                      <div>
+                      <div class="errors">
                       <%= errors.confirmPswd.msg %>
                       </div>
                     <% } %>
@@ -77,7 +77,7 @@
                   </div>
                   <div>   
                   <% if (locals.errors && errors.userImage) { %>
-                    <div>
+                    <div class="errors">
                     <%= errors.userImage.msg %>
                     </div>
                   <% } %>
@@ -96,7 +96,7 @@
                 placeholder="Correo"
                 value="<%= locals.old && old.emailLogin %>"/>
                 <% if (locals.errors && errors.emailLogin) { %>
-                  <div>
+                  <div class="errors">
                   <%= errors.emailLogin.msg %>
                   </div>
                 <% } %>
@@ -107,7 +107,7 @@
                 placeholder="Contraseña"
                 value="<%= locals.old && old.pswdLogin %>"/>
                 <% if (locals.errors && errors.pswdLogin) { %>
-                  <div>
+                  <div class="errors">
                   <%= errors.pswdLogin.msg %>
                   </div>
                 <% } %>

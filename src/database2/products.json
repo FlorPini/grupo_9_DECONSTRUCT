@@ -26,5 +26,45 @@
   "productPrice": "4545",
   "image": "Product-1650747860806.png",
   "id": 3
+ },
+ {
+  "productName": "sdgfs",
+  "category": "Curso",
+  "type": "",
+  "productDescription": "                        ",
+  "duration": "45",
+  "productPrice": "34343",
+  "image": "Product-1650756753352.png",
+  "id": 4
+ },
+ {
+  "productName": "sds",
+  "category": "1",
+  "type": "plumbing",
+  "productDescription": "                  sds      ",
+  "duration": "343",
+  "productPrice": "3434",
+  "image": "Product-1650763254515.png",
+  "id": 5
+ },
+ {
+  "productName": "sdgfs",
+  "category": "3",
+  "type": "gas",
+  "productDescription": "         hgjghjgh               ",
+  "duration": "3",
+  "productPrice": "12",
+  "image": "Product-1650763332362.png",
+  "id": 6
+ },
+ {
+  "productName": "sdgfs",
+  "category": "2",
+  "type": "1",
+  "productDescription": "                   dfsgf     ",
+  "duration": "45",
+  "productPrice": "545",
+  "image": "Product-1650768835238.png",
+  "id": 7
  }
 ]

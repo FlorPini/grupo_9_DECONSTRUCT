@@ -26,34 +26,35 @@
                             </div>
                         <% } %>
                     </div>
-                 
-                     <div class="create"> 
+                     
+                    <div class="create"> 
                         <label for="category">Categoria</label>
                         <select name="category">
                            <option value=null>-</option>
-                           <% 
-                             let category = [ "Curso" , "Servicio" , "Producto" , "Otra"];
-                           %>
-                           <% for (const oneCategory of category) { %>
-                              <option 
-                                value="<%= oneCategory %>"
-                                <%= locals.old && (oneCategory === old.category) ? "selected" : null %>
-                                > <%= oneCategory %>  </option>
+                            <% for (let j = 0 ; j < categorys.length; j++) { %>
+                                <option
+                                value="<%= categorys[j].id %>"
+                                <%= locals.old && (categorys[j].id == old.category) ? "selected" : null %>>
+                                   <%= categorys[j].category %>  
+                                </option>
                             <% } %>
-                           
-                       </select>
+                        </select>
                     </div> 
-              
+                 
                     <div class="create"> 
-                        <label>Rubro</label>
+                        <label for="type">Rubro</label>
                         <select name="type">
-                            <option value="">-</option>
-                            <option value="electricity">Electricidad</option>
-                            <option value="plumbing">Plomeria</option>
-                            <option value="gas">Gas</option>
-                            <option value="airConditioning">Aire acondicionado</option>
+                            <option value=null>-</option>
+                            <% for (let i = 0 ; i < types.length; i++) { %>
+                                <option
+                                value="<%= types[i].id %>"
+                                <%= locals.old && (types[i].id == old.type) ? "selected" : null %>>>
+                                   <%= types[i].type %>  
+                                </option>
+                            <% } %>
                         </select>
                     </div>
+                   
 
                     <div class="create"> 
                         <label>Descripción</label>

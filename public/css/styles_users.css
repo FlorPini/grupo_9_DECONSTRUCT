@@ -133,6 +133,11 @@
   transform: scale(0.6);
 }
 
+.errors {
+  font-family: Arial, Helvetica, sans-serif;  
+  color: #d45050;
+  font-size: 0.7em;
+}
 
 @media (min-width: 576px) {
    
