@@ -10,6 +10,9 @@ const session = require("express-session");
 const cookies = require('cookie-parser')
 const methodOverride = require("method-override"); //para poder usar los metodos PUT y DELETE en el parametro method del HTML
 const userLoggedMiddleware = require("./middleWares/userLoggedMiddleware");
+const nodeFetch = require('node-fetch');
+
+const productsApiRoutes = require ('./routes/api/productsApiRoutes')
 
 app.use (methodOverride("_method"));
 
@@ -34,6 +37,7 @@ const publicPath = path.resolve(__dirname, "../public");
 //app.get("/", (req,res)=> {      //con esto redirigimos todas las rutas que entren en home a la ruta producto
 //  res.redirect("/productos/")
 //})
+
 app.set("view engine", "ejs");
 
 app.use(express.static(publicPath));
@@ -43,6 +47,7 @@ app.use("/", rutasMain);
 app.use("/users", rutasUsers);
 
 app.use("/products", rutasProducts);
+app.use("/api/products", productsApiRoutes);
 
 app.use("/shopping-cart", rutasShopping);
 

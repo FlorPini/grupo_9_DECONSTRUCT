@@ -46,7 +46,7 @@ main {
   display: none;
 }
 
- .hidden:hover .link{
+.hidden:hover .link{
   display: block;
 }
 .hidden:hover .fa-bars{
@@ -159,6 +159,10 @@ label:hover ~ label {
   .signup button {
     width: 50%;
   }
+  .main-header-right {
+    font-size: 2.5vw;
+    width: 28vw;
+  }
 }
 
 @media (min-width: 768px) {
@@ -167,7 +171,7 @@ label:hover ~ label {
   }
   .main-header-right {
     font-size: 2.5vw;
-    width: 25vw;
+    width: 28vw;
   }
   .product-image img {
     width: 450px;
@@ -175,37 +179,18 @@ label:hover ~ label {
   .mainlogin {
     width: 490px;
   }
-  /* <<<<<<< HEAD */
   .signup button {
     width: 53%;
   }
+}
 
-  @media (min-width: 576px) {
-    main {
-      padding: 75px 7px 30px 7px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    main {
-      padding: 100px 7px 30px 7px;
-    }
-    .main-header-right {
-      font-size: 2.5vw;
-      width: 25vw;
-    }
-    .product-image img {
-      width: 450px;
-    }
-    /* >>>>>>> 4abd77eb586df7e00049941399bb878360571261 */
-  }
   @media (min-width: 992px) {
     main {
       padding: 125px 7px 30px 7px;
     }
     .main-header-right {
-      font-size: 1.5vw;
-      width: 15vw;
+      font-size: 2vw;
+      width: 25vw;
     }
     .mainlogin {
       width: 490px;
@@ -226,8 +211,8 @@ label:hover ~ label {
     }
 
     .main-header-right {
-      font-size: 1vw;
-      width: 10vw;
+      font-size: 2vw;
+      width: 25vw;
     }
     .mainlogin {
       width: 490px;
@@ -236,4 +221,4 @@ label:hover ~ label {
       width: 53%;
     }
   }
-}
+
