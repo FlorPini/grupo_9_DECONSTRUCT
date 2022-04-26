@@ -39,11 +39,7 @@ let productsApiController = {
                     res.json(responseToSend)
 
             }
-        }
-    
-    },
-    
-    
+        },
     create: (req, res) => {
         
         Promise.all([db.Category.findAll(),db.Type.findAll()])        
@@ -129,4 +125,4 @@ let productsApiController = {
     }
 };
 
-module.exports = productsController;
+module.exports = productsApiController;

@@ -50,13 +50,13 @@ let productsController = {
             //     description : req.body.productDescription,
             //     price :req.body.productPrice
 
-
+            return res.render('./products')
 
 
                      //    let product = req.body;
                //   product.image = req.file.filename;   //con esto tomo el valor filename (nombre que le di al archivo) de la informacion que viene del req.file y se la asocio a la clave image del objeto literal group
              //   productId = productsModel.create(product);
-              //  res.redirect('/products/' + productId);
+              // res.redirect('/products/' + productId);
                 } else {
                     Promise.all([db.Category.findAll(),db.Type.findAll()])        
                     .then(function([categorys, types]){    
@@ -88,14 +88,14 @@ let productsController = {
     update:(req , res) =>{
         let errors = validationResult(req);
         if ( errors.isEmpty()){
-            db.Product.update({
+            if(req.file){
+                db.Product.update({
                 product_name : req.body.productName ,
                 category_id : req.body.category,
                 type_id : req.body.type,
                 description : req.body.productDescription,
                 duration : req.body.duration,
                 price :req.body.productPrice,
-                //image:filename,
                 image: req.file.filename,
                 //user_id:user??   
             },{
@@ -104,6 +104,21 @@ let productsController = {
                 }
             })
             res.redirect("/products/" +req.params.id)
+            }else{
+                db.Product.update({
+                product_name : req.body.productName,
+                category_id : req.body.category,
+                type_id : req.body.type,
+                description : req.body.productDescription,
+                duration : req.body.duration,
+                price : req.body.productPrice,  
+                },{
+                where:{
+                    id:req.params.id
+                }
+                })
+                res.redirect("/products/" +req.params.id)
+            }
         }else{
             Promise.all([db.Category.findAll(),db.Type.findAll()])        
             .then(function([categorys, types]){    

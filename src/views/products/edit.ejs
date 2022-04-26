@@ -53,7 +53,7 @@
                             <% for (let i = 0 ; i < types.length; i++) { %>
                                 <option
                                 value="<%= types[i].id %>"
-                                <%= (types[i].id == product.type_id) ? "selected" : null %>>>
+                                <%= (types[i].id == product.type_id) ? "selected" : null %>>
                                    <%= types[i].type %>  
                                 </option>
                             <% } %>
@@ -64,8 +64,7 @@
                             </div>
                         <% } %>
                     </div>
-                   
-
+        
                     <div class="create"> 
                         <label>Descripción</label>
                         <textarea name="productDescription"  

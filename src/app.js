@@ -10,7 +10,7 @@ const session = require("express-session");
 const cookies = require('cookie-parser')
 const methodOverride = require("method-override"); //para poder usar los metodos PUT y DELETE en el parametro method del HTML
 const userLoggedMiddleware = require("./middleWares/userLoggedMiddleware");
-const nodeFetch = require('node-fetch');
+//const nodeFetch = require('node-fetch');
 
 const productsApiRoutes = require ('./routes/api/productsApiRoutes')
 
