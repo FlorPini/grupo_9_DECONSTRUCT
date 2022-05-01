@@ -1,15 +1,11 @@
 const express = require ("express");
-const path = require ("path");
-const app = express ();
-const fs = require("fs")
 const { validationResult} = require ('express-validator');
-const jsonTable= require("../../database2/jsonTable");
-const productsModel = jsonTable ("products")
 const db = require("../../database/models");
-
+const Op = db.Sequelize.Op;
 
 let productsApiController = {
-     index: async (req, res) => {
+
+    list: async (req, res) => {
 
         try {
             const products = await db.Product.findAll();
@@ -40,89 +36,109 @@ let productsApiController = {
 
             }
         },
-    create: (req, res) => {
-        
-        Promise.all([db.Category.findAll(),db.Type.findAll()])        
-            .then(function([categorys, types]){     
-            return res.json('types: types , categorys: categorys')
+    show: (req, res) => {
+            db.Product
+            .findByPk(req.params.id, {
+                include:[{association: "category"},{association:"type"}]
             })
-            .catch(function(error){
-                console.log(error);
-            })
+            .then(function(product){
+                const responseToSend = {
+                    meta: {
+                        status: 200,
+                    },
+                    data: product
+                    }
+                return res.status(200).json(responseToSend)
+                    });
+                 
         },
-
+    
     store: (req, res) => {
         let errors = validationResult(req);
         if ( errors.isEmpty()){
-            db.Product.create({
-                product_name : req.body.productName ,
-                category_id : req.body.category,
-                type_id : req.body.type,
-                description : req.body.productDescription,
-                duration : req.body.duration,
-                price :req.body.productPrice,
-                image: req.file.filename
-                
-            })
-
-  
-                } else {
-                    Promise.all([db.Category.findAll(),db.Type.findAll()])        
-                    .then(function([categorys, types]){    
-                        res.json('errors: errors.mapped(), old: req.body, types: types , categorys: categorys');
+            db.Product
+                .create(
+                    {
+                    product_name : req.body.product_name ,
+                    category_id : req.body.category_id,
+                    type_id : req.body.type_id,
+                    description : req.body.description,
+                    duration : req.body.duration,
+                    price :req.body.price,
+                    //image: req.file.filename
                     })
-                }
+                .then(function(product){
+                    const responseToSend = {
+                        meta: {
+                            status: 200,
+                            created: "ok"
+                        },
+                        data: product  
+                        }
+                    return res.status(200).json(responseToSend) 
+                })         
+                } else { 
+                        res.json(errors);
+                    }
     },
-
-    edit: (req, res) => {
-        Promise.all([db.Product.findByPk(req.params.id),db.Category.findAll(),db.Type.findAll()])        
-                    .then(function([product, categorys, types]){     
-                        res.json('types: types , categorys: categorys, product:product');
-                    })
+    erase: (req, res) => {
+        db.Product
+            .destroy({
+                where:{
+                id: req.params.id
+                }   
+            })  
+            .then(function(response){
+            return res.status(200).json(response)
+        }) 
     },
-
-    update:(req , res) =>{
+    update: (req, res) => {
         let errors = validationResult(req);
         if ( errors.isEmpty()){
-            db.Product.update({
-                product_name : req.body.productName ,
-                category_id : req.body.category,
-                type_id : req.body.type,
-                description : req.body.productDescription,
-                duration : req.body.duration,
-                price :req.body.productPrice,
-                image: req.file.filename,
-            },{
-                where:{
-                    id:req.params.id
+            db.Product
+                .update(
+                    {
+                    product_name : req.body.product_name ,
+                    category_id : req.body.category_id,
+                    type_id : req.body.type_id,
+                    description : req.body.description,
+                    duration : req.body.duration,
+                    price :req.body.price,
+                    //image: req.file.filename
+                    },{
+                        where:{
+                            id:req.params.id
+                        }
+                    })
+                .then(function(product){
+                    const responseToSend = {
+                        meta: {
+                            status: 200,
+                            update: "ok"
+                        },
+                        data: product  
+                        }
+                    return res.status(200).json(responseToSend) 
+                })         
+                } else { 
+                        res.json(errors);
+                    }
+    },
+    search: (req , res) => {
+        db.Product
+            .findAll({
+                where: {
+                    product_name: { [Op.like]: "%" + req.query.keyword + "%" } 
                 }
             })
-            res.redirect("/api/products/" +req.params.id)
-        }else{
-            Promise.all([db.Category.findAll(),db.Type.findAll()])        
-            .then(function([categorys, types]){    
-                res.json('errors: errors.mapped(), old: req.body, types: types , categorys: categorys');
+            .then(function(products){
+                if (products.length > 0){
+                    return res.json("No existen productos") 
+                }                    
+                return res.json("No existen productos")
             })
-            }
-    },
-
-    show: (req, res) => {
-        db.Product.findByPk(req.params.id, {
-            include:[{association: "category"},{association:"type"}]
-        })
-            .then(function(product){
-                res.json('product:product')
-            }) 
-    },
-
-    erase: (req, res) => {
-        db.Product.destroy({
-            where:{
-                id:req.params.id
-            }   
-        })  
-        res.redirect('/api/products')
     }
+   
 };
 
 module.exports = productsApiController;

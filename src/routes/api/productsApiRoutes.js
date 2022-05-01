@@ -34,14 +34,17 @@ const validateCreateForm =[
 
 ]
 const validateUpdateForm =[
-            check('productName').notEmpty().withMessage('Dato Obligatorio'),
-            check('category').notEmpty().withMessage('Seleccionar una opción'),
-            check('type').notEmpty().withMessage('Seleccionar una opción'),
-            check('productDescription').notEmpty().withMessage('Dato Obligatorio'),
+            check('product_name').notEmpty().withMessage('Dato Obligatorio'),
+            check('category_id').notEmpty().withMessage('Seleccionar una opción').bail()
+            //.isNumeric().withMessage('Dato Obligatorio')
+            ,
+            check('type_id').notEmpty().withMessage('Seleccionar una opción').bail()
+            .isNumeric().withMessage('Dato Obligatorio'),
+            check('description').notEmpty().withMessage('Dato Obligatorio'),
             check('duration')
                     .notEmpty().withMessage('Agregar la duración del curso').bail()
                     .isNumeric().withMessage('Dato Obligatorio'),
-            check('productPrice')
+            check('price')
                     .notEmpty().withMessage('Dato Obligatorio').bail()
                     .isNumeric().withMessage('Dato Obligatorio'),
 
@@ -60,18 +63,18 @@ const storage = multer.diskStorage({
 
 const upload = multer ({ storage : storage});
                                             
-router.get('/', productsApiController.index )
-
-router.get('/create', productsApiController.create)
-
-router.post('/create', upload.single("productImage"), validateCreateForm , productsApiController.store)
-
-router.get('/edit/:id', productsApiController.edit)
-
-router.post('/edit/:id',upload.single("productImage"), validateUpdateForm , productsApiController.update)
-
-router.post('/erase/:id', productsApiController.erase)
+router.get('/', productsApiController.list )
 
 router.get('/:id', productsApiController.show)
+
+router.post('/',upload.single("productImage"), validateUpdateForm , productsApiController.store)
+
+router.delete('/:id', productsApiController.erase)
+
+router.put('/:id',upload.single("productImage"), validateUpdateForm , productsApiController.update)
+
+router.get('/search', productsApiController.search )
+
+
 
 module.exports = router;

@@ -47,6 +47,7 @@ app.use("/", rutasMain);
 app.use("/users", rutasUsers);
 
 app.use("/products", rutasProducts);
+
 app.use("/api/products", productsApiRoutes);
 
 app.use("/shopping-cart", rutasShopping);
