@@ -20,19 +20,19 @@ let productsApiController = {
                 };
                 res.json(responseToSend)
             }
-            catch (error){
-                console.error(error)
-                const responseToSend = {
-                    meta: {
-                        status: 500,
-                        url: req.originalUrl,
-                    },
-                    data: {
-                        message: "Hubo un error al procesar tu solicitud"
-                    }
-        
-                    };
-                    res.json(responseToSend)
+        catch (error){
+            console.error(error)
+            const responseToSend = {
+                meta: {
+                    status: 500,
+                    url: req.originalUrl,
+                },
+                data: {
+                    message: "Hubo un error al procesar tu solicitud"
+                }
+    
+                };
+                res.json(responseToSend)
 
             }
         },

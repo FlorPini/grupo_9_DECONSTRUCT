@@ -15,7 +15,7 @@
 }
 
 .logo-header {
-  width: 40%;
+  width: 30%;
 }
 
 .main-header-right {
@@ -41,18 +41,33 @@ main {
   padding: 50px 7px 30px 7px;
 }
 
-
-.hidden .link {
+.burger .link {
   display: none;
 }
 
-.hidden:hover .link{
+.burger:hover .link{
   display: block;
 }
-.hidden:hover .fa-bars{
-  display: none;
+
+.hidden{
+  display: flex;
+  width: 180px;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  background-color: #c0b6b0; 
+  border-radius: 5px;
 }
 
+.hidden li{
+  list-style: none;
+  padding: 10px 20px 0px 0px;
+}
+.hidden li a {
+  font-family: "antonio";
+  color:white;
+  text-decoration: none;
+}
 
 .main-footer {
   background-color: #d6c9c1;
@@ -161,7 +176,7 @@ label:hover ~ label {
   }
   .main-header-right {
     font-size: 2.5vw;
-    width: 28vw;
+    width: 25vw;
   }
 }
 
@@ -171,7 +186,7 @@ label:hover ~ label {
   }
   .main-header-right {
     font-size: 2.5vw;
-    width: 28vw;
+    width: 25vw;
   }
   .product-image img {
     width: 450px;
@@ -186,11 +201,11 @@ label:hover ~ label {
 
   @media (min-width: 992px) {
     main {
-      padding: 125px 7px 30px 7px;
+      padding: 75px 7px 30px 7px;
     }
     .main-header-right {
-      font-size: 2vw;
-      width: 25vw;
+      font-size: 1.5vw;
+      width: 15vw;
     }
     .mainlogin {
       width: 490px;
@@ -211,8 +226,8 @@ label:hover ~ label {
     }
 
     .main-header-right {
-      font-size: 2vw;
-      width: 25vw;
+      font-size: 1vw;
+      width: 10vw;
     }
     .mainlogin {
       width: 490px;
