@@ -50,8 +50,11 @@ let productsController = {
             //     description : req.body.productDescription,
             //     price :req.body.productPrice
 
-            return res.render('./products')
-
+            //return res.redirect('./')
+            db.Product.findAll()
+               .then(function(products){
+            res.render('./products/productsList' , {products:products})
+               })
 
                      //    let product = req.body;
                //   product.image = req.file.filename;   //con esto tomo el valor filename (nombre que le di al archivo) de la informacion que viene del req.file y se la asocio a la clave image del objeto literal group
@@ -60,7 +63,7 @@ let productsController = {
                 } else {
                     Promise.all([db.Category.findAll(),db.Type.findAll()])        
                     .then(function([categorys, types]){    
-                        res.render('./products/create', {errors: errors.mapped(), old: req.body, types: types , categorys: categorys});
+                        res.render('./products/create', {products: errors.mapped(), old: req.body, types: types , categorys: categorys});
                     })
                  //le enviamos a la vista de creacion de producto un array con los errores
                 }

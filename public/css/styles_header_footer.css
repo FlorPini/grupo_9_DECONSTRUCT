@@ -57,6 +57,7 @@ main {
   right: 0px;
   background-color: #c0b6b0; 
   border-radius: 5px;
+  box-shadow: 5px #837c78 ;
 }
 
 .hidden li{
