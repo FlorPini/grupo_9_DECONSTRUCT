@@ -9,8 +9,9 @@
   min-height: 100vh;
 }
 .mainlogin {
-  width: 350px;
-  height: 800px;
+  margin-top: 75px;
+  width: 543px;
+  height: 630px;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 5px 20px 50px rgb(204, 204, 204);
@@ -24,8 +25,7 @@
   height: 100%;
 }
 
-
-.createImage{
+.createImage {
   display: flex;
   width: 100%;
   height: 10px;
@@ -34,20 +34,18 @@
   align-items: center;
   margin-bottom: 60px;
   margin-top: 20px;
-
 }
 .btn-file {
   position: absolute;
   font-size: 16px;
-  box-shadow: 0px 3px 10px rgba(100, 100, 100, 0.37);
   height: 25px;
   width: 140px;
-  border-radius: 5px;
-  background-color: #d6c9c1;
+  border-radius: 3px;
+  background-color: #ffbe59;
   transition: 0.3s;
   align-content: center;
   padding-top: 2px;
-  color: white;
+  color: rgb(37, 37, 37);
 }
 
 .btn-file .btn-file-input {
@@ -63,7 +61,7 @@
 }
 
 .btn-file :hover {
-  text-shadow:0px 3px 10px rgba(100, 100, 100, 0.37);
+  text-shadow: 0px 3px 10px rgba(100, 100, 100, 0.37);
   box-shadow: 0px 3px 10px rgba(37, 37, 37, 0.37);
 }
 .mainlogin .label-create {
@@ -73,18 +71,18 @@
   display: flex;
   margin-top: 60px;
   margin-bottom: 20px;
-  font-weight: bold;    
+  font-weight: bold;
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
 
-.login input , 
+.login input,
 .signup input {
   width: 60%;
   height: 20px;
   background: white;
   justify-content: center;
-  margin: 16px auto;
+  margin: 9px auto;
   padding: 20px;
   border: none;
 
@@ -106,11 +104,15 @@
   transition: 0.2s ease-in;
   cursor: pointer;
 }
+
+.login button:hover,
+.btn-file:hover,
 .signup button:hover {
-  background: rgb(94, 201, 94);
+  background: #e895ff;
 }
+
 .login {
-  height: 460px;
+  height: 640px;
   background: #21cac5;
   opacity: 100%;
   border-radius: 80% / 10%;
@@ -124,7 +126,7 @@
 }
 
 #chk:checked ~ .login {
-  transform: translateY(-500px);
+  transform: translateY(-638px);
 }
 #chk:checked ~ .login label {
   transform: scale(1);
@@ -134,23 +136,18 @@
 }
 
 .errors {
-  font-family: Arial, Helvetica, sans-serif;  
+  font-family: Arial, Helvetica, sans-serif;
   color: #d45050;
   font-size: 0.7em;
 }
 
 @media (min-width: 576px) {
-   
 }
 
 @media (min-width: 768px) {
- 
 }
 @media (min-width: 992px) {
-  
 }
 
 @media (min-width: 1200px) {
- 
 }
-
