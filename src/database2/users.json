@@ -24,11 +24,19 @@
   "id": 3
  },
  {
+<<<<<<< HEAD
   "name": "Marcos",
   "lastName": "Alterio",
   "email": "m_alterio@yahu.com.ar",
   "pswd": "$2a$10$TzEtL45iIUPf.drDWLFoMeP.306TFVG.W4ijx28tNiIAgKsRquN6S",
   "userImage": "User-1652913012753.png",
+=======
+  "name": "Joaquin",
+  "lastName": "Failo",
+  "email": "joaquinfailo@gmail.com",
+  "pswd": "$2a$10$KrJq4szWme98CvBO8pwjFu4QaYPLpL8I9bl6ZaOINsoQ65./mOyli",
+  "userImage": "User-1652741003856.jpeg",
+>>>>>>> 4809cc1a8f80c08338fb2906ba7b01a79fbd1d0c
   "id": 4
  }
 ]

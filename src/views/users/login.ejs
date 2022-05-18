@@ -89,17 +89,7 @@
               </div>  
             </form>
           </div>
-               <script>
-                 $(document).on('click','$submit'function()
-                 {
-                     var response = grecaptcha.getResponse();
-                     if(response.length == 0)
-                     {
-                         alert("Please verify you are not a robot");
-                         return false
-                     }
-                 })
-               </script>
+               
           <div class="login">
             <form action="/users/login" method="POST">
               <label class="label-create" for="chk" aria-hidden="true">Login</label>
