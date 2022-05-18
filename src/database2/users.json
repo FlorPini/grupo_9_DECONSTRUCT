@@ -22,5 +22,13 @@
   "pswd": "$2a$10$3qztL5MyiYBOwB/zUa4cyu01jxWYYrtzW6bgsWZe4SYpPSEdyPe2q",
   "userImage": "User-1648509484171.jpg",
   "id": 3
+ },
+ {
+  "name": "Joaquin",
+  "lastName": "Failo",
+  "email": "joaquinfailo@gmail.com",
+  "pswd": "$2a$10$KrJq4szWme98CvBO8pwjFu4QaYPLpL8I9bl6ZaOINsoQ65./mOyli",
+  "userImage": "User-1652741003856.jpeg",
+  "id": 4
  }
 ]
