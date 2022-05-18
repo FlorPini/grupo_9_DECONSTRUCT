@@ -22,5 +22,13 @@
   "pswd": "$2a$10$3qztL5MyiYBOwB/zUa4cyu01jxWYYrtzW6bgsWZe4SYpPSEdyPe2q",
   "userImage": "User-1648509484171.jpg",
   "id": 3
+ },
+ {
+  "name": "Marcos",
+  "lastName": "Alterio",
+  "email": "m_alterio@yahu.com.ar",
+  "pswd": "$2a$10$TzEtL45iIUPf.drDWLFoMeP.306TFVG.W4ijx28tNiIAgKsRquN6S",
+  "userImage": "User-1652913012753.png",
+  "id": 4
  }
 ]
