@@ -11,7 +11,7 @@
 .mainlogin {
   margin-top: 75px;
   width: 543px;
-  height: 630px;
+  height: 700px;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 5px 20px 50px rgb(204, 204, 204);
@@ -138,7 +138,12 @@
 .errors {
   font-family: Arial, Helvetica, sans-serif;
   color: #d45050;
-  font-size: 0.7em;
+  font-size: 0.8em;
+  position: relative;
+  top: -35px;
+  left: 100px;
+  height: 0px;
+
 }
 
 @media (min-width: 576px) {

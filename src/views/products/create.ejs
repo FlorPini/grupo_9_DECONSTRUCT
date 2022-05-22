@@ -11,20 +11,19 @@
             
             <div class="create-group" >
                 <form action="/products/create" method="POST" enctype="multipart/form-data">
-                   
                     <div class="create">
                         <label for="productName">Nombre del producto</label>
                         <input type="text" 
                         name="productName" 
                         id="productName" 
                         placeholder="Nombre del producto" 
-                        value="<%= locals.old && old.productName %>" 
-                        class=" form-control <%= locals.errors && errors.productName ? 'is-invalid' : null %>">
+                        value="<%= locals.old && old.productName %>">
                         <% if (locals.errors && errors.productName) { %>
-                            <div>
+                            <div class="errors">
                             <%= errors.productName.msg %>
                             </div>
                         <% } %>
+                       
                     </div>
                      
                     <div class="create"> 
@@ -40,7 +39,7 @@
                             <% } %>
                         </select>
                         <% if (locals.errors && errors.category) { %>
-                            <div>
+                            <div class="errors">
                             <%= errors.category.msg %>
                             </div>
                         <% } %>
@@ -59,7 +58,7 @@
                             <% } %>
                         </select>
                         <% if (locals.errors && errors.type) { %>
-                            <div>
+                            <div class="errors">
                             <%= errors.type.msg %>
                             </div>
                         <% } %>
@@ -75,7 +74,7 @@
                         </textarea>
                     </div> 
                     <% if (locals.errors && errors.productDescription) { %>
-                        <div>
+                        <div class="errors">
                         <%= errors.productDescription.msg %>
                         </div>
                     <% } %>
@@ -87,7 +86,7 @@
                         placeholder="00:00 h" 
                         value="<%= locals.old && old.duration %>" >
                         <% if (locals.errors && errors.duration) { %>
-                            <div>
+                            <div class="errors">
                             <%= errors.duration.msg %>
                             </div>
                         <% } %> 
@@ -98,7 +97,7 @@
                         <p>$</p>
                         <input type="number" name="productPrice" placeholder="0.000,00" value="<%= locals.old && old.productPrice %>" >
                         <% if (locals.errors && errors.productPrice) { %>
-                            <div>
+                            <div class="priceErrors">
                             <%= errors.productPrice.msg %>
                             </div>
                         <% } %>
@@ -113,7 +112,7 @@
                              <input type="file" name="productImage">
                         </span>
                         <% if (locals.errors && errors.productImage) { %>
-                            <div>
+                            <div class="errors">
                                <%= errors.productImage.msg %>
                             </div>
                         <% } %>
@@ -121,6 +120,7 @@
                     <div class="button">
                         <input type="submit" value="cargar">
                     </div>
+                    
                 </form>   
             </div>
         </main>

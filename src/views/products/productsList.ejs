@@ -6,10 +6,10 @@
     <body>
         <%- include('../partials/header.ejs') %>
     <main>
-        <ul>
+        <ul class="prod-name">
             <% for (let i=0 ; i < products.length; i++) {%>
-                <li>
-                    <a href="/products/<%=products[i].id%>">  
+                <li class="prod-name">
+                    <a  href="/products/<%=products[i].id%>">  
                         <%=products[i].product_name %>
                         <img src="/images/productImages/<%=products[i].image %>">
                     </a>

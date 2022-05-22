@@ -46,10 +46,12 @@ main {
 }
 
 .burger:hover .link{
+  
   display: block;
 }
 
 .hidden{
+  opacity: 60%;
   display: flex;
   width: 180px;
   position: absolute;

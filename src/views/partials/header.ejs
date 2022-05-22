@@ -20,12 +20,10 @@
                     </ul>
                 </div>
             </div>
-       
         <% } else { %>
             <li>
                 <a href="/users"  class="shopping-cart"><i class="fas fa-user"></i> </a>       
-            </li>
-        
+            </li>  
         <% } %>
         <li>
             <a href="/shopping-cart" class="shopping-cart"><i class="fas fa-shopping-cart"></i> </a>       
@@ -34,8 +32,12 @@
             <i class="fas fa-bars"></i>
             <div  class="hidden" >
                 <ul class="link"> 
-                    <li ><a href="#" >FAQ</a></li>  
+                    <li ><a href="#" >FAQ</a></li>
+                    <% if (locals.isLogged) {%>  
                     <li ><a href="/products/create" >Crear Producto</a></li> 
+                    <% } else { %>
+                    <li ><a href="/users/register">Crear Producto</a>
+                    <% } %>   
                     <li ><a href="/products" >Productos</a></li> 
                 </ul>
             </div> 

@@ -12,6 +12,10 @@ module.exports = function(sequelize, dataTypes){
         },
         last_name: {
             type: dataTypes.DECIMAL,
+        },
+        
+        nick_name: {
+            type: dataTypes.DECIMAL,
             
         },
         email: {
@@ -23,10 +27,13 @@ module.exports = function(sequelize, dataTypes){
                 }
             }  
         },
-        pasword: {
+        password: {
             type: dataTypes.STRING,
             
-        }
+        },
+        image: {
+            type: dataTypes.STRING,   
+        },
     } 
     let config = {
         tableName: "users",
