@@ -16,7 +16,7 @@ const validateRegister =[                   //validaciones
         check('email').notEmpty().withMessage('Agregar Dirección').bail()
                 .isEmail().withMessage('No es una direccion valida'),
         check('pswd').notEmpty().withMessage('Definir Contraseña')
-                .isLength({min: 8}).withMessage('Ingrese una contraseña valida'),
+                .isLength({min: 8}).withMessage('La contraseña debe tener al menos 8 caracteres'),
         check('confirmPswd').notEmpty().withMessage('Definir Contraseña').bail()
                 .custom((value, { req }) => {   
                 let confirmPswd = req.body.confirmPswd;
@@ -47,9 +47,9 @@ const validateUpdate =[                   //validaciones
         check('nickName').notEmpty().withMessage('Agregar Alias'),
         check('email').notEmpty().withMessage('Agregar Dirección').bail()
                 .isEmail().withMessage('No es una direccion valida'),
-        check('confirmPswd')
+        check('Pswd')
                 .custom((value, { req }) => {   
-                if(req.body.pswd){
+                if(req.body.pswd && req.body.confirmPswd){
                 let confirmPswd = req.body.confirmPswd;
                 let pswd = req.body.pswd;
                 if (pswd!=confirmPswd){
@@ -94,9 +94,9 @@ router.post('/register',  upload.single("userImage"), validateRegister,  usersCo
 
 router.post("/login",  validateLogin ,  usersController.login);
 
-router.get("/edit/:idUser", usersController.edit);
+router.get("/edit", usersController.edit);
 
-router.post("/edit/:idUser", upload.single("userImage"), validateUpdate, usersController.update);
+router.post("/edit", upload.single("userImage"), validateUpdate, usersController.update);
 
 router.get("/profile", authMiddleware , usersController.profile);
 

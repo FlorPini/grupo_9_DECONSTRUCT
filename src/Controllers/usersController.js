@@ -64,7 +64,6 @@ let usersController = {
                 { where: { email : req.body.emailLogin}})
                 .then(function(user){
                     let userToLogin= user
-                    console.log(user.name);
                     if(userToLogin){
                         if( bcryptjs.compareSync(req.body.pswdLogin, userToLogin.password)){
                             delete userToLogin.pswd                  
@@ -72,7 +71,7 @@ let usersController = {
                             if(req.body.rememberMe){
                                 res.cookie('userEmail', req.body.emailLogin, { maxAge : 100000*60*2})
                             }
-                            res.render('./users/userProfile', {user: req.session.userLogged})     
+                            res.redirect('./profile')     
                         } else {
                             return res.render('./users/login', { 
                                 errors: {
@@ -124,14 +123,14 @@ let usersController = {
                 last_name: req.body.lastName,
                 nick_name: req.body.nickName,
                 email : req.body.email,   
-                password: bcryptjs.hashSync(req.body.pswd, 10),  //al valor que viene en pswd lo reemplazamos por el mismo valor encriptado,
+              //  password: bcryptjs.hashSync(req.body.pswd, 10),  //al valor que viene en pswd lo reemplazamos por el mismo valor encriptado,
                 image: req.file.filename,   
             },{
                 where:{
-                    id:req.params.id
+                    id:req.session.userLogged.id
                 }
             })
-            res.redirect("/users" )
+                res.redirect("/users" )
             }else{
                 db.User.update({
                 name: req.body.name, 
@@ -141,14 +140,16 @@ let usersController = {
                 password: bcryptjs.hashSync(req.body.pswd, 10),  
                 },{
                 where:{
-                    id:req.params.id
+                    id:req.session.userLogged.id
                 }
                 })
                 res.redirect("/users" )
             }
         }else{
-            res.render('./users/userEdit', {errors: errors.mapped(), old: req.body});
-            }
+            
+             res.render('./users/userEdit', {errors: errors.mapped(), old: req.body});
+             }
+            
             
 
     }

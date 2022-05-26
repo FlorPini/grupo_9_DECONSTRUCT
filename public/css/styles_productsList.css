@@ -2,19 +2,197 @@
   box-sizing: border-box;
 }
 
-li img{
-  height: 200px;
+
+.courses {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 15px;
+  max-width: 1250px;
 }
-
-.prod-name  {
-  
-  color:green;
- 
-
-}
-
-.prod-name a{
-  font-family: "antonio";
+.courses-cart {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 15px;
   text-decoration: none;
-  color:green;
 }
+
+.prod-name{
+  list-style:none;
+}
+.shopping-cart-title {
+  color: white;
+  font-size: 1.5em;
+  justify-content: center;
+  font-weight: bold;    
+  background-color: #d6c9c169;
+  width: 100%;
+  text-align: center;
+  padding: 4px;
+  box-shadow: 0px 3px 10px rgba(100, 100, 100, 0.37);
+  border-radius: 5px;
+}
+.courses-images {
+  width: 100%;
+  background-color: #fff4e4;
+  align-items: stretch;
+  justify-content: center;
+  border: #fff4e4 4px solid;
+  border-radius: 8px;
+  padding: 10px;
+  max-width: 250px;
+}
+.courses-images-cart {
+  width: 120px;
+  height: 120px;
+  background-color: #fff4e4;
+  align-items: stretch;
+  justify-content: left;
+  border: #fff4e4 4px solid;
+  border-radius: 8px;
+}
+.courses-cart-item {
+  margin: auto;
+  width: 100%;
+  margin: 4px;
+  color: #d6c9c1;
+  max-height: 140px;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 10px;
+  box-shadow: 0px 3px 10px rgba(100, 100, 100, 0.527);
+  border-radius: 12px;
+  
+}
+
+.courses-cart-descrip {
+  width: 170px;
+}
+.courses-cart-name {
+  font-size: 17px;
+  color: #d6c9c1;
+  margin: auto;
+  max-width: 250px;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 3px;
+}
+.price-cart {
+  height: 35px;
+  color: #d6c9c1;
+  align-self: flex-end;
+  justify-content: space-between;
+  display: flex;
+  font-size: 15px;
+  padding-left: 10px;
+  line-height: 0.2;
+}
+.price-home {
+  height: 13px;
+  align-self: center;
+}
+
+.quantity-trash {
+  height: 20px;
+  align-self: center;
+  justify-content: space-between;
+  display: flex;
+}
+.quantity-area{
+  flex-grow: .4;
+  font-size: 1em;
+  color: #d35c11;
+
+}
+
+.courses-desc {
+  display: none;
+  margin: auto;
+  max-width: 250px;
+  text-align: justify;
+  padding: 5px;
+}
+.container-product-description-payment-reviews {
+  align-content: center;
+}
+.breadcrumbs {
+  display: block;
+  font-family: poppins;
+  font-weight: bold;
+}
+
+.breadcrumbs span {
+  text-align: center;
+  font-size: 14px;
+}
+.product-title h2 {
+  text-align: center;
+}
+.product-price,
+.installments-payment {
+  text-align: center;
+}
+.list-payment-methods {
+  align-content: center;
+  width: 100%;
+  padding-bottom: 12px;
+}
+
+.payment-methods {
+  width: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.list-payment-methods img {
+  width: 50px;
+}
+
+
+.addtocart-btn-home {
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  background-color: rgb(94, 201, 94);
+  border: grey;
+  border-radius: 15px;
+}
+.addtocart-btn {
+  width: 180px;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(94, 201, 94);
+  border: grey;
+  border-radius: 25px;
+}
+.product-image img {
+  width: 80%;
+  padding: 10px;
+}
+
+
+
+#chk:checked ~ .login {
+  transform: translateY(-500px);
+}
+#chk:checked ~ .login label {
+  transform: scale(1);
+}
+#chk:checked ~ .signup label {
+  transform: scale(0.6);
+}
+
+
+
+

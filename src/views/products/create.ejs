@@ -2,6 +2,7 @@
 <html lang="en">
     <%- include('../partials/head.ejs') %>
     <link rel="stylesheet" href="/css/styles_products_create.css">
+    <script src="/js/validationProduct.js"></script>
     <body>
         <%- include('../partials/header.ejs') %>
         <main>
@@ -10,20 +11,22 @@
             </div>
             
             <div class="create-group" >
-                <form action="/products/create" method="POST" enctype="multipart/form-data">
+                <form class="createNew" action="/products/create" method="POST" enctype="multipart/form-data">
                     <div class="create">
                         <label for="productName">Nombre del producto</label>
                         <input type="text" 
+                        class="name"
                         name="productName" 
                         id="productName" 
                         placeholder="Nombre del producto" 
                         value="<%= locals.old && old.productName %>">
+                        <div class="errors errorsName"></div>
                         <% if (locals.errors && errors.productName) { %>
                             <div class="errors">
                             <%= errors.productName.msg %>
                             </div>
                         <% } %>
-                       
+                        
                     </div>
                      
                     <div class="create"> 
@@ -48,7 +51,7 @@
                     <div class="create"> 
                         <label for="type">Rubro</label>
                         <select name="type">
-                            <option value="">-</option>
+                            <option class="type" value="">-</option>
                             <% for (let i = 0 ; i < types.length; i++) { %>
                                 <option
                                 value="<%= types[i].id %>"
@@ -57,6 +60,7 @@
                                 </option>
                             <% } %>
                         </select>
+                        <div class="errors errorsType"></div>
                         <% if (locals.errors && errors.type) { %>
                             <div class="errors">
                             <%= errors.type.msg %>
@@ -69,10 +73,11 @@
                         <label>Descripción</label>
                         <textarea name="productDescription"  
                         placeholder="Descripción" 
-                        class="text"
+                        class="text description"
                         value="<%= locals.old && old.productDescription %>">
                         </textarea>
                     </div> 
+                    <div class="errors errorsDescription"></div>
                     <% if (locals.errors && errors.productDescription) { %>
                         <div class="errors">
                         <%= errors.productDescription.msg %>
@@ -95,7 +100,8 @@
                         <div class="createPriceInput">
                         <label>Precio</label>
                         <p>$</p>
-                        <input type="number" name="productPrice" placeholder="0.000,00" value="<%= locals.old && old.productPrice %>" >
+                        <input class="price" type="number" name="productPrice" placeholder="0.000,00" value="<%= locals.old && old.productPrice %>" >
+                        <div class="errors errorsPrice"></div>
                         <% if (locals.errors && errors.productPrice) { %>
                             <div class="priceErrors">
                             <%= errors.productPrice.msg %>
@@ -117,6 +123,9 @@
                             </div>
                         <% } %>
                     </div> 
+                  
+                       
+                    
                     <div class="button">
                         <input type="submit" value="cargar">
                     </div>

@@ -1,3 +1,4 @@
+const db = require("../database/models");
 const jsonTable= require("../database2/jsonTable");
 const usersModel = jsonTable ("users")
 
@@ -8,6 +9,12 @@ function userLoggedMiddleware(req, res, next){
     
     //en el controlador mandamos a las cookies el valor del email del usuario que se loggeo, y que tildo recordarme
     //luego con ese email buscamos en la base de datos, si lo encuentra le carga los datos del usuario a userFromCookies
+    
+    //db.User.findOne(
+     //   {where:{ email : req.cookies.email}})
+     //   .then(function(user){
+      //      let userFromCookie = user
+             
     let userFromCookie = usersModel.findByField('email' , req.cookies.userEmail);  
     
     if (userFromCookie) {                        //si existe un usuario que coincida, vamos a cargar sus datos en session, para que puedan ser usados por todo el sitio
@@ -21,6 +28,7 @@ function userLoggedMiddleware(req, res, next){
     
 
     next();
+//})
 }
 
 module.exports = userLoggedMiddleware;

@@ -10,9 +10,9 @@ const db = require("../database/models");
 
 let productsController = {
     index: (req, res) => {
-       db.Product.findAll()
-         .then(function(products){
-            res.render('./products/productsList' , {products:products})
+       Promise.all([db.Product.findAll(),db.Category.findAll(),db.Type.findAll()])
+         .then(function([products, categorys, types]){
+            res.render('./products/productsList' , {products:products ,types: types , categorys: categorys})
          })
     }, 
     
@@ -22,7 +22,6 @@ let productsController = {
             return res.render('./products/create',{types: types , categorys: categorys})
             })
             .catch(function(error){
-                console.log(error);
             })
     },
 
@@ -50,7 +49,6 @@ let productsController = {
             .then(function([categorys, types]){    
                 res.render('./products/create', {errors: errors.mapped(), old: req.body, types: types , categorys: categorys});
             })
-            console.log(errors.mapped());
         }
     },
 

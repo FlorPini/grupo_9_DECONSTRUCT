@@ -1,22 +1,49 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('../partials/head.ejs') %>
-    <link rel="stylesheet" href="/css/styles_productsList.css">
-    <body>
-        <%- include('../partials/header.ejs') %>
+  <%- include('../partials/head.ejs') %>
+  <link rel="stylesheet" href="/css/styles_productsList.css" />
+  <body>
+    <%- include('../partials/header.ejs') %>
     <main>
-        <ul class="prod-name">
-            <% for (let i=0 ; i < products.length; i++) {%>
-                <li class="prod-name">
-                    <a  href="/products/<%=products[i].id%>">  
-                        <%=products[i].product_name %>
-                        <img src="/images/productImages/<%=products[i].image %>">
-                    </a>
-                </li>    
-            <% } %> 
-        </ul>
+      <div class="shopping-cart-title">
+        <label for="chk" aria-hidden="true">Nuestros Productos</label>
+        <div class="courses-cart">
+          <% for (let i=0 ; i < products.length; i++) {%> 
+            <li class="prod-name" >
+            <div class="courses-cart-item">
+              <div>
+                <a  href="/products/<%=products[i].id%>">
+                <img
+                class="courses-images-cart"
+                src="/images/productImages/<%=products[i].image %>"
+                alt="Img Plomeria Banner"
+                > 
+                </a>
+              </div>
+              <div class="courses-cart-descrip">
+                <h2 class="courses-cart-name"><%=products[i].product_name %></h2>
+      
+                <div class="price-cart">
+                  <p>Valor $ <%=products[i].price %></p>
+                </div>
+                <div class="price-cart">
+                <% for (let j = 0 ; j < categorys.length; j++) { %>
+                  <%= (categorys[j].id == products[i].category_id  &&  categorys[j].category == "Curso")  ? "Duración curso " + products[i].duration + " hs": null %>
+                  <%= (categorys[j].id == products[i].category_id  &&  categorys[j].category != "Curso")  ?  categorys[j].category : null %>
+                <% } %>
+                <a  class="shopping-cart shopping-Cart-Button"><i class="fas fa-shopping-cart"></i> </a>
+                </div>
+              </div>
+            </div>
+            </li>
+          <% } %> 
+        </div>
+        <div>
+          <button class="confirmar-btn">Confirmar</button>
+        </div>
+      </div>
     </main>
-        <%- include('../partials/footer.ejs') %>
-    </body>
+
+    <%- include('../partials/footer.ejs') %>
+  </body>
 </html>

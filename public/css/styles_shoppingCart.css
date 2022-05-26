@@ -258,21 +258,12 @@
   transition: 0.2s ease-in;
   cursor: pointer;
 }
-.signup button:hover {
-  background: rgb(94, 201, 94);
-}
-.login {
-  height: 460px;
-  background: #21cac5;
-  opacity: 100%;
-  border-radius: 80% / 10%;
-  transform: translateY(-180px);
-  transition: 0.8s ease-in-out;
-}
-.login label {
-  color: rgb(255, 255, 255);
-  transform: scale(0.6);
-  padding-top: 10px;
+
+
+.prod-name {
+  font-family: "antonio";
+  text-decoration: none;
+  color:green;
 }
 
 #chk:checked ~ .login {

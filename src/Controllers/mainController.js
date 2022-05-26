@@ -6,6 +6,7 @@ const usersModel = jsonTable ("users")
 
 let mainController = {
     index: (req, res) => {
+      
         return res.render('home');
     }
 };

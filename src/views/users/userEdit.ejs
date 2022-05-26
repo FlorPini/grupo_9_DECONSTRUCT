@@ -9,7 +9,7 @@
         <div class="mainlogin">
           <input type="checkbox" id="chk" aria-hidden="true">
           <div class="signup">
-            <form action="/users/edit/<%=old.id%>" method="POST" enctype="multipart/form-data">
+            <form action="/users/edit" method="POST" enctype="multipart/form-data">
               <label class="label-create" for="chk" aria-hidden="true">Actualizar Datos</label>
               <div>
                   <div>
@@ -18,7 +18,7 @@
                     id="name" 
                     name="name" 
                     placeholder="Nombre" 
-                    value="<%= locals.old && old.name %>">  
+                    value="<%= old.name%>">  
                     <% if (locals.errors && errors.name) { %>
                       <div class="errors">
                       <%= errors.name.msg %>
@@ -27,9 +27,10 @@
 
                     <input 
                     type="text" 
+                    id="lastName"
                     name="lastName" 
                     placeholder="Apellido" 
-                    value="<%= locals.old && old.last_name %>">
+                    value="<%= old.last_name || old.lastName %>">
                     <% if (locals.errors && errors.lastName) { %>
                       <div class="errors">
                       <%= errors.lastName.msg %>
@@ -40,7 +41,7 @@
                     type="text" 
                     name="nickName" 
                     placeholder="Alias" 
-                    value="<%= locals.old && old.nick_name %>">
+                    value="<%= old.nick_name || old.nickName%>">
                     <% if (locals.errors && errors.nickName) { %>
                       <div class="errors">
                       <%= errors.nickName.msg %>
@@ -51,7 +52,7 @@
                     type="email" 
                     name="email" 
                     placeholder="Correo" 
-                    value="<%= locals.old && old.email %>">
+                    value="<%= old.email %>">
                     <% if (locals.errors && errors.email) { %>
                       <div class="errors">
                       <%= errors.email.msg %>
