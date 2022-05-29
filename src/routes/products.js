@@ -3,7 +3,7 @@ const router = express.Router ();
 const multer = require("multer");
 const path= require("path");
 const {check} = require ('express-validator');  //con la herramienta desustructuracion llamamos solo la funcion body de express-validator
-
+const authMiddleware = require("../middleWares/authMiddleware")
 let productsController = require ('../Controllers/productsController')
 
 const validateCreateForm =[                   //validaciones
@@ -69,7 +69,7 @@ const upload = multer ({ storage : storage});
     
 router.get('/', productsController.index ) //Detalle de un producto
 
-router.get('/create', productsController.create) //formulario de creacion
+router.get('/create', authMiddleware, productsController.create) //formulario de creacion
 
 router.post('/create', upload.single("productImage"), validateCreateForm , productsController.store) //procesamiento del formulario de creacion
 
@@ -78,6 +78,8 @@ router.get('/edit/:id', productsController.edit)  //formulario de edicion
 router.post('/edit/:id',upload.single("productImage"), validateUpdateForm , productsController.update)  //formulario de actualizacion
 
 router.post('/erase/:id', productsController.erase)
+
+router.get('/myProducts', authMiddleware, productsController.showMyProducts)
 
 router.get('/:id', productsController.show)  //detalle del producto
 

@@ -3,8 +3,6 @@ const path = require ("path");
 const app = express ();
 const fs = require("fs")
 const { validationResult} = require ('express-validator');
-const jsonTable= require("../database2/jsonTable");
-const productsModel = jsonTable ("products")
 const db = require("../database/models");
 
 
@@ -12,7 +10,9 @@ let productsController = {
     index: (req, res) => {
        Promise.all([db.Product.findAll(),db.Category.findAll(),db.Type.findAll()])
          .then(function([products, categorys, types]){
-            res.render('./products/productsList' , {products:products ,types: types , categorys: categorys})
+            let viewTittle = {tittle : "Nuestros Productos"}
+            let poductAndName =  Object.assign(products,viewTittle); 
+            res.render('./products/productsList' , {products:poductAndName ,types: types , categorys: categorys})
          })
     }, 
     
@@ -39,14 +39,12 @@ let productsController = {
                 image: req.file.filename,
                 user_id: idLogged  
             })
-            db.Product.findAll()
-               .then(function(products){
-            res.render('./products/productsList' , {products:products})
-            })
+            res.redirect('/products')
+            
 
         } else {
             Promise.all([db.Category.findAll(),db.Type.findAll()])        
-            .then(function([categorys, types]){    
+            .then(function([categorys, types]){  
                 res.render('./products/create', {errors: errors.mapped(), old: req.body, types: types , categorys: categorys});
             })
         }
@@ -110,6 +108,14 @@ let productsController = {
             }) 
     },
 
+    showMyProducts: (req, res) => {
+        Promise.all([db.Product.findAll({ where: { user_id : req.session.userLogged.id} }),db.Category.findAll(),db.Type.findAll()])
+            .then(function([products, categorys, types]){
+                let viewTittle = {tittle : "Tus Productos"}
+                let poductAndName =  Object.assign(products,viewTittle);   
+                res.render('./products/myProductsList' , {products:poductAndName ,types: types , categorys: categorys})
+             })
+    },
     erase: (req, res) => {
         db.Product.destroy({
             where:{

@@ -8,7 +8,9 @@ let productsApiController = {
     list: async (req, res) => {
 
         try {
-            const products = await db.Product.findAll();
+            const products = await db.Product.findAll({
+                    include:[{association: "category"},{association:"type"}]
+                });
             const responseToSend = {
                 meta: {
                     status: 200,

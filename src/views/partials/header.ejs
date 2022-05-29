@@ -25,28 +25,43 @@
                 <a href="/users"  class="shopping-cart"><i class="fas fa-user"></i> </a>       
             </li>  
         <% } %>
-        <li class="shopping-cart-icon">
-            <a href="/shopping-cart" class="shopping-cart"><i class="fas fa-shopping-cart"></i> </a>  
-            <div class="counter">
                 
-            </div>     
         </li>
+        <div class="burger"> 
+            <script src="/js/shoppingCartNproducts.js"></script> 
+            <a href="/shopping-cart" class="shopping-cart"><i class="fas fa-shopping-cart"></i> </a>
+            <div  class="hidden-cart" >  
+                <ul class="link"> 
+                    <div class="container">
+                        <div class="row">
+                            <!-- Carrito -->
+                            <aside class="col-sm-4">
+                                <h3>Carrito</h3>
+                                <!-- Elementos del carrito -->
+                                <ul id="carrito" class="list-group"></ul>
+                                <hr>
+                                <!-- Precio total -->
+                                <p class="text-right">Total: <span id="total"></span></p>
+                                <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+                            </aside>
+                        </div>
+                    </div>
+
+                </ul>
+            </div> 
+        </div>
         <div class="burger"> 
             <i class="fas fa-bars"></i>
             <div  class="hidden" >
                 <ul class="link"> 
                     <li ><a href="#" >FAQ</a></li>
-                    <% if (locals.isLogged) {%>  
-                    <li ><a href="/products/create" >Crear Producto</a></li> 
-                    <% } else { %>
-                    <li ><a href="/users/register">Crear Producto</a>
-                    <% } %>   
+                    <li ><a href="/products/create" >Crear Producto</a></li>   
                     <li ><a href="/products" >Productos</a></li> 
+                    <li ><a href="/products/myProducts" >Mis Productos</a></li> 
+
                 </ul>
             </div> 
         </div>
-      
-
     </nav> 
           
 </header>

@@ -16,6 +16,9 @@
             <div class="product-title"></divclass>
                 <h1 id="product-name"><%=product.product_name%></h1>
             </div> 
+            <div class="product-title"></divclass>
+                <h1 id="product-name"><%=product.user_id%></h1>
+            </div>
             <div class="product-image">
                 <img src="/images/productImages/<%=product.image %>">
             </div>
@@ -79,13 +82,16 @@
                       --><label for="radio5">★</label>
                     </p>
                   </form>
+            
             </div>
+            <% if(locals.userLogged && locals.userLogged.id == product.user_id){%>
             <a href="/products/edit/<%=product.id%>">
                 <button>Editar</button>
             </a>
             <form action="/products/erase/<%=product.id%>" method="POST">
                 <button type="submit">Borrar</button>
             </form>
+            <%}%>
             
         </div>
 

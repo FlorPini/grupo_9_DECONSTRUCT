@@ -81,6 +81,26 @@ display:flex;
   border-radius: 5px;
   box-shadow: 5px #837c78 ;
 }
+.hidden-cart{
+  opacity: 60%;
+  display: flex;
+  width: 250px;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  background-color: #c0b6b0; 
+  border-radius: 5px;
+  box-shadow: 5px #837c78 ;
+  
+}
+
+ul .list-group{
+  justify-content: left;
+}
+.hidden-cart li{
+  list-style: none;
+  padding: 10px 1px 0px 0px;
+}
 
 .hidden li{
   list-style: none;
