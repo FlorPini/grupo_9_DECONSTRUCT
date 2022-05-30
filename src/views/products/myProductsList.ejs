@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <%- include('../partials/head.ejs') %>
-  <link rel="stylesheet" href="/css/styles_productsList.css" />
+  <link rel="stylesheet" href="/css/styles_myProductsList.css" />
   <body>
     <%- include('../partials/header.ejs') %>
     <main>
@@ -23,19 +23,19 @@
                   </a>
                 </div>
                 <div class="courses-cart-descrip">
-                  <h2 class="courses-cart-name"><%=products[i].product_name %></h2>
-        
-                  <div class="price-cart">
-                    <p>Valor $ <%=products[i].price %></p>
+                  <div class="courses-cart-name">
+                    <%=products[i].product_name %>
                   </div>
                   <div class="price-cart">
-                  <% for (let j = 0 ; j < categorys.length; j++) { %>
-                    <%= (categorys[j].id == products[i].category_id  &&  categorys[j].category == "Curso")  ? "Duración curso " + products[i].duration + " hs": null %>
-                    <%= (categorys[j].id == products[i].category_id  &&  categorys[j].category != "Curso")  ?  categorys[j].category : null %>
-                  <% } %>
-                  <a  class="shopping-cart shopping-Cart-Button" value="3">
-                    <i class="fas fa-shopping-cart"> 4</i> 
-                  </a>
+                    <div >
+                      <% for (let j = 0 ; j < categorys.length; j++) { %>
+                        <%= (categorys[j].id == products[i].category_id  &&  categorys[j].category == "Curso")  ? "Duración curso " + products[i].duration + " hs": null %>
+                        <%= (categorys[j].id == products[i].category_id  &&  categorys[j].category != "Curso")  ?  categorys[j].category : null %>
+                      <% } %>
+                    </div>
+                    <div  >
+                      <p>Valor $ <%=products[i].price %></p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -44,7 +44,7 @@
         </div>
       </div>
     </main>
-
+    <script src="/js/shoppingCartN.js"></script>
     <%- include('../partials/footer.ejs') %>
   </body>
 </html>

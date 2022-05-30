@@ -18,65 +18,73 @@ window.onload = function(){
 
 
         function renderizarProductos() {
-            const miNodo = document.createElement('div');
-            miNodo.classList.add('shopping-cart-title');
-            DOMitems.appendChild(miNodo);
-
-            baseDeDatos.forEach((info) => {
+            
+            DOMitems.classList.add('shopping-cart-body');
 
                 const miNodoCardBody = document.createElement('div');
                 miNodoCardBody.classList.add('courses-cart');
-                miNodo.appendChild(miNodoCardBody);
+                DOMitems.appendChild(miNodoCardBody);
+           
+            baseDeDatos.forEach((info) => {
 
-                    const miNodoCardLi = document.createElement('li');
-                    miNodoCardLi.classList.add("prod-name");
-                    miNodoCardBody.appendChild(miNodoCardLi);
-                    
-                        const miNodoCardDivLi = document.createElement('div');
-                        miNodoCardDivLi.classList.add("courses-cart-item");
-                        miNodoCardLi.appendChild(miNodoCardDivLi)
+                const miNodoCardLi = document.createElement('li');
+                miNodoCardLi.classList.add("prod-name");
+                miNodoCardBody.appendChild(miNodoCardLi);
+                
+                    const miNodoCardDivLi = document.createElement('div');
+                    miNodoCardDivLi.classList.add("courses-cart-item");
+                    miNodoCardLi.appendChild(miNodoCardDivLi)
 
-                            const miNodoCardDivLiDiv = document.createElement('div');
-                            miNodoCardDivLi.appendChild(miNodoCardDivLiDiv)
+                        const miNodoCardDivLiDiv = document.createElement('div');
+                        miNodoCardDivLi.appendChild(miNodoCardDivLiDiv)
 
-                                const miNodoCardlink = document.createElement('a');
-                                miNodoCardlink.setAttribute('href', "/products/"+ info.id);
-                                miNodoCardDivLiDiv.appendChild(miNodoCardlink)
+                            const miNodoCardlink = document.createElement('a');
+                            miNodoCardlink.setAttribute('href', "/products/"+ info.id);
+                            miNodoCardDivLiDiv.appendChild(miNodoCardlink)
 
-                                    const miNodoImagen = document.createElement('img');
-                                    miNodoImagen.classList.add('courses-images-cart');
-                                    miNodoImagen.setAttribute('src', "/images/productImages/"+ info.image);
-                                    miNodoCardlink.appendChild(miNodoImagen)
-                                     
-                            const miNodoTitle = document.createElement('div');
-                            miNodoTitle.classList.add('courses-cart-descrip');
-                            miNodoCardDivLi.appendChild(miNodoTitle)  
+                                const miNodoImagen = document.createElement('img');
+                                miNodoImagen.classList.add('courses-images-cart');
+                                miNodoImagen.setAttribute('src', "/images/productImages/"+ info.image);
+                                miNodoCardlink.appendChild(miNodoImagen)
+                                    
+                        const miNodoTitle = document.createElement('div');
+                        miNodoTitle.classList.add('courses-cart-descrip');
+                        miNodoCardDivLi.appendChild(miNodoTitle)  
 
-                                const miNodoTitleH2 = document.createElement('h2');
-                                miNodoTitleH2.classList.add("courses-cart-name");
-                                miNodoTitleH2.textContent = info.product_name;
-                                miNodoTitle.appendChild(miNodoTitleH2)
-
-                                const miNodoPrice = document.createElement('div');
-                                miNodoPrice.classList.add('price-cart');
-                                miNodoPrice.textContent = `${info.price}${divisa}`;
-                                miNodoTitle.appendChild(miNodoPrice) 
+                            const miNodoTitleDiv = document.createElement('div');
+                            miNodoTitleDiv.classList.add("courses-cart-name");
+                            miNodoTitleDiv.textContent = info.product_name;
+                            miNodoTitle.appendChild(miNodoTitleDiv)
+                            
+                            const miNodoDescription = document.createElement('div');
+                            miNodoDescription.classList.add('price-cart');
+                            miNodoTitle.appendChild(miNodoDescription )
 
                                 const miNodoCategory = document.createElement('div');
-                                miNodoCategory.classList.add('price-cart');
-                                
                                 miNodoCategory.textContent = 
                                 (info.category.category == "Curso") ? "Duración del Curso " + info.duration + " h"   
                                 : info.category.category
-                        
-                                miNodoTitle.appendChild(miNodoCategory) 
+                                miNodoDescription.appendChild(miNodoCategory) 
+                                
+                                const miNodoPrice = document.createElement('div');
+                                miNodoDescription.appendChild(miNodoPrice) 
 
-                                const miNodoButton = document.createElement('button');
-                                miNodoButton.classList.add("shopping-cart");
-                                miNodoButton.textContent = '+';
-                                miNodoButton.setAttribute('marcador', info.id);
-                                miNodoButton.addEventListener('click', anyadirProductoAlCarrito);
-                                miNodoTitle.appendChild(miNodoButton)
+                                const miNodoPriceP = document.createElement('p');
+                                miNodoPriceP.textContent = `${info.price}${divisa}`;
+                                miNodoPrice.appendChild(miNodoPriceP) 
+
+                            const miNodoButton = document.createElement('div');
+                            miNodoButton.classList.add('button');
+                            miNodoDescription.appendChild(miNodoButton )
+
+                            const miNodoButtonIn = document.createElement('button');
+                            miNodoButtonIn.classList.add('buttonIn');
+                            miNodoButtonIn.textContent = 'agragar al carrito';
+                            miNodoButtonIn.setAttribute('marcador', info.id);
+                            miNodoButtonIn.addEventListener('click', anyadirProductoAlCarrito);
+                            miNodoButton.appendChild(miNodoButtonIn)
+
+                            
             });
         }
 
@@ -115,11 +123,11 @@ window.onload = function(){
                     // Creamos el nodo del item del carrito
                     const miNodo = document.createElement('li');
                     miNodo.classList.add('list-group-item', 'text-right', 'mx-2');
-                    miNodo.textContent = `${numeroUnidadesItem} x ${miItem[0].nombre} - ${miItem[0].precio}${divisa}`;
+                    miNodo.textContent = `${numeroUnidadesItem} x ${miItem[0].product_name} - ${miItem[0].price}${divisa}`;
                     // Boton de borrar
                     const miBoton = document.createElement('button');
                     miBoton.classList.add('btn', 'btn-danger', 'mx-5');
-                    miBoton.textContent = 'X';
+                    miBoton.textContent = 'x';
                     miBoton.style.marginLeft = '1rem';
                     miBoton.dataset.item = item;
                     miBoton.addEventListener('click', borrarItemCarrito);
@@ -159,7 +167,7 @@ window.onload = function(){
                         return itemBaseDatos.id === parseInt(item);
                     });
                     // Los sumamos al total
-                    return total + miItem[0].precio;
+                    return total + miItem[0].price;
                 }, 0).toFixed(2);
             }
 

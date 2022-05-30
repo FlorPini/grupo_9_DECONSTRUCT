@@ -41,24 +41,7 @@ const validateRegister =[                   //validaciones
                         return true;
                  })             
 ];
-const validateUpdate =[                   //validaciones
-        check('name').notEmpty().withMessage('Agregar Nombre'),
-        check('lastName').notEmpty().withMessage('Agregar Apellido'),
-        check('nickName').notEmpty().withMessage('Agregar Alias'),
-        check('email').notEmpty().withMessage('Agregar Dirección').bail()
-                .isEmail().withMessage('No es una direccion valida'),
-        check('Pswd')
-                .custom((value, { req }) => {   
-                if(req.body.pswd && req.body.confirmPswd){
-                let confirmPswd = req.body.confirmPswd;
-                let pswd = req.body.pswd;
-                if (pswd!=confirmPswd){
-                        throw new Error('Las contraseñas no coinciden');
-                }
-                       return true;
-                }}
-                ),              
-];
+
 
 const validateLogin =[                   //validaciones
         check('emailLogin').notEmpty().withMessage('Completar Email').bail()
@@ -96,7 +79,7 @@ router.post("/login",  validateLogin ,  usersController.login);
 
 router.get("/edit", usersController.edit);
 
-router.post("/edit", upload.single("userImage"), validateUpdate, usersController.update);
+router.post("/edit", upload.single("userImage"), validateRegister, usersController.update);
 
 router.get("/profile", authMiddleware , usersController.profile);
 

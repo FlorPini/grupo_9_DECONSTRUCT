@@ -1,32 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
     <%- include('../partials/head.ejs') %>
-    <link rel="stylesheet" href="/css/styles_header_footer.css">
-<body>
-    <%- include('../partials/header.ejs') %>
-    <main>
-        <div class="container-product-description-payment-reviews">
-              
-            <div class="product-title"></divclass>
-                <h1 id="product-name"><%= user.name%> <%= user.last_name%></h1>
-            </div> 
-            <div class="product-image">
-                <img src="/images/usersImages/<%= user.image ? user.image : 'default.png' %>">
+    <link rel="stylesheet" href="/css/styles_userProfile.css">
+    
+    <body>
+        <%- include('../partials/header.ejs') %>
+        <main>
+            <div class="create-title">    
+                <label for="chk" aria-hidden="true">Tus Datos</label>
             </div>
-            <div class="product-price">
-                <h3 class="price">Alias: <%= user.nick_name%></h3>
-            </div>
-            <div class="payments-container">
-                <div class="installments-means-of-payment">
-                    <h3 class="installments-payment">3 y 6 Cuotas sin interes </h3>
+            <div class="container">
+                <div class="create-group" >
+                    <div class="createNew" >
+                        <div class="create">
+                            <label for="productName">Nombre</label>
+                            <input type="text" 
+                            class="name"
+                            name="name" 
+                            id="name" 
+                            value= "<%= user.name%> <%= user.last_name%>">   
+                        </div>
+                        <div class="create">
+                            <label for="nickName">Alias </label>
+                            <input type="text" 
+                            class="name"
+                            name="name" 
+                            id="name"
+                            value="<%= user.nick_name%>" 
+                            >   
+                        </div> 
+                        <div class="create">
+                            <label for="email"> Email </label>
+                            <input type="text" 
+                            class="name"
+                            name="name" 
+                            id="name"
+                            value="<%= user.email%> " 
+                            >   
+                        </div> 
+                        <div class="button">
+                            <a href="/products/myProducts">
+                            <input type="submit" value="mis productos">
+                            </a>
+                        </div>   
+                        <div class="button">
+                            <a href="/users/edit">
+                            <input type="submit" value="editar perfil">
+                            </a>
+                        </div> 
+                    </div>   
                 </div>
-                
-                <a href="/users/edit">
-                    <button>Editar</button>
-                </a>
-            </div>
-        </div>
-    </main>
-    <%- include('../partials/footer.ejs') %>   
+                <div class="image">
+                    <a >
+                        <img src="/images/usersImages/<%= user.image ? user.image : 'default.png' %>">
+                    </a>
+                </div>
+            </div>  
+        </main>
+  
+        <%- include('../partials/footer.ejs') %>
+    
 </body>
-</html>

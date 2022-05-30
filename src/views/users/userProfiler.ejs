@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../partials/head.ejs') %>
+    <link rel="stylesheet" href="/css/styles_userProfile.css">
+<body>
+    <%- include('../partials/header.ejs') %>
+    <main>
+        <div class="container-product-description-payment-reviews">
+              
+            <div class="product-title"></divclass>
+                <h1 id="product-name"><%= user.name%> <%= user.last_name%></h1>
+            </div> 
+            <div class="user-image">
+                <img src="/images/usersImages/<%= user.image ? user.image : 'default.png' %>">
+            </div>
+            <div class="product-price">
+                <h3 class="price">Alias: <%= user.nick_name%></h3>
+            </div>  
+            <a href="/users/edit">
+                <button>Editar</button>
+            </a>
+            
+        </div>
+    </main>
+    <%- include('../partials/footer.ejs') %>   
+</body>
+</html>

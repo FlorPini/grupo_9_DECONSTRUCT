@@ -2,7 +2,7 @@
 <html lang="en">
     <%- include('../partials/head.ejs') %>
     <link rel="stylesheet" href="/css/styles_products_create.css">
-    
+    <script src="/js/validationProduct.js"></script> 
     <body>
         <%- include('../partials/header.ejs') %>
         <main>
@@ -54,6 +54,7 @@
                             <option class="type" value="">-</option>
                             <% for (let i = 0 ; i < types.length; i++) { %>
                                 <option
+                                class="types"
                                 value="<%= types[i].id %>"
                                 <%= locals.old && (types[i].id == old.type) ? "selected" : null %>>>
                                    <%= types[i].type %>  
@@ -123,7 +124,9 @@
                             </div>
                         <% } %>
                     </div> 
-                  
+                    <div class="errorsJs">
+
+                    </div>
                        
                     
                     <div class="button">

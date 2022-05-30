@@ -9,7 +9,7 @@
         <div class="mainlogin">
           <input type="checkbox" id="chk" aria-hidden="true">
           <div class="signup">
-            <form action="/users/edit" method="POST" enctype="multipart/form-data">
+            <form class="createNew" action="/users/edit" method="POST" enctype="multipart/form-data">
               <label class="label-create" for="chk" aria-hidden="true">Actualizar Datos</label>
               <div>
                   <div>
@@ -62,7 +62,8 @@
                     <input 
                     type="password" 
                     name="pswd" 
-                    placeholder="Contraseña">
+                    placeholder="Contraseña"
+                    >
                     <% if (locals.errors && errors.pswd) { %>
                       <div class="errors">
                       <%= errors.pswd.msg %>

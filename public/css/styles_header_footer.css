@@ -45,6 +45,9 @@ main {
   display: none;
 }
 
+h3{
+  color:white
+}
 .burger:hover .link{
   
   display: block;

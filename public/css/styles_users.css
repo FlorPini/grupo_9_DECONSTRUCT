@@ -11,7 +11,7 @@
 .mainlogin {
   margin-top: 75px;
   width: 543px;
-  height: 700px;
+  height: 600px;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 5px 20px 50px rgb(204, 204, 204);
@@ -112,7 +112,7 @@
 }
 
 .login {
-  height: 640px;
+  height: 780px;
   background: #21cac5;
   opacity: 100%;
   border-radius: 80% / 10%;
@@ -126,7 +126,7 @@
 }
 
 #chk:checked ~ .login {
-  transform: translateY(-638px);
+  transform: translateY(-720px);
 }
 #chk:checked ~ .login label {
   transform: scale(1);
