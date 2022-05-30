@@ -11,7 +11,6 @@
   padding: 1px 20px 1px 1px;
   position: fixed;
   z-index: 10;
-  border-radius: 0% 0% 15% 15%;
 }
 
 .logo-header {
@@ -24,7 +23,7 @@
   width: 80vw;
   justify-content: space-around;
   align-items: center;
-  list-style:none;
+  list-style: none;
 }
 
 .main-header-right i {
@@ -45,21 +44,20 @@ main {
   display: none;
 }
 
-h3{
-  color:white
+h3 {
+  color: white;
 }
-.burger:hover .link{
-  
+.burger:hover .link {
   display: block;
 }
 
-.counter{
+.counter {
   border-radius: 10px;
   background-color: red;
   z-index: 4;
   text-align: center;
   font-size: 15px;
-  color:white;
+  color: white;
   top: 7px;
   right: 7px;
   position: relative;
@@ -67,51 +65,48 @@ h3{
   width: 20px;
 }
 
-.shopping-cart-icon{
-display:flex;
+.shopping-cart-icon {
+  display: flex;
 }
 
-
-
-.hidden{
+.hidden {
   opacity: 60%;
   display: flex;
   width: 180px;
   position: absolute;
   top: 40px;
   right: 0px;
-  background-color: #c0b6b0; 
+  background-color: #c0b6b0;
   border-radius: 5px;
-  box-shadow: 5px #837c78 ;
+  box-shadow: 5px #837c78;
 }
-.hidden-cart{
+.hidden-cart {
   opacity: 60%;
   display: flex;
   width: 250px;
   position: absolute;
   top: 40px;
   right: 0px;
-  background-color: #c0b6b0; 
+  background-color: #c0b6b0;
   border-radius: 5px;
-  box-shadow: 5px #837c78 ;
-  
+  box-shadow: 5px #837c78;
 }
 
-ul .list-group{
+ul .list-group {
   justify-content: left;
 }
-.hidden-cart li{
+.hidden-cart li {
   list-style: none;
   padding: 10px 1px 0px 0px;
 }
 
-.hidden li{
+.hidden li {
   list-style: none;
   padding: 10px 20px 0px 0px;
 }
 .hidden li a {
   font-family: "antonio";
-  color:white;
+  color: white;
   text-decoration: none;
 }
 
@@ -201,7 +196,6 @@ link {
   color: grey;
 }
 
-
 .reviews label:hover,
 label:hover ~ label {
   color: orange;
@@ -210,8 +204,6 @@ label:hover ~ label {
 .reviews input[type="radio"]:checked ~ label {
   color: orange;
 }
-
-
 
 @media (min-width: 576px) {
   main {
@@ -245,41 +237,40 @@ label:hover ~ label {
   }
 }
 
-  @media (min-width: 992px) {
-    main {
-      padding: 75px 7px 30px 7px;
-    }
-    .main-header-right {
-      font-size: 1.5vw;
-      width: 15vw;
-    }
-    .mainlogin {
-      width: 490px;
-    }
-    .signup button {
-      width: 53%;
-    }
+@media (min-width: 992px) {
+  main {
+    padding: 75px 7px 30px 7px;
+  }
+  .main-header-right {
+    font-size: 1.5vw;
+    width: 15vw;
+  }
+  .mainlogin {
+    width: 490px;
+  }
+  .signup button {
+    width: 53%;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    padding: 150px 7px 30px 7px;
+  }
+  .container-footer-legal,
+  link {
+    font-size: 17px;
+    color: white;
   }
 
-  @media (min-width: 1200px) {
-    main {
-      padding: 150px 7px 30px 7px;
-    }
-    .container-footer-legal,
-    link {
-      font-size: 17px;
-      color: white;
-    }
-
-    .main-header-right {
-      font-size: 1vw;
-      width: 10vw;
-    }
-    .mainlogin {
-      width: 490px;
-    }
-    .signup button {
-      width: 53%;
-    }
+  .main-header-right {
+    font-size: 1vw;
+    width: 10vw;
   }
-
+  .mainlogin {
+    width: 490px;
+  }
+  .signup button {
+    width: 53%;
+  }
+}

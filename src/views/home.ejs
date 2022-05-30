@@ -6,8 +6,27 @@
   <body>
     <%- include('./partials/header.ejs') %>
     <main>
-      <div class="banner">
-        <img src="/images/banner-1.png" alt="Img Plomeria" />
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">
+          &#8656;
+        </button>
+        <button class="carousel-button next" data-carousel-button="next">
+          &#8658;
+        </button>
+        <ul data-slides>
+          <li class="slide" data-active>
+            <img src="/images/productimages/2.png" alt="Nature Image #1" />
+          </li>
+          <li class="slide">
+            <img src="/images/productimages/4.png" alt="Nature Image #2" />
+          </li>
+          <li class="slide">
+            <img src="/images/productimages/3.png" alt="Nature Image #3" />
+          </li>
+          <li class="slide">
+            <img src="/images/productimages/5.png" alt="Nature Image #3" />
+          </li>
+        </ul>
       </div>
       <div class="courses">
         <div>
